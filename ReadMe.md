@@ -28,30 +28,30 @@
 ### 不套warp版本（clashmeta）
 **不含hysteria2节点**
 ```
-https://mareep.netlify.app/sub/merged_proxies.yaml
+https://ghproxy.net/https://raw.githubusercontent.com/moneyfly1/chromego_merge/main/sub/merged_proxies.yaml
 ```
 **含hysteria2节点(节点最全）**
 ```
-https://mareep.netlify.app/sub/merged_proxies_new.yaml
+https://ghproxy.net/https://raw.githubusercontent.com/moneyfly1/chromego_merge/main/sub/merged_proxies_new.yaml
 ```
 ### 套warp版本（clashmeta)
 **不含hysteria2节点**
 ```
-https://mareep.netlify.app/sub/merged_warp_proxies.yaml
+https://ghproxy.net/https://raw.githubusercontent.com/moneyfly1/chromego_merge/main/sub/merged_warp_proxies.yaml
 ```
 **含hysteria2节点(节点最全）**
 ```
-https://mareep.netlify.app/sub/merged_warp_proxies_new.yaml
+https://ghproxy.net/https://raw.githubusercontent.com/moneyfly1/chromego_merge/main/sub/merged_warp_proxies_new.yaml
 ```
 ### 通用链接 （shadowrocket和nekoray）
 ```
-https://mareep.netlify.app/sub/shadowrocket_base64.txt
+https://ghproxy.net/https://raw.githubusercontent.com/moneyfly1/chromego_merge/main/sub/shadowrocket_base64.txt
 ```
 
 ### sing-box订阅链接
 
 ```
-https://sing-box-subscribe.vercel.app/config/https:/mareep.netlify.app/sub/merged_proxies_new.yaml
+https://sing-box-subscribe.vercel.app/config/https://ghproxy.net/https://raw.githubusercontent.com/moneyfly1/chromego_merge/main/sub/merged_proxies_new.yaml
 ```
 
 ## 客户端推荐
