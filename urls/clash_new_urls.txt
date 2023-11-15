@@ -10,15 +10,13 @@ https://raw.githubusercontent.com/Alvin9999/pac2/master/quick/1/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/quick/config.yaml
 https://github.com/huangbinyu1987/HelloWorld/raw/main/clash/office-gcore.yaml
 https://github.com/huangbinyu1987/HelloWorld/raw/main/clash/gcore-cdn.yaml
-https://github.com/huangbinyu1987/HelloWorld/raw/main/clash/gcore-cdn.yaml
 https://github.com/huangbinyu1987/HelloWorld/raw/main/clash/office-cloudflare.yaml
-https://github.com/huangbinyu1987/HelloWorld/raw/main/clash/office-gcore.yaml
 https://github.com/huangbinyu1987/HelloWorld/raw/main/clash/reality.yaml
 https://github.com/huangbinyu1987/HelloWorld/raw/main/clash/sing-box_autocdn.yaml
 https://github.com/huangbinyu1987/HelloWorld/raw/main/clash/sing-box_aws.yaml
 https://github.com/huangbinyu1987/HelloWorld/raw/main/clash/sing-box_cdn.yaml
 https://github.com/huangbinyu1987/HelloWorld/raw/main/clash/sing-box_cfip.yaml
-https://github.com/huangbinyu1987/HelloWorld/raw/main/clash/clash/sing-box_domain.yaml
+https://raw.githubusercontent.com/huangbinyu1987/HelloWorld/main/clash/sing-box_domain.yaml
 https://github.com/huangbinyu1987/HelloWorld/raw/main/clash/sing-box_reality.yaml
 https://github.com/huangbinyu1987/HelloWorld/raw/main/Hysteria2/Hysteria2&TuicV5-clash.yaml
 https://github.com/huangbinyu1987/HelloWorld/raw/main/Hysteria2/Hysteria2&TuicV5-stash.yaml
