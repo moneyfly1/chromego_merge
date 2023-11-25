@@ -165,994 +165,396 @@ proxies:
   auth_str: nbdyVMqucpFMmyRiwcRQFI7EeKzJWjPYuks3ZzEhCv6HjeZvbh
   up: 11
   down: 55
-- name: meta_hysteria2_101
-  type: hysteria2
+- name: meta_tuic_101
+  type: tuic
+  server: sanjose-live.biny.eu.org
+  port: 29337
+  password: a0ebeed3-30ab-44bc-a6dc-33039a164694
+  uuid: a0ebeed3-30ab-44bc-a6dc-33039a164694
+  sni: sanjose-live.biny.eu.org
+  skip-cert-verify: false
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: meta_tuic_102
+  type: tuic
+  server: sanjose-google.biny.eu.org
+  port: 12099
+  password: f2843ad2-c87f-4dda-9de1-472381078375
+  uuid: f2843ad2-c87f-4dda-9de1-472381078375
+  sni: sanjose-google.biny.eu.org
+  skip-cert-verify: false
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: meta_tuic_103
+  type: tuic
   server: arm-live.biny.eu.org
-  port: 21682
-  password: a3978b8e-5370-418d-b4b3-1bea1b2ef4c9
+  port: 48470
+  password: 23bdf9e8-8379-4c10-b151-7104558475c9
+  uuid: 23bdf9e8-8379-4c10-b151-7104558475c9
   sni: arm-live.biny.eu.org
-  skip-cert-verify: true
+  skip-cert-verify: false
   alpn:
   - h3
-  up: 200
-  down: 1000
-- name: meta_hysteria2_102
-  type: hysteria2
-  server: 146.235.218.148
-  port: 8443
-  password: 2de4bd5493125d1f
-  sni: bing.com
-  skip-cert-verify: true
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: meta_tuic_104
+  type: tuic
+  server: tokyo-live.biny.eu.org
+  port: 60288
+  password: 2ae764ab-ff99-41da-965d-9389719fb7ca
+  uuid: 2ae764ab-ff99-41da-965d-9389719fb7ca
+  sni: tokyo-live.biny.eu.org
+  skip-cert-verify: false
   alpn:
   - h3
-  up: 200
-  down: 1000
-- name: meta_hysteria2_103
-  type: hysteria2
-  server: 192.9.136.220
-  port: 8443
-  password: fbe869308f04ac92
-  sni: bing.com
-  skip-cert-verify: true
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: meta_tuic_105
+  type: tuic
+  server: tokyo-google.biny.eu.org
+  port: 62527
+  password: 01a1f489-21a3-4dde-b830-12351bd30f50
+  uuid: 01a1f489-21a3-4dde-b830-12351bd30f50
+  sni: tokyo-google.biny.eu.org
+  skip-cert-verify: false
   alpn:
   - h3
-  up: 200
-  down: 1000
-- name: meta_hysteria2_104
-  type: hysteria2
-  server: 141.147.163.78
-  port: 8443
-  password: c5a5fff2508acd96
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: 200
-  down: 1000
-- name: meta_hysteria2_105
-  type: hysteria2
-  server: 141.147.161.170
-  port: 8443
-  password: 5cdea2b00abef666
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: 200
-  down: 1000
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: meta_hysteria2_106
   type: hysteria2
-  server: 155.248.199.247
-  port: 21682
-  password: 29dadb85
-  sni: www.bing.com
-  skip-cert-verify: true
+  server: sanjose-live.biny.eu.org
+  port: 27472
+  password: a0ebeed3-30ab-44bc-a6dc-33039a164694
+  sni: sanjose-live.biny.eu.org
+  skip-cert-verify: false
   alpn:
   - h3
   up: 200
   down: 1000
+  fast-open: true
 - name: meta_hysteria2_107
   type: hysteria2
-  server: 146.235.218.148
-  port: 14022
-  password: d7441b36
-  sni: www.bing.com
-  skip-cert-verify: true
+  server: sanjose-google.biny.eu.org
+  port: 3774
+  password: f2843ad2-c87f-4dda-9de1-472381078375
+  sni: sanjose-google.biny.eu.org
+  skip-cert-verify: false
   alpn:
   - h3
   up: 200
   down: 1000
+  fast-open: true
 - name: meta_hysteria2_108
   type: hysteria2
-  server: 192.9.136.220
-  port: 16815
-  password: 40b0057d
-  sni: www.bing.com
-  skip-cert-verify: true
+  server: arm-live.biny.eu.org
+  port: 34753
+  password: 23bdf9e8-8379-4c10-b151-7104558475c9
+  sni: arm-live.biny.eu.org
+  skip-cert-verify: false
   alpn:
   - h3
   up: 200
   down: 1000
+  fast-open: true
 - name: meta_hysteria2_109
   type: hysteria2
-  server: 141.147.163.78
-  port: 52167
-  password: fa69892c
-  sni: www.bing.com
-  skip-cert-verify: true
+  server: tokyo-live.biny.eu.org
+  port: 54498
+  password: 2ae764ab-ff99-41da-965d-9389719fb7ca
+  sni: tokyo-live.biny.eu.org
+  skip-cert-verify: false
   alpn:
   - h3
   up: 200
   down: 1000
+  fast-open: true
 - name: meta_hysteria2_1010
   type: hysteria2
-  server: 141.147.161.170
-  port: 55855
-  password: 6facb4bc
-  sni: www.bing.com
-  skip-cert-verify: true
+  server: tokyo-google.biny.eu.org
+  port: 34361
+  password: 01a1f489-21a3-4dde-b830-12351bd30f50
+  sni: tokyo-google.biny.eu.org
+  skip-cert-verify: false
   alpn:
   - h3
   up: 200
   down: 1000
-- name: meta_tuic_1011
-  type: tuic
-  server: arm-live.biny.eu.org
-  port: 3383
-  password: a3978b8e-5370-418d-b4b3-1bea1b2ef4c9
-  uuid: a3978b8e-5370-418d-b4b3-1bea1b2ef4c9
-  sni: arm-live.biny.eu.org
-  version: 5
-  alpn:
-  - h3
-  ip: 155.248.199.247
-  disable-sni: true
-  reduce-rtt: true
-  request-timeout: 8000
-  udp-relay-mode: quic
-  congestion-controller: bbr
-- name: meta_tuic_1012
+  fast-open: true
+- name: meta_tuic_111
   type: tuic
   server: sanjose-live.biny.eu.org
-  port: 13750
-  password: 9b32f823
-  uuid: 19dc897c-a65d-4cc2-b65c-8fbe28aac512
-  version: 5
+  port: 29337
+  password: a0ebeed3-30ab-44bc-a6dc-33039a164694
+  uuid: a0ebeed3-30ab-44bc-a6dc-33039a164694
+  sni: sanjose-live.biny.eu.org
+  skip-cert-verify: false
   alpn:
   - h3
-  ip: 146.235.218.148
   disable-sni: true
   reduce-rtt: true
-  request-timeout: 8000
-  udp-relay-mode: quic
+  udp-relay-mode: native
   congestion-controller: bbr
-- name: meta_tuic_1013
+- name: meta_tuic_112
   type: tuic
   server: sanjose-google.biny.eu.org
-  port: 49358
-  password: c1fb3da4
-  uuid: fd3c5dab-fd0d-4347-b98f-0df78abf1f95
-  version: 5
+  port: 12099
+  password: f2843ad2-c87f-4dda-9de1-472381078375
+  uuid: f2843ad2-c87f-4dda-9de1-472381078375
+  sni: sanjose-google.biny.eu.org
+  skip-cert-verify: false
   alpn:
   - h3
-  ip: 192.9.136.220
   disable-sni: true
   reduce-rtt: true
-  request-timeout: 8000
-  udp-relay-mode: quic
+  udp-relay-mode: native
   congestion-controller: bbr
-- name: meta_tuic_1014
+- name: meta_tuic_113
+  type: tuic
+  server: arm-live.biny.eu.org
+  port: 48470
+  password: 23bdf9e8-8379-4c10-b151-7104558475c9
+  uuid: 23bdf9e8-8379-4c10-b151-7104558475c9
+  sni: arm-live.biny.eu.org
+  skip-cert-verify: false
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: meta_tuic_114
   type: tuic
   server: tokyo-live.biny.eu.org
-  port: 10357
-  password: 75caf338
-  uuid: f914b3db-e756-46c4-a6e1-640f9af49de4
-  version: 5
+  port: 60288
+  password: 2ae764ab-ff99-41da-965d-9389719fb7ca
+  uuid: 2ae764ab-ff99-41da-965d-9389719fb7ca
+  sni: tokyo-live.biny.eu.org
+  skip-cert-verify: false
   alpn:
   - h3
-  ip: 141.147.163.78
   disable-sni: true
   reduce-rtt: true
-  request-timeout: 8000
-  udp-relay-mode: quic
+  udp-relay-mode: native
   congestion-controller: bbr
-- name: meta_tuic_1015
+- name: meta_tuic_115
   type: tuic
   server: tokyo-google.biny.eu.org
-  port: 33165
-  password: 46ea379d
-  uuid: 2a89614b-b484-40b5-a479-dd97f209ebc5
-  version: 5
+  port: 62527
+  password: 01a1f489-21a3-4dde-b830-12351bd30f50
+  uuid: 01a1f489-21a3-4dde-b830-12351bd30f50
+  sni: tokyo-google.biny.eu.org
+  skip-cert-verify: false
   alpn:
   - h3
-  ip: 141.147.161.170
   disable-sni: true
   reduce-rtt: true
-  request-timeout: 8000
-  udp-relay-mode: quic
+  udp-relay-mode: native
   congestion-controller: bbr
-- name: meta_hysteria2_111
-  type: hysteria2
-  server: arm-live.biny.eu.org
-  port: 21682
-  auth: a3978b8e-5370-418d-b4b3-1bea1b2ef4c9
-  sni: arm-live.biny.eu.org
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: 200
-  down: 1000
-- name: meta_hysteria2_112
-  type: hysteria2
-  server: 146.235.218.148
-  port: 8443
-  auth: 2de4bd5493125d1f
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: 200
-  down: 1000
-- name: meta_hysteria2_113
-  type: hysteria2
-  server: 192.9.136.220
-  port: 8443
-  auth: fbe869308f04ac92
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: 200
-  down: 1000
-- name: meta_hysteria2_114
-  type: hysteria2
-  server: 141.147.163.78
-  port: 8443
-  auth: c5a5fff2508acd96
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: 200
-  down: 1000
-- name: meta_hysteria2_115
-  type: hysteria2
-  server: 141.147.161.170
-  port: 8443
-  auth: 5cdea2b00abef666
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: 200
-  down: 1000
 - name: meta_hysteria2_116
   type: hysteria2
-  server: 155.248.199.247
-  port: 21682
-  auth: 29dadb85
-  sni: www.bing.com
-  skip-cert-verify: true
+  server: sanjose-live.biny.eu.org
+  port: 27472
+  auth: a0ebeed3-30ab-44bc-a6dc-33039a164694
+  sni: sanjose-live.biny.eu.org
+  skip-cert-verify: false
   alpn:
   - h3
   up: 200
   down: 1000
+  fast-open: true
 - name: meta_hysteria2_117
   type: hysteria2
-  server: 146.235.218.148
-  port: 14022
-  auth: d7441b36
-  sni: www.bing.com
-  skip-cert-verify: true
+  server: sanjose-google.biny.eu.org
+  port: 3774
+  auth: f2843ad2-c87f-4dda-9de1-472381078375
+  sni: sanjose-google.biny.eu.org
+  skip-cert-verify: false
   alpn:
   - h3
   up: 200
   down: 1000
+  fast-open: true
 - name: meta_hysteria2_118
   type: hysteria2
-  server: 192.9.136.220
-  port: 16815
-  auth: 40b0057d
-  sni: www.bing.com
-  skip-cert-verify: true
+  server: arm-live.biny.eu.org
+  port: 34753
+  auth: 23bdf9e8-8379-4c10-b151-7104558475c9
+  sni: arm-live.biny.eu.org
+  skip-cert-verify: false
   alpn:
   - h3
   up: 200
   down: 1000
+  fast-open: true
 - name: meta_hysteria2_119
   type: hysteria2
-  server: 141.147.163.78
-  port: 52167
-  auth: fa69892c
-  sni: www.bing.com
-  skip-cert-verify: true
+  server: tokyo-live.biny.eu.org
+  port: 54498
+  auth: 2ae764ab-ff99-41da-965d-9389719fb7ca
+  sni: tokyo-live.biny.eu.org
+  skip-cert-verify: false
   alpn:
   - h3
   up: 200
   down: 1000
+  fast-open: true
 - name: meta_hysteria2_1110
   type: hysteria2
-  server: 141.147.161.170
-  port: 55855
-  auth: 6facb4bc
-  sni: www.bing.com
-  skip-cert-verify: true
+  server: tokyo-google.biny.eu.org
+  port: 34361
+  auth: 01a1f489-21a3-4dde-b830-12351bd30f50
+  sni: tokyo-google.biny.eu.org
+  skip-cert-verify: false
   alpn:
   - h3
   up: 200
   down: 1000
-- name: meta_tuic_1111
-  type: tuic
-  server: arm-live.biny.eu.org
-  port: 3383
-  password: a3978b8e-5370-418d-b4b3-1bea1b2ef4c9
-  uuid: a3978b8e-5370-418d-b4b3-1bea1b2ef4c9
-  sni: arm-live.biny.eu.org
-  version: 5
-  alpn:
-  - h3
-  ip: 155.248.199.247
-  disable-sni: true
-  reduce-rtt: true
-  request-timeout: 8000
-  udp-relay-mode: quic
-  congestion-controller: bbr
-- name: meta_tuic_1112
-  type: tuic
+  fast-open: true
+- name: meta_tuic_121
   server: sanjose-live.biny.eu.org
-  port: 13750
-  password: 9b32f823
-  uuid: 19dc897c-a65d-4cc2-b65c-8fbe28aac512
-  version: 5
+  port: 29337
+  type: tuic
+  uuid: a0ebeed3-30ab-44bc-a6dc-33039a164694
+  password: a0ebeed3-30ab-44bc-a6dc-33039a164694
   alpn:
   - h3
-  ip: 146.235.218.148
   disable-sni: true
   reduce-rtt: true
-  request-timeout: 8000
-  udp-relay-mode: quic
+  udp-relay-mode: native
   congestion-controller: bbr
-- name: meta_tuic_1113
-  type: tuic
+  sni: sanjose-live.biny.eu.org
+  skip-cert-verify: false
+- name: meta_tuic_122
   server: sanjose-google.biny.eu.org
-  port: 49358
-  password: c1fb3da4
-  uuid: fd3c5dab-fd0d-4347-b98f-0df78abf1f95
-  version: 5
-  alpn:
-  - h3
-  ip: 192.9.136.220
-  disable-sni: true
-  reduce-rtt: true
-  request-timeout: 8000
-  udp-relay-mode: quic
-  congestion-controller: bbr
-- name: meta_tuic_1114
+  port: 12099
   type: tuic
-  server: tokyo-live.biny.eu.org
-  port: 10357
-  password: 75caf338
-  uuid: f914b3db-e756-46c4-a6e1-640f9af49de4
-  version: 5
+  uuid: f2843ad2-c87f-4dda-9de1-472381078375
+  password: f2843ad2-c87f-4dda-9de1-472381078375
   alpn:
   - h3
-  ip: 141.147.163.78
   disable-sni: true
   reduce-rtt: true
-  request-timeout: 8000
-  udp-relay-mode: quic
+  udp-relay-mode: native
   congestion-controller: bbr
-- name: meta_tuic_1115
-  type: tuic
-  server: tokyo-google.biny.eu.org
-  port: 33165
-  password: 46ea379d
-  uuid: 2a89614b-b484-40b5-a479-dd97f209ebc5
-  version: 5
-  alpn:
-  - h3
-  ip: 141.147.161.170
-  disable-sni: true
-  reduce-rtt: true
-  request-timeout: 8000
-  udp-relay-mode: quic
-  congestion-controller: bbr
-- name: meta_hysteria2_121
-  type: hysteria2
+  sni: sanjose-google.biny.eu.org
+  skip-cert-verify: false
+- name: meta_tuic_123
   server: arm-live.biny.eu.org
-  port: 21682
-  password: a3978b8e-5370-418d-b4b3-1bea1b2ef4c9
+  port: 48470
+  type: tuic
+  uuid: 23bdf9e8-8379-4c10-b151-7104558475c9
+  password: 23bdf9e8-8379-4c10-b151-7104558475c9
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
   sni: arm-live.biny.eu.org
-  skip-cert-verify: true
-  up: 200 Mbps
-  down: 1000 Mbps
+  skip-cert-verify: false
+- name: meta_tuic_124
+  server: tokyo-live.biny.eu.org
+  port: 60288
+  type: tuic
+  uuid: 2ae764ab-ff99-41da-965d-9389719fb7ca
+  password: 2ae764ab-ff99-41da-965d-9389719fb7ca
   alpn:
   - h3
-- name: meta_hysteria2_122
-  type: hysteria2
-  server: 146.235.218.148
-  port: 8443
-  password: 2de4bd5493125d1f
-  sni: bing.com
-  skip-cert-verify: true
-  up: 200 Mbps
-  down: 1000 Mbps
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+  sni: tokyo-live.biny.eu.org
+  skip-cert-verify: false
+- name: meta_tuic_125
+  server: tokyo-google.biny.eu.org
+  port: 62527
+  type: tuic
+  uuid: 01a1f489-21a3-4dde-b830-12351bd30f50
+  password: 01a1f489-21a3-4dde-b830-12351bd30f50
   alpn:
   - h3
-- name: meta_hysteria2_123
-  type: hysteria2
-  server: 192.9.136.220
-  port: 8443
-  password: fbe869308f04ac92
-  sni: bing.com
-  skip-cert-verify: true
-  up: 200 Mbps
-  down: 1000 Mbps
-  alpn:
-  - h3
-- name: meta_hysteria2_124
-  type: hysteria2
-  server: 141.147.163.78
-  port: 8443
-  password: c5a5fff2508acd96
-  sni: bing.com
-  skip-cert-verify: true
-  up: 200 Mbps
-  down: 1000 Mbps
-  alpn:
-  - h3
-- name: meta_hysteria2_125
-  type: hysteria2
-  server: 141.147.161.170
-  port: 8443
-  password: 5cdea2b00abef666
-  sni: bing.com
-  skip-cert-verify: true
-  up: 200 Mbps
-  down: 1000 Mbps
-  alpn:
-  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+  sni: tokyo-google.biny.eu.org
+  skip-cert-verify: false
 - name: meta_hysteria2_126
   type: hysteria2
-  server: 155.248.199.247
-  port: 21682
-  password: 29dadb85
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 200 Mbps
-  down: 1000 Mbps
+  server: sanjose-live.biny.eu.org
+  port: 27472
+  password: a0ebeed3-30ab-44bc-a6dc-33039a164694
   alpn:
   - h3
+  sni: sanjose-live.biny.eu.org
+  skip-cert-verify: false
+  fast-open: true
+  up: 200 Mbps
+  down: 1000 Mbps
 - name: meta_hysteria2_127
   type: hysteria2
-  server: 146.235.218.148
-  port: 14022
-  password: d7441b36
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 200 Mbps
-  down: 1000 Mbps
+  server: sanjose-google.biny.eu.org
+  port: 3774
+  password: f2843ad2-c87f-4dda-9de1-472381078375
   alpn:
   - h3
+  sni: sanjose-google.biny.eu.org
+  skip-cert-verify: false
+  fast-open: true
+  up: 200 Mbps
+  down: 1000 Mbps
 - name: meta_hysteria2_128
   type: hysteria2
-  server: 192.9.136.220
-  port: 16815
-  password: 40b0057d
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 200 Mbps
-  down: 1000 Mbps
+  server: arm-live.biny.eu.org
+  port: 34753
+  password: 23bdf9e8-8379-4c10-b151-7104558475c9
   alpn:
   - h3
+  sni: arm-live.biny.eu.org
+  skip-cert-verify: false
+  fast-open: true
+  up: 200 Mbps
+  down: 1000 Mbps
 - name: meta_hysteria2_129
   type: hysteria2
-  server: 141.147.163.78
-  port: 52167
-  password: fa69892c
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 200 Mbps
-  down: 1000 Mbps
+  server: tokyo-live.biny.eu.org
+  port: 54498
+  password: 2ae764ab-ff99-41da-965d-9389719fb7ca
   alpn:
   - h3
+  sni: tokyo-live.biny.eu.org
+  skip-cert-verify: false
+  fast-open: true
+  up: 200 Mbps
+  down: 1000 Mbps
 - name: meta_hysteria2_1210
   type: hysteria2
-  server: 141.147.161.170
-  port: 55855
-  password: 6facb4bc
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 200 Mbps
-  down: 1000 Mbps
-  alpn:
-  - h3
-- name: meta_tuic_1211
-  server: arm-live.biny.eu.org
-  port: 3383
-  type: tuic
-  uuid: a3978b8e-5370-418d-b4b3-1bea1b2ef4c9
-  password: a3978b8e-5370-418d-b4b3-1bea1b2ef4c9
-  ip: 155.248.199.247
-  version: 5
-  disable-sni: true
-  reduce-rtt: true
-  request-timeout: 8000
-  udp-relay-mode: quic
-  sni: arm-live.biny.eu.org
-  congestion-controller: bbr
-  alpn:
-  - h3
-- name: meta_tuic_1212
-  server: sanjose-live.biny.eu.org
-  port: 13750
-  type: tuic
-  uuid: 19dc897c-a65d-4cc2-b65c-8fbe28aac512
-  password: 9b32f823
-  ip: 146.235.218.148
-  version: 5
-  disable-sni: true
-  reduce-rtt: true
-  request-timeout: 8000
-  udp-relay-mode: quic
-  congestion-controller: bbr
-  alpn:
-  - h3
-- name: meta_tuic_1213
-  server: sanjose-google.biny.eu.org
-  port: 49358
-  type: tuic
-  uuid: fd3c5dab-fd0d-4347-b98f-0df78abf1f95
-  password: c1fb3da4
-  ip: 192.9.136.220
-  version: 5
-  disable-sni: true
-  reduce-rtt: true
-  request-timeout: 8000
-  udp-relay-mode: quic
-  congestion-controller: bbr
-  alpn:
-  - h3
-- name: meta_tuic_1214
-  server: tokyo-live.biny.eu.org
-  port: 10357
-  type: tuic
-  uuid: f914b3db-e756-46c4-a6e1-640f9af49de4
-  password: 75caf338
-  ip: 141.147.163.78
-  version: 5
-  disable-sni: true
-  reduce-rtt: true
-  request-timeout: 8000
-  udp-relay-mode: quic
-  congestion-controller: bbr
-  alpn:
-  - h3
-- name: meta_tuic_1215
   server: tokyo-google.biny.eu.org
-  port: 33165
-  type: tuic
-  uuid: 2a89614b-b484-40b5-a479-dd97f209ebc5
-  password: 46ea379d
-  ip: 141.147.161.170
-  version: 5
-  disable-sni: true
-  reduce-rtt: true
-  request-timeout: 8000
-  udp-relay-mode: quic
-  congestion-controller: bbr
+  port: 34361
+  password: 01a1f489-21a3-4dde-b830-12351bd30f50
   alpn:
   - h3
-- name: meta_hysteria2_131
-  type: hysteria2
-  server: 155.248.199.247
-  port: 13809
-  password: 29dadb85
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_132
-  type: hysteria2
-  server: 146.235.218.148
-  port: 14022
-  password: d7441b36
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_133
-  type: hysteria2
-  server: 192.9.136.220
-  port: 16815
-  password: 40b0057d
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_134
-  type: hysteria2
-  server: 141.147.163.78
-  port: 52167
-  password: fa69892c
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_135
-  type: hysteria2
-  server: 141.147.161.170
-  port: 55855
-  password: 6facb4bc
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_141
-  type: hysteria2
-  server: 155.248.199.247
-  port: 13809
-  password: 29dadb85
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_142
-  type: hysteria2
-  server: 146.235.218.148
-  port: 14022
-  password: d7441b36
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_143
-  type: hysteria2
-  server: 192.9.136.220
-  port: 16815
-  password: 40b0057d
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_144
-  type: hysteria2
-  server: 141.147.163.78
-  port: 52167
-  password: fa69892c
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_145
-  type: hysteria2
-  server: 141.147.161.170
-  port: 55855
-  password: 6facb4bc
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_151
-  type: hysteria2
-  server: 155.248.199.247
-  port: 13809
-  auth: 29dadb85
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_152
-  type: hysteria2
-  server: 155.248.199.247
-  port: 8443
-  auth: 91d72daee6f7de4e
-  sni: bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_153
-  type: hysteria2
-  server: 146.235.218.148
-  port: 14022
-  auth: d7441b36
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_154
-  type: hysteria2
-  server: 146.235.218.148
-  port: 8443
-  auth: 2de4bd5493125d1f
-  sni: bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_155
-  type: hysteria2
-  server: 192.9.136.220
-  port: 16815
-  auth: 40b0057d
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_156
-  type: hysteria2
-  server: 192.9.136.220
-  port: 8443
-  auth: cf40d24971d6caeb
-  sni: bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_157
-  type: hysteria2
-  server: 141.147.163.78
-  port: 52167
-  auth: fa69892c
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_158
-  type: hysteria2
-  server: 141.147.163.78
-  port: 8443
-  auth: c5a5fff2508acd96
-  sni: bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_159
-  type: hysteria2
-  server: 141.147.161.170
-  port: 55855
-  auth: 6facb4bc
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_1510
-  type: hysteria2
-  server: 141.147.161.170
-  port: 8443
-  auth: 5cdea2b00abef666
-  sni: bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_161
-  type: hysteria2
-  server: 155.248.199.247
-  port: 13809
-  auth: 29dadb85
-  sni: www.bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: 200
-  down: 1000
-- name: meta_hysteria2_162
-  type: hysteria2
-  server: 155.248.199.247
-  port: 8443
-  auth: 91d72daee6f7de4e
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: 200
-  down: 1000
-- name: meta_hysteria2_163
-  type: hysteria2
-  server: 146.235.218.148
-  port: 14022
-  auth: d7441b36
-  sni: www.bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: 200
-  down: 1000
-- name: meta_hysteria2_164
-  type: hysteria2
-  server: 146.235.218.148
-  port: 8443
-  auth: 2de4bd5493125d1f
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: 200
-  down: 1000
-- name: meta_hysteria2_165
-  type: hysteria2
-  server: 192.9.136.220
-  port: 16815
-  auth: 40b0057d
-  sni: www.bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: 200
-  down: 1000
-- name: meta_hysteria2_166
-  type: hysteria2
-  server: 192.9.136.220
-  port: 8443
-  auth: cf40d24971d6caeb
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: 200
-  down: 1000
-- name: meta_hysteria2_167
-  type: hysteria2
-  server: 141.147.163.78
-  port: 52167
-  auth: fa69892c
-  sni: www.bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: 200
-  down: 1000
-- name: meta_hysteria2_168
-  type: hysteria2
-  server: 141.147.163.78
-  port: 8443
-  auth: c5a5fff2508acd96
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: 200
-  down: 1000
-- name: meta_hysteria2_169
-  type: hysteria2
-  server: 141.147.161.170
-  port: 55855
-  auth: 6facb4bc
-  sni: www.bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: 200
-  down: 1000
-- name: meta_hysteria2_1610
-  type: hysteria2
-  server: 141.147.161.170
-  port: 8443
-  auth: 5cdea2b00abef666
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: 200
-  down: 1000
-- name: meta_hysteria2_171
-  type: hysteria2
-  server: 155.248.199.247
-  port: 13809
-  password: 29dadb85
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_172
-  type: hysteria2
-  server: 155.248.199.247
-  port: 8443
-  password: 91d72daee6f7de4e
-  sni: bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_173
-  type: hysteria2
-  server: 146.235.218.148
-  port: 14022
-  password: d7441b36
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_174
-  type: hysteria2
-  server: 146.235.218.148
-  port: 8443
-  password: 2de4bd5493125d1f
-  sni: bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_175
-  type: hysteria2
-  server: 192.9.136.220
-  port: 16815
-  password: 40b0057d
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_176
-  type: hysteria2
-  server: 192.9.136.220
-  port: 8443
-  password: cf40d24971d6caeb
-  sni: bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_177
-  type: hysteria2
-  server: 141.147.163.78
-  port: 52167
-  password: fa69892c
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_178
-  type: hysteria2
-  server: 141.147.163.78
-  port: 8443
-  password: c5a5fff2508acd96
-  sni: bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_179
-  type: hysteria2
-  server: 141.147.161.170
-  port: 55855
-  password: 6facb4bc
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_1710
-  type: hysteria2
-  server: 141.147.161.170
-  port: 8443
-  password: 5cdea2b00abef666
-  sni: bing.com
-  skip-cert-verify: true
-- name: meta_hysteria2_181
-  type: hysteria2
-  server: 155.248.199.247
-  port: 13809
-  password: 29dadb85
-  sni: www.bing.com
-  skip-cert-verify: true
+  sni: tokyo-google.biny.eu.org
+  skip-cert-verify: false
+  fast-open: true
   up: 200 Mbps
   down: 1000 Mbps
-  alpn:
-  - h3
-- name: meta_hysteria2_182
-  type: hysteria2
-  server: 155.248.199.247
-  port: 8443
-  password: 91d72daee6f7de4e
-  sni: bing.com
-  skip-cert-verify: true
-  up: 200 Mbps
-  down: 1000 Mbps
-  alpn:
-  - h3
-- name: meta_hysteria2_183
-  type: hysteria2
-  server: 146.235.218.148
-  port: 14022
-  password: d7441b36
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 200 Mbps
-  down: 1000 Mbps
-  alpn:
-  - h3
-- name: meta_hysteria2_184
-  type: hysteria2
-  server: 146.235.218.148
-  port: 8443
-  password: 2de4bd5493125d1f
-  sni: bing.com
-  skip-cert-verify: true
-  up: 200 Mbps
-  down: 1000 Mbps
-  alpn:
-  - h3
-- name: meta_hysteria2_185
-  type: hysteria2
-  server: 192.9.136.220
-  port: 16815
-  password: 40b0057d
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 200 Mbps
-  down: 1000 Mbps
-  alpn:
-  - h3
-- name: meta_hysteria2_186
-  type: hysteria2
-  server: 192.9.136.220
-  port: 8443
-  password: cf40d24971d6caeb
-  sni: bing.com
-  skip-cert-verify: true
-  up: 200 Mbps
-  down: 1000 Mbps
-  alpn:
-  - h3
-- name: meta_hysteria2_187
-  type: hysteria2
-  server: 141.147.163.78
-  port: 52167
-  password: fa69892c
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 200 Mbps
-  down: 1000 Mbps
-  alpn:
-  - h3
-- name: meta_hysteria2_188
-  type: hysteria2
-  server: 141.147.163.78
-  port: 8443
-  password: c5a5fff2508acd96
-  sni: bing.com
-  skip-cert-verify: true
-  up: 200 Mbps
-  down: 1000 Mbps
-  alpn:
-  - h3
-- name: meta_hysteria2_189
-  type: hysteria2
-  server: 141.147.161.170
-  port: 55855
-  password: 6facb4bc
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 200 Mbps
-  down: 1000 Mbps
-  alpn:
-  - h3
-- name: meta_hysteria2_1810
-  type: hysteria2
-  server: 141.147.161.170
-  port: 8443
-  password: 5cdea2b00abef666
-  sni: bing.com
-  skip-cert-verify: true
-  up: 200 Mbps
-  down: 1000 Mbps
-  alpn:
-  - h3
 - name: meta_vmess_191
   type: vmess
   server: d3qu5yhubgcb81.cloudfront.net
@@ -1302,7 +704,7 @@ proxies:
 - name: hysteria2_0
   type: hysteria2
   server: www.dtku46.xyz
-  port: 49730
+  port: 33330
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -1318,7 +720,7 @@ proxies:
 - name: hysteria2_2
   type: hysteria2
   server: www.dtku48.xyz
-  port: 12398
+  port: 6829
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -1349,101 +751,36 @@ proxy-groups:
   - meta_hysteria_71
   - meta_hysteria_81
   - meta_hysteria_91
-  - meta_hysteria2_101
-  - meta_hysteria2_102
-  - meta_hysteria2_103
-  - meta_hysteria2_104
-  - meta_hysteria2_105
+  - meta_tuic_101
+  - meta_tuic_102
+  - meta_tuic_103
+  - meta_tuic_104
+  - meta_tuic_105
   - meta_hysteria2_106
   - meta_hysteria2_107
   - meta_hysteria2_108
   - meta_hysteria2_109
   - meta_hysteria2_1010
-  - meta_tuic_1011
-  - meta_tuic_1012
-  - meta_tuic_1013
-  - meta_tuic_1014
-  - meta_tuic_1015
-  - meta_hysteria2_111
-  - meta_hysteria2_112
-  - meta_hysteria2_113
-  - meta_hysteria2_114
-  - meta_hysteria2_115
+  - meta_tuic_111
+  - meta_tuic_112
+  - meta_tuic_113
+  - meta_tuic_114
+  - meta_tuic_115
   - meta_hysteria2_116
   - meta_hysteria2_117
   - meta_hysteria2_118
   - meta_hysteria2_119
   - meta_hysteria2_1110
-  - meta_tuic_1111
-  - meta_tuic_1112
-  - meta_tuic_1113
-  - meta_tuic_1114
-  - meta_tuic_1115
-  - meta_hysteria2_121
-  - meta_hysteria2_122
-  - meta_hysteria2_123
-  - meta_hysteria2_124
-  - meta_hysteria2_125
+  - meta_tuic_121
+  - meta_tuic_122
+  - meta_tuic_123
+  - meta_tuic_124
+  - meta_tuic_125
   - meta_hysteria2_126
   - meta_hysteria2_127
   - meta_hysteria2_128
   - meta_hysteria2_129
   - meta_hysteria2_1210
-  - meta_tuic_1211
-  - meta_tuic_1212
-  - meta_tuic_1213
-  - meta_tuic_1214
-  - meta_tuic_1215
-  - meta_hysteria2_131
-  - meta_hysteria2_132
-  - meta_hysteria2_133
-  - meta_hysteria2_134
-  - meta_hysteria2_135
-  - meta_hysteria2_141
-  - meta_hysteria2_142
-  - meta_hysteria2_143
-  - meta_hysteria2_144
-  - meta_hysteria2_145
-  - meta_hysteria2_151
-  - meta_hysteria2_152
-  - meta_hysteria2_153
-  - meta_hysteria2_154
-  - meta_hysteria2_155
-  - meta_hysteria2_156
-  - meta_hysteria2_157
-  - meta_hysteria2_158
-  - meta_hysteria2_159
-  - meta_hysteria2_1510
-  - meta_hysteria2_161
-  - meta_hysteria2_162
-  - meta_hysteria2_163
-  - meta_hysteria2_164
-  - meta_hysteria2_165
-  - meta_hysteria2_166
-  - meta_hysteria2_167
-  - meta_hysteria2_168
-  - meta_hysteria2_169
-  - meta_hysteria2_1610
-  - meta_hysteria2_171
-  - meta_hysteria2_172
-  - meta_hysteria2_173
-  - meta_hysteria2_174
-  - meta_hysteria2_175
-  - meta_hysteria2_176
-  - meta_hysteria2_177
-  - meta_hysteria2_178
-  - meta_hysteria2_179
-  - meta_hysteria2_1710
-  - meta_hysteria2_181
-  - meta_hysteria2_182
-  - meta_hysteria2_183
-  - meta_hysteria2_184
-  - meta_hysteria2_185
-  - meta_hysteria2_186
-  - meta_hysteria2_187
-  - meta_hysteria2_188
-  - meta_hysteria2_189
-  - meta_hysteria2_1810
   - meta_vmess_191
   - meta_vmess_192
   - meta_vmess_193
@@ -1476,101 +813,36 @@ proxy-groups:
   - meta_hysteria_71
   - meta_hysteria_81
   - meta_hysteria_91
-  - meta_hysteria2_101
-  - meta_hysteria2_102
-  - meta_hysteria2_103
-  - meta_hysteria2_104
-  - meta_hysteria2_105
+  - meta_tuic_101
+  - meta_tuic_102
+  - meta_tuic_103
+  - meta_tuic_104
+  - meta_tuic_105
   - meta_hysteria2_106
   - meta_hysteria2_107
   - meta_hysteria2_108
   - meta_hysteria2_109
   - meta_hysteria2_1010
-  - meta_tuic_1011
-  - meta_tuic_1012
-  - meta_tuic_1013
-  - meta_tuic_1014
-  - meta_tuic_1015
-  - meta_hysteria2_111
-  - meta_hysteria2_112
-  - meta_hysteria2_113
-  - meta_hysteria2_114
-  - meta_hysteria2_115
+  - meta_tuic_111
+  - meta_tuic_112
+  - meta_tuic_113
+  - meta_tuic_114
+  - meta_tuic_115
   - meta_hysteria2_116
   - meta_hysteria2_117
   - meta_hysteria2_118
   - meta_hysteria2_119
   - meta_hysteria2_1110
-  - meta_tuic_1111
-  - meta_tuic_1112
-  - meta_tuic_1113
-  - meta_tuic_1114
-  - meta_tuic_1115
-  - meta_hysteria2_121
-  - meta_hysteria2_122
-  - meta_hysteria2_123
-  - meta_hysteria2_124
-  - meta_hysteria2_125
+  - meta_tuic_121
+  - meta_tuic_122
+  - meta_tuic_123
+  - meta_tuic_124
+  - meta_tuic_125
   - meta_hysteria2_126
   - meta_hysteria2_127
   - meta_hysteria2_128
   - meta_hysteria2_129
   - meta_hysteria2_1210
-  - meta_tuic_1211
-  - meta_tuic_1212
-  - meta_tuic_1213
-  - meta_tuic_1214
-  - meta_tuic_1215
-  - meta_hysteria2_131
-  - meta_hysteria2_132
-  - meta_hysteria2_133
-  - meta_hysteria2_134
-  - meta_hysteria2_135
-  - meta_hysteria2_141
-  - meta_hysteria2_142
-  - meta_hysteria2_143
-  - meta_hysteria2_144
-  - meta_hysteria2_145
-  - meta_hysteria2_151
-  - meta_hysteria2_152
-  - meta_hysteria2_153
-  - meta_hysteria2_154
-  - meta_hysteria2_155
-  - meta_hysteria2_156
-  - meta_hysteria2_157
-  - meta_hysteria2_158
-  - meta_hysteria2_159
-  - meta_hysteria2_1510
-  - meta_hysteria2_161
-  - meta_hysteria2_162
-  - meta_hysteria2_163
-  - meta_hysteria2_164
-  - meta_hysteria2_165
-  - meta_hysteria2_166
-  - meta_hysteria2_167
-  - meta_hysteria2_168
-  - meta_hysteria2_169
-  - meta_hysteria2_1610
-  - meta_hysteria2_171
-  - meta_hysteria2_172
-  - meta_hysteria2_173
-  - meta_hysteria2_174
-  - meta_hysteria2_175
-  - meta_hysteria2_176
-  - meta_hysteria2_177
-  - meta_hysteria2_178
-  - meta_hysteria2_179
-  - meta_hysteria2_1710
-  - meta_hysteria2_181
-  - meta_hysteria2_182
-  - meta_hysteria2_183
-  - meta_hysteria2_184
-  - meta_hysteria2_185
-  - meta_hysteria2_186
-  - meta_hysteria2_187
-  - meta_hysteria2_188
-  - meta_hysteria2_189
-  - meta_hysteria2_1810
   - meta_vmess_191
   - meta_vmess_192
   - meta_vmess_193
