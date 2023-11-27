@@ -236,6 +236,138 @@ proxies:
   congestion-controller: bbr
   sni: sign-box.nvoid.pp.ua
   skip-cert-verify: false
+- name: meta_vless_111
+  type: vless
+  server: 204.216.108.152
+  port: 46695
+  uuid: cf0a967f-5d38-4bf9-c31b-e804201a4b2c
+  network: grpc
+  tls: true
+  udp: true
+  flow: null
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  grpc-opts:
+    grpc-service-name: ''
+  reality-opts:
+    public-key: VdXJtSSWyMEQqK1TUcIRojP9CyaeuHfNGsQZr_eCcUc
+    short-id: 5cbc3593
+- name: meta_vless_112
+  type: vless
+  server: 2603:c023:4003:b111:1145:1419:1981:0
+  port: 46695
+  uuid: cf0a967f-5d38-4bf9-c31b-e804201a4b2c
+  network: grpc
+  tls: true
+  udp: true
+  flow: null
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  grpc-opts:
+    grpc-service-name: ''
+  reality-opts:
+    public-key: VdXJtSSWyMEQqK1TUcIRojP9CyaeuHfNGsQZr_eCcUc
+    short-id: 5cbc3593
+- name: meta_vless_113
+  type: vless
+  server: www.csgo.com
+  port: 8443
+  uuid: 16bfe1e2-0669-44cb-8c6a-66e7cad43b40
+  udp: true
+  tls: true
+  network: ws
+  servername: tunnel.nvoid.live
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tunnel.nvoid.live
+- name: meta_vless_114
+  type: vless
+  server: ipv6.nvoid.live
+  port: 8443
+  uuid: 16bfe1e2-0669-44cb-8c6a-66e7cad43b40
+  udp: true
+  tls: true
+  network: ws
+  servername: tunnel.nvoid.live
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: tunnel.nvoid.live
+- name: meta_vless_115
+  type: vless
+  server: www.csgo.com
+  port: 8443
+  uuid: 16bfe1e2-0669-44cb-8c6a-66e7cad43b40
+  udp: true
+  tls: true
+  network: ws
+  servername: workerv2.nothingnessvoid.top
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: workerv2.nothingnessvoid.top
+- name: meta_vless_116
+  type: vless
+  server: ipv6.nvoid.live
+  port: 8443
+  uuid: 16bfe1e2-0669-44cb-8c6a-66e7cad43b40
+  udp: true
+  tls: true
+  network: ws
+  servername: workerv2.nothingnessvoid.top
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: workerv2.nothingnessvoid.top
+- name: meta_vless_117
+  type: vless
+  server: www.csgo.com
+  port: 8443
+  uuid: 96278ec2-ad03-440e-becd-b1c11f9715ec
+  udp: true
+  tls: true
+  network: grpc
+  servername: arm1v6.nothingnessvoid.tech
+  grpc-opts:
+    grpc-service-name: v2ray
+- name: meta_vless_118
+  type: vless
+  server: 2606:4700:3026:2d:d991:725a:869a:8fe6
+  port: 8443
+  uuid: 96278ec2-ad03-440e-becd-b1c11f9715ec
+  udp: true
+  tls: true
+  network: grpc
+  servername: arm1v6.nothingnessvoid.tech
+  grpc-opts:
+    grpc-service-name: v2ray
+- name: meta_vmess_119
+  type: vmess
+  server: www.csgo.com
+  port: 8443
+  uuid: 5e2e02fd-46ee-4a86-ff1a-bdd462ffbc82
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: grpc
+  servername: arm2v6.nothingnessvoid.tech
+  grpc-opts:
+    grpc-service-name: v2ray
+- name: meta_vmess_1110
+  type: vmess
+  server: 2606:4700:3026:2d:d991:725a:869a:8fe6
+  port: 8443
+  uuid: 5e2e02fd-46ee-4a86-ff1a-bdd462ffbc82
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: grpc
+  servername: arm2v6.nothingnessvoid.tech
+  grpc-opts:
+    grpc-service-name: v2ray
 - name: hysteria_0
   type: hysteria
   server: 109.104.152.180
@@ -362,6 +494,16 @@ proxy-groups:
   - meta_vmess_102
   - meta_hysteria2_103
   - meta_tuic_104
+  - meta_vless_111
+  - meta_vless_112
+  - meta_vless_113
+  - meta_vless_114
+  - meta_vless_115
+  - meta_vless_116
+  - meta_vless_117
+  - meta_vless_118
+  - meta_vmess_119
+  - meta_vmess_1110
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -389,6 +531,16 @@ proxy-groups:
   - meta_vmess_102
   - meta_hysteria2_103
   - meta_tuic_104
+  - meta_vless_111
+  - meta_vless_112
+  - meta_vless_113
+  - meta_vless_114
+  - meta_vless_115
+  - meta_vless_116
+  - meta_vless_117
+  - meta_vless_118
+  - meta_vmess_119
+  - meta_vmess_1110
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -416,6 +568,16 @@ proxy-groups:
   - meta_vmess_102
   - meta_hysteria2_103
   - meta_tuic_104
+  - meta_vless_111
+  - meta_vless_112
+  - meta_vless_113
+  - meta_vless_114
+  - meta_vless_115
+  - meta_vless_116
+  - meta_vless_117
+  - meta_vless_118
+  - meta_vmess_119
+  - meta_vmess_1110
   - hysteria_0
   - hysteria_1
   - hysteria_2
