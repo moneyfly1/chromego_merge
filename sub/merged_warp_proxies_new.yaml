@@ -368,6 +368,116 @@ proxies:
   servername: arm2v6.nothingnessvoid.tech
   grpc-opts:
     grpc-service-name: v2ray
+- name: meta_vless_121
+  type: vless
+  server: sj.252798.xyz
+  port: 443
+  skip-cert-verify: true
+  uuid: 6373c273-4a52-4e5d-9ee9-afd23107bdc3
+  tls: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: sj.252798.xyz
+- name: meta_vless_122
+  type: vless
+  server: jp.252798.xyz
+  port: 443
+  skip-cert-verify: true
+  uuid: 6373c273-4a52-4e5d-9ee9-afd23107bdc3
+  tls: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: jp.252798.xyz
+- name: meta_vless_123
+  type: vless
+  server: sj.alichen.top
+  port: 443
+  skip-cert-verify: true
+  uuid: 6373c273-4a52-4e5d-9ee9-afd23107bdc3
+  tls: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: sj.alichen.top
+- name: meta_vless_124
+  type: vless
+  server: jp.alichen.top
+  port: 443
+  skip-cert-verify: true
+  uuid: 6373c273-4a52-4e5d-9ee9-afd23107bdc3
+  tls: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: jp.alichen.top
+- name: meta_vless_125
+  type: vless
+  server: kr.252798.xyz
+  port: 443
+  skip-cert-verify: true
+  uuid: 6373c273-4a52-4e5d-9ee9-afd23107bdc3
+  tls: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: kr.252798.xyz
+- name: meta_hysteria_126
+  type: hysteria
+  server: la.alichen.top
+  port: 5666
+  auth_str: 9448new
+  protocol: wechat-video
+  up: 30 Mbps
+  down: 200 Mbps
+  fast-open: true
+- name: meta_hysteria_127
+  type: hysteria
+  server: sj.alichen.top
+  port: 5566
+  auth_str: 9448new
+  protocol: wechat-video
+  up: 30 Mbps
+  down: 200 Mbps
+  fast-open: true
+- name: meta_vless_128
+  type: vless
+  server: 43.154.55.240
+  port: 1443
+  skip-cert-verify: true
+  uuid: 8ed8efb7-457e-4f8f-a903-713fe04ad1c2
+  tls: true
+  udp: true
+  flow: null
+  servername: www.docker.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: sing-box
+    grpc-multi-mode: true
+  reality-opts:
+    public-key: daANefCDgE-0VHJLkPqHjtZ_HUTu-95Fnmk6E8rjfEU
+    short-id: 5d2e3ed92cf8a73b
+  client-fingerprint: chrome
+- name: meta_ss_129
+  type: ss
+  server: 193.122.124.191
+  port: 7443
+  cipher: 2022-blake3-aes-128-gcm
+  password: rObhdH4a89qzQa8oAgMycQ==
+  plugin: shadow-tls
+  plugin-opts:
+    host: addons.mozilla.org
+    password: rObhdH4a89qzQa8oAgMycQ==
+    version: 3
+    client-fingerprint: chrome
+- name: meta_ss_1210
+  type: ss
+  server: 171.22.130.57
+  port: 4443
+  cipher: 2022-blake3-aes-128-gcm
+  password: rObhdH4a89qzQa8oAgMycQ==
+  plugin: shadow-tls
+  plugin-opts:
+    host: addons.mozilla.org
+    password: rObhdH4a89qzQa8oAgMycQ==
+    version: 3
+    client-fingerprint: chrome
 - name: hysteria_0
   type: hysteria
   server: 109.104.152.180
@@ -504,6 +614,16 @@ proxy-groups:
   - meta_vless_118
   - meta_vmess_119
   - meta_vmess_1110
+  - meta_vless_121
+  - meta_vless_122
+  - meta_vless_123
+  - meta_vless_124
+  - meta_vless_125
+  - meta_hysteria_126
+  - meta_hysteria_127
+  - meta_vless_128
+  - meta_ss_129
+  - meta_ss_1210
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -541,6 +661,16 @@ proxy-groups:
   - meta_vless_118
   - meta_vmess_119
   - meta_vmess_1110
+  - meta_vless_121
+  - meta_vless_122
+  - meta_vless_123
+  - meta_vless_124
+  - meta_vless_125
+  - meta_hysteria_126
+  - meta_hysteria_127
+  - meta_vless_128
+  - meta_ss_129
+  - meta_ss_1210
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -578,6 +708,16 @@ proxy-groups:
   - meta_vless_118
   - meta_vmess_119
   - meta_vmess_1110
+  - meta_vless_121
+  - meta_vless_122
+  - meta_vless_123
+  - meta_vless_124
+  - meta_vless_125
+  - meta_hysteria_126
+  - meta_hysteria_127
+  - meta_vless_128
+  - meta_ss_129
+  - meta_ss_1210
   - hysteria_0
   - hysteria_1
   - hysteria_2
