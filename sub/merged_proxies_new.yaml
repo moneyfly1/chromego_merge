@@ -165,6 +165,59 @@ proxies:
   auth_str: nbdyVMqucpFMmyRiwcRQFI7EeKzJWjPYuks3ZzEhCv6HjeZvbh
   up: 11
   down: 55
+- name: meta_vless_101
+  type: vless
+  server: 165.22.59.43
+  port: 56805
+  uuid: 9fa7c276-0334-4c5c-ad2a-e78be133e942
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: R-lCQaOOv7BxfLUAoRB8oDPGAAxNxW1EU3iOvt_SsjI
+    short-id: 99910bfa
+  client-fingerprint: chrome
+- name: meta_vmess_102
+  type: vmess
+  server: sign-box.nvoid.pp.ua
+  port: 2083
+  uuid: 9fa7c276-0334-4c5c-ad2a-e78be133e942
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  servername: sign-box.nvoid.pp.ua
+  ws-opts:
+    path: 9fa7c276-0334-4c5c-ad2a-e78be133e942-vm
+    headers:
+      Host: sign-box.nvoid.pp.ua
+- name: meta_hysteria2_103
+  type: hysteria2
+  server: sign-box.nvoid.pp.ua
+  port: 58199
+  password: 9fa7c276-0334-4c5c-ad2a-e78be133e942
+  alpn:
+  - h3
+  sni: sign-box.nvoid.pp.ua
+  skip-cert-verify: false
+  fast-open: true
+- name: meta_tuic_104
+  server: sign-box.nvoid.pp.ua
+  port: 35043
+  type: tuic
+  uuid: 9fa7c276-0334-4c5c-ad2a-e78be133e942
+  password: 9fa7c276-0334-4c5c-ad2a-e78be133e942
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+  sni: sign-box.nvoid.pp.ua
+  skip-cert-verify: false
 - name: hysteria_0
   type: hysteria
   server: 109.104.152.180
@@ -271,6 +324,10 @@ proxy-groups:
   - meta_hysteria_71
   - meta_hysteria_81
   - meta_hysteria_91
+  - meta_vless_101
+  - meta_vmess_102
+  - meta_hysteria2_103
+  - meta_tuic_104
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -297,6 +354,10 @@ proxy-groups:
   - meta_hysteria_71
   - meta_hysteria_81
   - meta_hysteria_91
+  - meta_vless_101
+  - meta_vmess_102
+  - meta_hysteria2_103
+  - meta_tuic_104
   - hysteria_0
   - hysteria_1
   - hysteria_2
