@@ -17,14 +17,3 @@ https://raw.githubusercontent.com/ali322/OSCN/f86c51a21396f77acdbf35fb4c59d9b305
 https://raw.githubusercontent.com/ali322/OSCN/f86c51a21396f77acdbf35fb4c59d9b3050bb39a/screenshot/meta.yaml
 https://raw.githubusercontent.com/ali322/OSCN/f86c51a21396f77acdbf35fb4c59d9b3050bb39a/screenshot/meta_sing_box.yaml
 https://raw.githubusercontent.com/ali322/OSCN/f86c51a21396f77acdbf35fb4c59d9b3050bb39a/screenshot/sing_box_proxies.yaml
-https://raw.githubusercontent.com/huangbinyu1987/HelloWorld/main/Hysteria2/Hysteria2&TuicV5-clash.yaml
-https://raw.githubusercontent.com/huangbinyu1987/HelloWorld/main/Hysteria2/Hysteria2&TuicV5-stash.yaml
-https://raw.githubusercontent.com/huangbinyu1987/HelloWorld/main/Hysteria2/Hysteria2&TuicV5-stash%E5%8E%9F%E5%A7%8B%20.yaml
-https://raw.githubusercontent.com/huangbinyu1987/HelloWorld/main/Hysteria2/Hysteria2-5in1.yaml
-https://raw.githubusercontent.com/huangbinyu1987/HelloWorld/main/Hysteria2/Hysteria2-5in1%E5%8E%9F%E5%A7%8B.yaml
-https://raw.githubusercontent.com/huangbinyu1987/HelloWorld/main/Hysteria2/Hysteria2-Stash-nospeed.yaml
-https://raw.githubusercontent.com/huangbinyu1987/HelloWorld/main/Hysteria2/Hysteria2-Stash.yaml
-https://raw.githubusercontent.com/huangbinyu1987/HelloWorld/main/Hysteria2/Hysteria2-stash%E5%8E%9F%E5%A7%8B-nospeed.yaml
-https://raw.githubusercontent.com/huangbinyu1987/HelloWorld/main/Hysteria2/Hysteria2-stash%E5%8E%9F%E5%A7%8B.yaml
-https://raw.githubusercontent.com/huangbinyu1987/HelloWorld/main/oracle.yaml
-
