@@ -9,7 +9,6 @@ https://raw.githubusercontent.com/Alvin9999/pac2/master/quick/3/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/quick/1/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/quick/config.yaml
 https://raw.githubusercontent.com/ali322/OSCN/f86c51a21396f77acdbf35fb4c59d9b3050bb39a/screenshot/proxies.yml
-https://raw.githubusercontent.com/ali322/OSCN/f86c51a21396f77acdbf35fb4c59d9b3050bb39a/screenshot/clash-cccat.yaml
 https://raw.githubusercontent.com/ali322/OSCN/f86c51a21396f77acdbf35fb4c59d9b3050bb39a/screenshot/clash-pro.yml
 https://raw.githubusercontent.com/ali322/OSCN/f86c51a21396f77acdbf35fb4c59d9b3050bb39a/screenshot/clash_meta.yaml
 https://raw.githubusercontent.com/ali322/OSCN/f86c51a21396f77acdbf35fb4c59d9b3050bb39a/screenshot/meta.yaml
