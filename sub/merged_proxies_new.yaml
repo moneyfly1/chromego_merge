@@ -1245,6 +1245,112 @@ proxies:
   alpn:
   - h3
   fast-open: true
+- name: meta_vless_161
+  type: vless
+  server: 107.173.15.52
+  port: 11101
+  uuid: 81d527fd-5bbf-40fc-b2b0-be1956133aa6
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: 96rCrwpoQSnrBypLNWeZvJgpVaQWEL3EuZFnRFrseR4
+    short-id: 93da8109
+  client-fingerprint: chrome
+- name: meta_vmess_162
+  type: vmess
+  server: 107.173.15.52
+  port: 2086
+  uuid: 81d527fd-5bbf-40fc-b2b0-be1956133aa6
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: www.bing.com
+  ws-opts:
+    path: 81d527fd-5bbf-40fc-b2b0-be1956133aa6-vm
+    headers:
+      Host: www.bing.com
+- name: meta_hysteria2_163
+  type: hysteria2
+  server: 107.173.15.52
+  port: 42855
+  password: 81d527fd-5bbf-40fc-b2b0-be1956133aa6
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  fast-open: true
+- name: meta_tuic_164
+  server: 107.173.15.52
+  port: 14758
+  type: tuic
+  uuid: 81d527fd-5bbf-40fc-b2b0-be1956133aa6
+  password: 81d527fd-5bbf-40fc-b2b0-be1956133aa6
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: meta_vless_165
+  type: vless
+  server: 142.171.174.206
+  port: 35472
+  uuid: b46cb204-5849-4b86-852d-8154fb8eb580
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: xFgONyWY60GD019VYsV31jo6L9lUdLCEQNY2RZKgsFQ
+    short-id: cedb773b
+  client-fingerprint: chrome
+- name: meta_vmess_166
+  type: vmess
+  server: 142.171.174.206
+  port: 8880
+  uuid: b46cb204-5849-4b86-852d-8154fb8eb580
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: www.bing.com
+  ws-opts:
+    path: b46cb204-5849-4b86-852d-8154fb8eb580-vm
+    headers:
+      Host: www.bing.com
+- name: meta_hysteria2_167
+  type: hysteria2
+  server: 142.171.174.206
+  port: 15090
+  password: b46cb204-5849-4b86-852d-8154fb8eb580
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  fast-open: true
+- name: meta_tuic_168
+  server: 142.171.174.206
+  port: 61213
+  type: tuic
+  uuid: b46cb204-5849-4b86-852d-8154fb8eb580
+  password: b46cb204-5849-4b86-852d-8154fb8eb580
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+  sni: www.bing.com
+  skip-cert-verify: true
 - name: hysteria_0
   type: hysteria
   server: 109.104.152.180
@@ -1420,6 +1526,14 @@ proxy-groups:
   - meta_hysteria2_1527
   - meta_hysteria2_1528
   - meta_hysteria2_1529
+  - meta_vless_161
+  - meta_vmess_162
+  - meta_hysteria2_163
+  - meta_tuic_164
+  - meta_vless_165
+  - meta_vmess_166
+  - meta_hysteria2_167
+  - meta_tuic_168
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -1522,6 +1636,14 @@ proxy-groups:
   - meta_hysteria2_1527
   - meta_hysteria2_1528
   - meta_hysteria2_1529
+  - meta_vless_161
+  - meta_vmess_162
+  - meta_hysteria2_163
+  - meta_tuic_164
+  - meta_vless_165
+  - meta_vmess_166
+  - meta_hysteria2_167
+  - meta_tuic_168
   - hysteria_0
   - hysteria_1
   - hysteria_2
