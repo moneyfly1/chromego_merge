@@ -25,17 +25,6 @@ def process_clash(data, index):
     for i, proxy in enumerate(proxies):
         proxy['name'] = f"meta_{proxy['type']}_{index}{i+1}"
     merged_proxies.extend(proxies)
-
-#提取clash_old节点-以后删除
-def process_clash_old(data, index):
-    content = yaml.safe_load(data)
-    proxies = content.get('proxies', [])
-    for i, proxy in enumerate(proxies):
-        if proxy.get('type') != 'hysteria2':
-            proxy['name'] = f"meta_{proxy['type']}_{index}{i+1}"
-            merged_proxies.append(proxy)
-
-
 # 处理sb，待办
 def process_sb(data, index):
     try:
@@ -231,24 +220,17 @@ def process_xray(data, index):
 def update_proxy_groups(config_data, merged_proxies):
     for group in config_data['proxy-groups']:
         if group['name'] in ['自动选择', '节点选择']:
-            if 'proxies' not in group or not group['proxies']:
-                group['proxies'] = [proxy['name'] for proxy in merged_proxies]
-            else:
-                group['proxies'].extend(proxy['name'] for proxy in merged_proxies)
+            group['proxies'].extend(proxy['name'] for proxy in merged_proxies)
 
 def update_warp_proxy_groups(config_warp_data, merged_proxies):
     for group in config_warp_data['proxy-groups']:
         if group['name'] in ['自动选择', '手动选择', '负载均衡']:
-            if 'proxies' not in group or not group['proxies']:
-                group['proxies'] = [proxy['name'] for proxy in merged_proxies]
-            else:
-                group['proxies'].extend(proxy['name'] for proxy in merged_proxies)
-
-# 包含hysteria2
+            group['proxies'].extend(proxy['name'] for proxy in merged_proxies)
+# 定义一个空列表用于存储合并后的代理配置
 merged_proxies = []
 
 # 处理 clash URLs
-process_urls('./urls/clash_urls.txt', process_clash)
+process_urls('./urls/clash_new_urls.txt', process_clash)
 
 # 处理 shadowtls URLs
 process_urls('./urls/sb_urls.txt', process_sb)
@@ -271,16 +253,8 @@ with open('./templates/clash_warp_template.yaml', 'r', encoding='utf-8') as file
     config_warp_data = yaml.safe_load(file)
 
 # 添加合并后的代理到proxies部分
-if 'proxies' not in config_data or not config_data['proxies']:
-    config_data['proxies'] = merged_proxies
-else:
-    config_data['proxies'].extend(merged_proxies)
-
-if 'proxies' not in config_warp_data or not config_warp_data['proxies']:
-    config_warp_data['proxies'] = merged_proxies
-else:
-    config_warp_data['proxies'].extend(merged_proxies)
-
+config_data['proxies'].extend(merged_proxies)
+config_warp_data['proxies'].extend(merged_proxies)
 
 # 更新自动选择和节点选择的proxies的name部分
 update_proxy_groups(config_data, merged_proxies)
@@ -295,14 +269,11 @@ with open('./sub/merged_warp_proxies_new.yaml', 'w', encoding='utf-8') as file:
 
 print("聚合完成")
 
-
-
-
-# 不包含hysteria2-以后删除
+# 处理其他
 merged_proxies = []
 
 # 处理 clash URLs
-process_urls('./urls/clash_urls.txt', process_clash_old)
+process_urls('./urls/clash_urls.txt', process_clash)
 
 # 处理 shadowtls URLs
 process_urls('./urls/sb_urls.txt', process_sb)
@@ -325,16 +296,8 @@ with open('./templates/clash_warp_template.yaml', 'r', encoding='utf-8') as file
     config_warp_data = yaml.safe_load(file)
 
 # 添加合并后的代理到proxies部分
-# 添加合并后的代理到proxies部分
-if 'proxies' not in config_data or not config_data['proxies']:
-    config_data['proxies'] = merged_proxies
-else:
-    config_data['proxies'].extend(merged_proxies)
-
-if 'proxies' not in config_warp_data or not config_warp_data['proxies']:
-    config_warp_data['proxies'] = merged_proxies
-else:
-    config_warp_data['proxies'].extend(merged_proxies)
+config_data['proxies'].extend(merged_proxies)
+config_warp_data['proxies'].extend(merged_proxies)
 
 # 更新自动选择和节点选择的proxies的name部分
 update_proxy_groups(config_data, merged_proxies)
