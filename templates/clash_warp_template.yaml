@@ -25,7 +25,15 @@ dns:
     ipcidr:
       - 240.0.0.0/4
 proxies:
-
+  - name: 测试节点
+    type: trojan
+    server: a
+    port: 1
+    password: 72ac875a-f5b9-461e-a7a4-942b468b0d83
+    udp: true
+    sni: gw.alicdn.com
+    skip-cert-verify: true
+    
   - name: WARP
     type: wireguard
     server: engage.cloudflareclient.com
@@ -44,6 +52,7 @@ proxy-groups:
   - name: 节点选择
     type: select
     proxies:
+      - 测试节点
       - WARP
       - 自动选择
       - 负载均衡
@@ -62,17 +71,17 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-
+      - 测试节点
 
   - name: 手动选择
     type: select
     proxies:
-
+      - 测试节点
 
   - name: 负载均衡
     type: load-balance #负载均衡
     proxies:
-
+      - 测试节点
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     #lazy: true
