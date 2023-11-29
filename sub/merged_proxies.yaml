@@ -25,7 +25,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 油管-绵阿羊
+- name: 测试节点
   type: trojan
   server: a
   port: 1
@@ -228,7 +228,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - 油管-绵阿羊
+  - 测试节点
   - meta_hysteria_01
   - meta_hysteria2_02
   - meta_tuic_11
@@ -250,7 +250,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 油管-绵阿羊
+  - 测试节点
   - meta_hysteria_01
   - meta_hysteria2_02
   - meta_tuic_11
