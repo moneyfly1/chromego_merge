@@ -327,4 +327,3 @@ try:
     print("Content successfully encoded and written to file.")
 except Exception as e:
     print(f"Error encoding file content: {e}")
-
