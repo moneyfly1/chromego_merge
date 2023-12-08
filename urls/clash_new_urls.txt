@@ -16,3 +16,7 @@ https://raw.githubusercontent.com/ali322/OSCN/f86c51a21396f77acdbf35fb4c59d9b305
 https://raw.githubusercontent.com/ali322/OSCN/f86c51a21396f77acdbf35fb4c59d9b3050bb39a/screenshot/sing_box_proxies.yaml
 https://raw.githubusercontent.com/dalazhi/v2ray/22db6acbf466e1f34eba8af86c10b16a230efe6f/dalazhi1.yaml
 https://raw.githubusercontent.com/13174771/2023/733130dbe85b924da2d7092be1e69b97bb877cce/%E5%86%B2%E7%AA%81/sg0-hysteria.yaml
+https://raw.githubusercontent.com/ali322/OSCN/master/screenshot/tcp_proxies.yaml
+https://raw.githubusercontent.com/ali322/OSCN/master/screenshot/udp_proxies.yaml
+https://raw.githubusercontent.com/ali322/OSCN/master/screenshot/sing_box_proxies.yaml
+
