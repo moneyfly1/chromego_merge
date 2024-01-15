@@ -1,5 +1,6 @@
+vless://869d601c-9e4c-4e83-b816-bb553234aaea@dongtaiwang3.com:443?security=tls&allowInsecure0&flow=&type=ws&fp=chrome&pbk=&sid=&sni=dongtaiwang.freeh1.xyz&serviceName=&path=/pxzaws&host=#vless_meta_0
 vless://ffb15cd2-0521-49de-b8aa-fb15d58c8075@dongtaiwang2.com:443?security=tls&allowInsecure0&flow=&type=ws&fp=chrome&pbk=&sid=&sni=v2ray3.freegradely.xyz&serviceName=&path=/bqbows&host=#vless_meta_2
-hysteria://www4.dtku49.xyz:22334?peer=&auth=dongtaiwang.com&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=22334&obfs=&protocol=udp&fastopen=1#hysteria_meta_6
+hysteria://111.243.97.209:22334?peer=&auth=dongtaiwang.com&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=22334&obfs=&protocol=udp&fastopen=1#hysteria_meta_6
 hysteria://www.dtku50.xyz:56252?peer=www.amazon.cn&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=56252&obfs=&protocol=udp&fastopen=1#hysteria_meta_7
 hysteria://64.110.25.10:44556?peer=&auth=dongtaiwang.com&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=44556&obfs=&protocol=udp&fastopen=1#hysteria_meta_8
 hysteria://62.204.54.81:44550?peer=bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=44550&obfs=&protocol=udp&fastopen=1#hysteria_meta_9

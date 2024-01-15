@@ -51,21 +51,19 @@ proxies:
   - 1.1.1.1
   - 8.8.8.8
   dialer-proxy: WARP前置节点
-- name: meta_vmess_01
-  type: vmess
+- name: meta_vless_01
+  type: vless
   server: dongtaiwang3.com
   port: 443
-  cipher: auto
-  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
-  alterId: 0
+  uuid: 869d601c-9e4c-4e83-b816-bb553234aaea
   tls: true
-  skip-cert-verify: true
-  servername: ''
+  servername: dongtaiwang.freeh1.xyz
   network: ws
   ws-opts:
-    path: /gzogws
+    path: /pxzaws
     headers:
-      host: xray1.freeh1.xyz
+      host: dongtaiwang.freeh1.xyz
+  client-fingerprint: chrome
 - name: meta_vmess_11
   type: vmess
   server: dongtaiwang2.com
@@ -141,7 +139,7 @@ proxies:
       host: xray1.freeh1.xyz
 - name: meta_hysteria_61
   type: hysteria
-  server: www4.dtku49.xyz
+  server: 111.243.97.209
   port: 22334
   auth-str: dongtaiwang.com
   alpn:
@@ -264,7 +262,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 测试节点
-  - meta_vmess_01
+  - meta_vless_01
   - meta_vmess_11
   - meta_vless_21
   - meta_vmess_31
@@ -282,7 +280,7 @@ proxy-groups:
   type: select
   proxies:
   - 测试节点
-  - meta_vmess_01
+  - meta_vless_01
   - meta_vmess_11
   - meta_vless_21
   - meta_vmess_31
@@ -300,7 +298,7 @@ proxy-groups:
   type: load-balance
   proxies:
   - 测试节点
-  - meta_vmess_01
+  - meta_vless_01
   - meta_vmess_11
   - meta_vless_21
   - meta_vmess_31
