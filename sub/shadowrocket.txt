@@ -1,6 +1,6 @@
 tuic://983a85bd-8fae-45d2-a702-5d00a383763e:dongtaiwang.com@195.137.220.189:33445?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0
 tuic://9a6140f4-abd8-4ece-aa0e-4f14556de56b:dongtaiwang.com@74.63.249.229:443?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0
-tuic://9a6140f4-abd8-4ece-aa0e-4f14556de56b:dongtaiwang.com@74.63.249.229:443?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0
+tuic://996c2970-ec1c-4659-9c5f-b3609c42a764:dongtaiwang.com@108.181.2.158:33440?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0
 tuic://9a6140f4-abd8-4ece-aa0e-4f14556de56b:dongtaiwang.com@74.63.249.229:443?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0
 tuic://9a6140f4-abd8-4ece-aa0e-4f14556de56b:dongtaiwang.com@74.63.249.229:443?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0
 tuic://9a6140f4-abd8-4ece-aa0e-4f14556de56b:dongtaiwang.com@74.63.249.229:443?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0
