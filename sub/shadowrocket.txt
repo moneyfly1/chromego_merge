@@ -1,4 +1,3 @@
-tuic://a8b711e8-b89a-4aff-9ca1-10be9292a502:dongtaiwang.com@109.104.152.156:22334?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0
 vless://95878aa5-a695-4b88-b502-55c05c998cf2@198.41.193.226:443?security=tls&allowInsecure0&flow=&type=ws&fp=&pbk=&sid=&sni=lg1.dtku41.xyz&serviceName=&path=/ugrlws&host=#vless_meta_5
 vless://95878aa5-a695-4b88-b502-55c05c998cf2@104.27.97.91:443?security=tls&allowInsecure0&flow=&type=ws&fp=&pbk=&sid=&sni=lg1.dtku41.xyz&serviceName=&path=/ugrlws&host=#vless_meta_5
 vless://95878aa5-a695-4b88-b502-55c05c998cf2@108.162.196.107:443?security=tls&allowInsecure0&flow=&type=ws&fp=&pbk=&sid=&sni=lg1.dtku41.xyz&serviceName=&path=/ugrlws&host=#vless_meta_5
