@@ -1,4 +1,5 @@
 hysteria2://dongtaiwang.com@64.31.55.30:20011?insecure=1&sni=bing.com&obfs=&obfs-password=#hysteria2_meta_0
+hysteria2://dongtaiwang.com@109.104.152.144:51100?insecure=1&sni=bing.com&obfs=&obfs-password=#hysteria2_meta_0
 tuic://7bda06fd-e4af-4115-8aa3-f021832cfa78:dongtaiwang.com@109.104.152.144:44411?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0
 tuic://7bda06fd-e4af-4115-8aa3-f021832cfa78:dongtaiwang.com@109.104.152.101:31102?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0
 tuic://7bda06fd-e4af-4115-8aa3-f021832cfa78:dongtaiwang.com@109.104.152.101:22288?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0

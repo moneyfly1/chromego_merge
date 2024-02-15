@@ -44,6 +44,17 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
+- name: meta_hysteria2_02
+  type: hysteria2
+  server: 109.104.152.144
+  port: 51100
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: meta_tuic_11
   type: tuic
   server: 109.104.152.144
@@ -57,19 +68,6 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: meta_vmess_12
-  type: vmess
-  server: www.dtku40.xyz
-  port: 18810
-  cipher: auto
-  uuid: afb1ad76-0f6f-4cb8-983a-95f5b4708321
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /9tEYTPFN/
 - name: meta_tuic_21
   type: tuic
   server: 109.104.152.101
@@ -2006,8 +2004,8 @@ proxy-groups:
   - DIRECT
   - 测试节点
   - meta_hysteria2_01
+  - meta_hysteria2_02
   - meta_tuic_11
-  - meta_vmess_12
   - meta_tuic_21
   - meta_tuic_31
   - meta_tuic_41
@@ -2175,8 +2173,8 @@ proxy-groups:
   proxies:
   - 测试节点
   - meta_hysteria2_01
+  - meta_hysteria2_02
   - meta_tuic_11
-  - meta_vmess_12
   - meta_tuic_21
   - meta_tuic_31
   - meta_tuic_41
