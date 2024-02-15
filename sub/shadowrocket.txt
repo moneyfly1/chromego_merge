@@ -1,7 +1,7 @@
 hysteria2://dongtaiwang.com@64.31.55.30:20011?insecure=1&sni=bing.com&obfs=&obfs-password=#hysteria2_meta_0
 hysteria2://dongtaiwang.com@109.104.152.144:51100?insecure=1&sni=bing.com&obfs=&obfs-password=#hysteria2_meta_0
 tuic://7bda06fd-e4af-4115-8aa3-f021832cfa78:dongtaiwang.com@109.104.152.144:44411?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0
-tuic://7bda06fd-e4af-4115-8aa3-f021832cfa78:dongtaiwang.com@109.104.152.101:31102?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0
+hysteria2://dongtaiwang.com@109.104.152.101:16610?insecure=1&sni=bing.com&obfs=&obfs-password=#hysteria2_meta_2
 tuic://7bda06fd-e4af-4115-8aa3-f021832cfa78:dongtaiwang.com@109.104.152.101:22288?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0
 tuic://7bda06fd-e4af-4115-8aa3-f021832cfa78:dongtaiwang.com@109.104.152.101:31101?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0
 vless://95878aa5-a695-4b88-b502-55c05c998cf2@198.41.193.226:443?security=tls&allowInsecure0&flow=&type=ws&fp=&pbk=&sid=&sni=lg1.dtku41.xyz&serviceName=&path=/ugrlws&host=#vless_meta_5
