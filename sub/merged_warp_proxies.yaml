@@ -53,19 +53,8 @@ proxies:
   dialer-proxy: WARP前置节点
 - name: meta_hysteria2_01
   type: hysteria2
-  server: 208.115.243.45
-  port: 30010
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
-- name: meta_hysteria2_02
-  type: hysteria2
-  server: 109.104.152.171
-  port: 20011
+  server: 64.31.55.42
+  port: 31100
   password: dongtaiwang.com
   alpn:
   - h3
@@ -75,19 +64,8 @@ proxies:
   down: 55 Mbps
 - name: meta_hysteria2_11
   type: hysteria2
-  server: 109.104.152.171
-  port: 20011
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
-- name: meta_hysteria2_12
-  type: hysteria2
-  server: 208.115.243.45
-  port: 30010
+  server: 109.104.152.214
+  port: 11111
   password: dongtaiwang.com
   alpn:
   - h3
@@ -97,8 +75,8 @@ proxies:
   down: 55 Mbps
 - name: meta_hysteria2_21
   type: hysteria2
-  server: 109.104.152.171
-  port: 20011
+  server: 109.104.152.214
+  port: 11111
   password: dongtaiwang.com
   alpn:
   - h3
@@ -106,34 +84,28 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: meta_vless_31
-  type: vless
-  server: 108.181.5.130
-  port: 19910
-  udp: true
-  uuid: 9cc39477-0d85-4419-84d4-fb7fc77668b3
-  tls: true
-  servername: m.media-amazon.com
-  flow: xtls-rprx-vision
-  network: tcp
-  reality-opts:
-    public-key: yKXmLTmXAi-BHBg3JpCz-NWUmVcKlfm7iMmVoq7YQx0
-    short-id: 6ba85179e30d4fc2
-  client-fingerprint: chrome
-- name: meta_vless_41
-  type: vless
-  server: 108.181.5.130
-  port: 19910
-  udp: true
-  uuid: 9cc39477-0d85-4419-84d4-fb7fc77668b3
-  tls: true
-  servername: m.media-amazon.com
-  flow: xtls-rprx-vision
-  network: tcp
-  reality-opts:
-    public-key: yKXmLTmXAi-BHBg3JpCz-NWUmVcKlfm7iMmVoq7YQx0
-    short-id: 6ba85179e30d4fc2
-  client-fingerprint: chrome
+- name: meta_hysteria2_31
+  type: hysteria2
+  server: 109.104.152.214
+  port: 11111
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
+- name: meta_hysteria2_41
+  type: hysteria2
+  server: 109.104.152.214
+  port: 11111
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: meta_vless_51
   type: vless
   server: 198.41.193.226
@@ -1930,12 +1902,10 @@ proxy-groups:
   proxies:
   - 测试节点
   - meta_hysteria2_01
-  - meta_hysteria2_02
   - meta_hysteria2_11
-  - meta_hysteria2_12
   - meta_hysteria2_21
-  - meta_vless_31
-  - meta_vless_41
+  - meta_hysteria2_31
+  - meta_hysteria2_41
   - meta_vless_51
   - meta_vless_52
   - meta_vless_53
@@ -2088,12 +2058,10 @@ proxy-groups:
   proxies:
   - 测试节点
   - meta_hysteria2_01
-  - meta_hysteria2_02
   - meta_hysteria2_11
-  - meta_hysteria2_12
   - meta_hysteria2_21
-  - meta_vless_31
-  - meta_vless_41
+  - meta_hysteria2_31
+  - meta_hysteria2_41
   - meta_vless_51
   - meta_vless_52
   - meta_vless_53
@@ -2246,12 +2214,10 @@ proxy-groups:
   proxies:
   - 测试节点
   - meta_hysteria2_01
-  - meta_hysteria2_02
   - meta_hysteria2_11
-  - meta_hysteria2_12
   - meta_hysteria2_21
-  - meta_vless_31
-  - meta_vless_41
+  - meta_hysteria2_31
+  - meta_hysteria2_41
   - meta_vless_51
   - meta_vless_52
   - meta_vless_53
