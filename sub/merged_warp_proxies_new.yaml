@@ -65,7 +65,7 @@ proxies:
 - name: meta_vmess_11
   type: vmess
   server: 23.227.38.220
-  port: 443
+  port: 2053
   cipher: auto
   uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
   alterId: 0
@@ -80,7 +80,7 @@ proxies:
 - name: meta_vmess_12
   type: vmess
   server: 23.227.39.210
-  port: 443
+  port: 2053
   cipher: auto
   uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
   alterId: 0
@@ -147,7 +147,7 @@ proxies:
 - name: meta_vmess_51
   type: vmess
   server: 23.227.38.12
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -162,7 +162,7 @@ proxies:
 - name: meta_vmess_52
   type: vmess
   server: 103.21.244.83
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -177,7 +177,7 @@ proxies:
 - name: meta_vmess_53
   type: vmess
   server: 188.114.97.196
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -192,7 +192,7 @@ proxies:
 - name: meta_vmess_54
   type: vmess
   server: 190.93.247.214
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -207,7 +207,7 @@ proxies:
 - name: meta_vmess_55
   type: vmess
   server: 173.245.58.51
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -222,7 +222,7 @@ proxies:
 - name: meta_vmess_56
   type: vmess
   server: 141.101.123.221
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -237,7 +237,7 @@ proxies:
 - name: meta_vmess_57
   type: vmess
   server: 198.41.209.240
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -252,7 +252,7 @@ proxies:
 - name: meta_vmess_58
   type: vmess
   server: 141.101.121.91
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -267,7 +267,7 @@ proxies:
 - name: meta_vmess_59
   type: vmess
   server: 103.21.244.136
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -282,7 +282,7 @@ proxies:
 - name: meta_vmess_510
   type: vmess
   server: 190.93.245.141
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -297,7 +297,7 @@ proxies:
 - name: meta_vmess_511
   type: vmess
   server: 190.93.245.232
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -312,7 +312,7 @@ proxies:
 - name: meta_vmess_512
   type: vmess
   server: 188.114.96.25
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -327,7 +327,7 @@ proxies:
 - name: meta_vmess_513
   type: vmess
   server: 172.67.229.73
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -342,7 +342,7 @@ proxies:
 - name: meta_vmess_514
   type: vmess
   server: 190.93.245.223
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -357,7 +357,7 @@ proxies:
 - name: meta_vmess_515
   type: vmess
   server: 103.21.244.96
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -372,7 +372,7 @@ proxies:
 - name: meta_vmess_516
   type: vmess
   server: 172.64.142.35
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -387,7 +387,7 @@ proxies:
 - name: meta_vmess_517
   type: vmess
   server: 173.245.58.185
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -402,7 +402,7 @@ proxies:
 - name: meta_vmess_518
   type: vmess
   server: 162.159.43.135
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -417,7 +417,7 @@ proxies:
 - name: meta_vmess_519
   type: vmess
   server: 198.41.214.178
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -432,7 +432,7 @@ proxies:
 - name: meta_vmess_520
   type: vmess
   server: 188.114.97.109
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -447,7 +447,7 @@ proxies:
 - name: meta_vmess_521
   type: vmess
   server: 198.41.217.124
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -462,7 +462,7 @@ proxies:
 - name: meta_vmess_522
   type: vmess
   server: 162.159.136.86
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -477,7 +477,7 @@ proxies:
 - name: meta_vmess_523
   type: vmess
   server: 188.114.99.212
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -492,7 +492,7 @@ proxies:
 - name: meta_vmess_524
   type: vmess
   server: 198.41.199.127
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -507,7 +507,7 @@ proxies:
 - name: meta_vmess_525
   type: vmess
   server: 198.41.219.235
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -522,7 +522,7 @@ proxies:
 - name: meta_vmess_526
   type: vmess
   server: 198.41.204.209
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -537,7 +537,7 @@ proxies:
 - name: meta_vmess_527
   type: vmess
   server: 198.41.212.118
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -552,7 +552,7 @@ proxies:
 - name: meta_vmess_528
   type: vmess
   server: 162.159.58.126
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -567,7 +567,7 @@ proxies:
 - name: meta_vmess_529
   type: vmess
   server: 173.245.59.149
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -582,7 +582,7 @@ proxies:
 - name: meta_vmess_530
   type: vmess
   server: 188.114.97.52
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -597,7 +597,7 @@ proxies:
 - name: meta_vmess_531
   type: vmess
   server: 190.93.247.120
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -612,7 +612,7 @@ proxies:
 - name: meta_vmess_532
   type: vmess
   server: 188.114.97.4
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -627,7 +627,7 @@ proxies:
 - name: meta_vmess_533
   type: vmess
   server: 162.159.35.180
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -642,7 +642,7 @@ proxies:
 - name: meta_vmess_534
   type: vmess
   server: 172.67.144.123
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -657,7 +657,7 @@ proxies:
 - name: meta_vmess_535
   type: vmess
   server: 162.159.152.92
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -672,7 +672,7 @@ proxies:
 - name: meta_vmess_536
   type: vmess
   server: 198.41.215.80
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -687,7 +687,7 @@ proxies:
 - name: meta_vmess_537
   type: vmess
   server: 172.66.154.44
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -702,7 +702,7 @@ proxies:
 - name: meta_vmess_538
   type: vmess
   server: 162.159.12.58
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -717,7 +717,7 @@ proxies:
 - name: meta_vmess_539
   type: vmess
   server: 188.114.98.60
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -732,7 +732,7 @@ proxies:
 - name: meta_vmess_540
   type: vmess
   server: 162.159.10.152
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -747,7 +747,7 @@ proxies:
 - name: meta_vmess_541
   type: vmess
   server: 198.41.196.136
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -762,7 +762,7 @@ proxies:
 - name: meta_vmess_542
   type: vmess
   server: 188.114.99.147
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -777,7 +777,7 @@ proxies:
 - name: meta_vmess_543
   type: vmess
   server: 103.21.244.237
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -792,7 +792,7 @@ proxies:
 - name: meta_vmess_544
   type: vmess
   server: 108.162.193.176
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -807,7 +807,7 @@ proxies:
 - name: meta_vmess_545
   type: vmess
   server: 198.41.221.193
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -822,7 +822,7 @@ proxies:
 - name: meta_vmess_546
   type: vmess
   server: 188.114.98.96
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -837,7 +837,7 @@ proxies:
 - name: meta_vmess_547
   type: vmess
   server: 173.245.59.190
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -852,7 +852,7 @@ proxies:
 - name: meta_vmess_548
   type: vmess
   server: 190.93.247.33
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -867,7 +867,7 @@ proxies:
 - name: meta_vmess_549
   type: vmess
   server: 172.66.151.45
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -882,7 +882,7 @@ proxies:
 - name: meta_vmess_550
   type: vmess
   server: 190.93.246.223
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -897,7 +897,7 @@ proxies:
 - name: meta_vmess_551
   type: vmess
   server: 188.114.98.224
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -912,7 +912,7 @@ proxies:
 - name: meta_vmess_552
   type: vmess
   server: 108.162.196.207
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -927,7 +927,7 @@ proxies:
 - name: meta_vmess_553
   type: vmess
   server: 190.93.244.15
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -942,7 +942,7 @@ proxies:
 - name: meta_vmess_554
   type: vmess
   server: 141.101.120.144
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -957,7 +957,7 @@ proxies:
 - name: meta_vmess_555
   type: vmess
   server: 188.114.96.75
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -972,7 +972,7 @@ proxies:
 - name: meta_vmess_556
   type: vmess
   server: 103.21.244.245
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -987,7 +987,7 @@ proxies:
 - name: meta_vmess_557
   type: vmess
   server: 141.101.122.10
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1002,7 +1002,7 @@ proxies:
 - name: meta_vmess_558
   type: vmess
   server: 173.245.58.123
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1017,7 +1017,7 @@ proxies:
 - name: meta_vmess_559
   type: vmess
   server: 103.21.244.112
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
