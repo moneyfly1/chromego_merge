@@ -6,7 +6,7 @@ vmess://0e5da13a-b148-4889-9d72-ad1d9d5aa9ad@fbi.gov:8080?security=none&allowIns
 hysteria://www2.dtku48.xyz:22334?peer=&auth=dongtaiwang.com&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=22334&obfs=&protocol=udp&fastopen=1#hysteria_meta_6
 hysteria://www.dtku50.xyz:18470?peer=www.amazon.cn&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=18470&obfs=&protocol=udp&fastopen=1#hysteria_meta_7
 hysteria2://dongtaiwang.com@51.159.77.153:33390?insecure=1&sni=bing.com&obfs=&obfs-password=#hysteria2_meta_8
-hysteria2://d017e316-82cb-441c-8eea-7b5e9de64a20@45.145.72.212:8881?insecure=1&sni=&obfs=salamander&obfs-password=d017e316-82cb-441c-8eea-7b5e9de64a20#hysteria2_meta_9
+vless://34d7aac1-fac7-4e17-b41e-5be028d286cd@45.145.72.212:11223?security=reality&allowInsecure0&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=u24pYS0RqtYk8NBqtg4NIHUZIA0HmwuYw2RBIyt0T0c&sid=&sni=addons.mozilla.org&serviceName=&path=&host=#vless_meta_9
 vless://81d527fd-5bbf-40fc-b2b0-be1956133aa6@107.173.15.52:11101?security=reality&allowInsecure0&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=96rCrwpoQSnrBypLNWeZvJgpVaQWEL3EuZFnRFrseR4&sid=93da8109&sni=www.yahoo.com&serviceName=&path=&host=#vless_meta_16
 vmess://81d527fd-5bbf-40fc-b2b0-be1956133aa6@107.173.15.52:2086?security=none&allowInsecure0&type=ws&fp=chrome&sni=www.bing.com&path=81d527fd-5bbf-40fc-b2b0-be1956133aa6-vm&host=www.bing.com#vmess_meta_16
 hysteria2://81d527fd-5bbf-40fc-b2b0-be1956133aa6@107.173.15.52:42855?insecure=1&sni=www.bing.com&obfs=&obfs-password=#hysteria2_meta_16
