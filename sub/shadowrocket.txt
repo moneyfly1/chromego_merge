@@ -1,3 +1,4 @@
+tuic://1a0a455e-4207-44be-b5a0-062747671570:dongtaiwang.com@64.31.55.18:11223?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0
 hysteria://www2.dtku48.xyz:22334?peer=&auth=dongtaiwang.com&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=22334&obfs=&protocol=udp&fastopen=1#hysteria_meta_6
 hysteria://www.dtku50.xyz:18470?peer=www.amazon.cn&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=18470&obfs=&protocol=udp&fastopen=1#hysteria_meta_7
 hysteria2://dongtaiwang.com@51.159.77.153:33390?insecure=1&sni=bing.com&obfs=&obfs-password=#hysteria2_meta_8
