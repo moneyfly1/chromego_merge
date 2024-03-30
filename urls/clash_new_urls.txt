@@ -1,3 +1,4 @@
+https://v1.mk/n7K9wuW
 https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/1/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/13/config.yaml
