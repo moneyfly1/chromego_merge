@@ -1,4 +1,3 @@
-https://v1.mk/n7K9wuW
 https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/1/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/13/config.yaml
@@ -9,15 +8,5 @@ https://raw.githubusercontent.com/Alvin9999/pac2/master/quick/4/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/quick/3/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/quick/1/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/quick/config.yaml
-https://raw.githubusercontent.com/ali322/OSCN/f86c51a21396f77acdbf35fb4c59d9b3050bb39a/screenshot/proxies.yml
-https://raw.githubusercontent.com/ali322/OSCN/f86c51a21396f77acdbf35fb4c59d9b3050bb39a/screenshot/clash-pro.yml
-https://raw.githubusercontent.com/ali322/OSCN/f86c51a21396f77acdbf35fb4c59d9b3050bb39a/screenshot/clash_meta.yaml
-https://raw.githubusercontent.com/ali322/OSCN/f86c51a21396f77acdbf35fb4c59d9b3050bb39a/screenshot/meta.yaml
-https://raw.githubusercontent.com/ali322/OSCN/f86c51a21396f77acdbf35fb4c59d9b3050bb39a/screenshot/meta_sing_box.yaml
-https://raw.githubusercontent.com/ali322/OSCN/f86c51a21396f77acdbf35fb4c59d9b3050bb39a/screenshot/sing_box_proxies.yaml
-https://raw.githubusercontent.com/dalazhi/v2ray/22db6acbf466e1f34eba8af86c10b16a230efe6f/dalazhi1.yaml
-https://raw.githubusercontent.com/13174771/2023/733130dbe85b924da2d7092be1e69b97bb877cce/%E5%86%B2%E7%AA%81/sg0-hysteria.yaml
-https://raw.githubusercontent.com/ali322/OSCN/master/screenshot/tcp_proxies.yaml
-https://raw.githubusercontent.com/ali322/OSCN/master/screenshot/udp_proxies.yaml
-https://raw.githubusercontent.com/ali322/OSCN/master/screenshot/sing_box_proxies.yaml
+https://raw.githubusercontent.com/dalazhi/v2ray/main/cf-vlss
 
