@@ -1,3 +1,3 @@
 https://raw.githubusercontent.com/Alvin9999/pac2/master/ssr-wj/ssconfig.txt
 https://raw.githubusercontent.com/Alvin9999/pac2/master/ssr-wj/1/ssconfig.txt
-
+https://raw.githubusercontent.com/jianguogongyong/ssr_subscrible_tool/66f65716e7b637b796c26ca937823350ee9f6f5f/node.txt
