@@ -9,4 +9,4 @@ https://raw.githubusercontent.com/Alvin9999/pac2/master/quick/3/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/quick/1/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/quick/config.yaml
 https://raw.githubusercontent.com/dalazhi/v2ray/main/cf-vlss
-
+https://raw.githubusercontent.com/yaney01/chromego_merge/main/sub/merged_proxies_new.yaml
