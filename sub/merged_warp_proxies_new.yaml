@@ -736,12 +736,12 @@ proxies:
   down: 10
 - name: meta_hysteria2_81
   type: hysteria2
-  server: 51.159.77.153
-  port: 44190
+  server: 109.104.152.89
+  port: 22441
   password: dongtaiwang.com
   alpn:
   - h3
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
@@ -1429,12 +1429,12 @@ proxies:
   skip-cert-verify: true
 - name: meta_hysteria2_1146
   type: hysteria2
-  server: 51.159.77.153
-  port: 44190
+  server: 109.104.152.89
+  port: 22441
   password: dongtaiwang.com
   alpn:
   - h3
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
@@ -1463,15 +1463,15 @@ proxies:
   down: 10
 - name: meta_hysteria_1149
   type: hysteria
-  server: 51.158.54.46
-  port: 55396
-  ports: 55396
+  server: 108.181.5.133
+  port: 26022
+  ports: 26022
   auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: youku.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -1527,8 +1527,8 @@ proxies:
   skip-cert-verify: true
 - name: meta_hysteria2_1154
   type: hysteria2
-  server: 64.110.25.11
-  port: 33337
+  server: 104.192.224.140
+  port: 40391
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -1551,15 +1551,15 @@ proxies:
   skip-cert-verify: true
 - name: hysteria_0
   type: hysteria
-  server: 51.158.54.46
-  port: 55396
-  ports: 55396
+  server: 108.181.5.133
+  port: 26022
+  ports: 26022
   auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: youku.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
