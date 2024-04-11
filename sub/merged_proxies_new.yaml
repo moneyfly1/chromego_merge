@@ -553,22 +553,22 @@ proxies:
   - h3
 - name: meta_hysteria_1117
   type: hysteria
-  server: 167.160.91.115
-  port: 41189
-  ports: 41189
-  auth_str: bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF
+  server: 109.104.152.194
+  port: 25304
+  ports: 47000-48000
+  auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: www.amazon.cn
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
 - name: meta_hysteria2_1118
   type: hysteria2
-  server: 62.210.103.0
-  port: 22483
+  server: 109.104.152.194
+  port: 20352
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -653,15 +653,15 @@ proxies:
   - h3
 - name: hysteria_3
   type: hysteria
-  server: 167.160.91.115
-  port: 41189
-  ports: 41189
-  auth_str: bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF
+  server: 109.104.152.194
+  port: 25304
+  ports: 47000-48000
+  auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: www.amazon.cn
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
