@@ -64,7 +64,7 @@ proxies:
   down: 20 Mbps
 - name: meta_vmess_11
   type: vmess
-  server: 104.19.58.60
+  server: yh7.dtku41.xy
   port: 8080
   cipher: auto
   uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
@@ -79,7 +79,7 @@ proxies:
       host: concentrations-taxi-about-recognised.trycloudflare.com
 - name: meta_vmess_12
   type: vmess
-  server: yh1.dtku41.xyz
+  server: yh9.dtku41.xyz
   port: 8080
   cipher: auto
   uuid: ef8c954e-014f-4b36-8273-9b5086afab34
@@ -94,7 +94,7 @@ proxies:
       host: hang-broke-john-neither.trycloudflare.com
 - name: meta_vmess_13
   type: vmess
-  server: yh7.dtku41.xyz
+  server: yh3.dtku41.xyz
   port: 8080
   cipher: auto
   uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
@@ -109,7 +109,7 @@ proxies:
       host: booty-pensions-scheduling-blogging.trycloudflare.com
 - name: meta_vmess_14
   type: vmess
-  server: 104.20.26.40
+  server: yh6.dtku41.xy
   port: 8080
   cipher: auto
   uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
@@ -300,67 +300,7 @@ proxies:
   skip-cert-verify: true
   up: 5 Mbps
   down: 20 Mbps
-- name: meta_vmess_112
-  type: vmess
-  server: 104.19.58.60
-  port: 8080
-  cipher: auto
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: concentrations-taxi-about-recognised.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-    headers:
-      host: concentrations-taxi-about-recognised.trycloudflare.com
-- name: meta_vmess_113
-  type: vmess
-  server: yh1.dtku41.xyz
-  port: 8080
-  cipher: auto
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: hang-broke-john-neither.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-    headers:
-      host: hang-broke-john-neither.trycloudflare.com
-- name: meta_vmess_114
-  type: vmess
-  server: yh7.dtku41.xyz
-  port: 8080
-  cipher: auto
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: booty-pensions-scheduling-blogging.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-    headers:
-      host: booty-pensions-scheduling-blogging.trycloudflare.com
-- name: meta_vmess_115
-  type: vmess
-  server: 104.20.26.40
-  port: 8080
-  cipher: auto
-  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: fantastic-doe-bids-ended.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
-    headers:
-      host: fantastic-doe-bids-ended.trycloudflare.com
-- name: meta_vless_116
+- name: meta_vless_112
   type: vless
   server: 109.104.152.101
   port: 13982
@@ -384,7 +324,7 @@ proxies:
       enabled: true
       up: 11
       down: 55
-- name: meta_vless_117
+- name: meta_vless_113
   type: vless
   server: 109.104.152.101
   port: 13982
@@ -408,6 +348,83 @@ proxies:
       enabled: true
       up: 11
       down: 55
+- name: meta_vless_114
+  type: vless
+  server: 109.104.152.101
+  port: 13982
+  uuid: 85beb960-236b-4634-81ce-6ad66652f928
+  network: tcp
+  udp: true
+  tls: true
+  flow: null
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE
+    short-id: 22f6b74f02cc88a6
+  smux:
+    enabled: true
+    protocol: h2mux
+    max-connections: 1
+    min-streams: 4
+    padding: true
+    brutal-opts:
+      enabled: true
+      up: 11
+      down: 55
+- name: meta_vless_115
+  type: vless
+  server: 109.104.152.101
+  port: 13982
+  uuid: 85beb960-236b-4634-81ce-6ad66652f928
+  network: tcp
+  udp: true
+  tls: true
+  flow: null
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE
+    short-id: 22f6b74f02cc88a6
+  smux:
+    enabled: true
+    protocol: h2mux
+    max-connections: 1
+    min-streams: 4
+    padding: true
+    brutal-opts:
+      enabled: true
+      up: 11
+      down: 55
+- name: meta_ss_116
+  type: ss
+  server: 109.104.152.186
+  port: 11223
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=
+  smux:
+    enabled: true
+    protocol: smux
+    max-connections: 1
+    min-streams: 4
+    statistic: false
+    only-tcp: false
+    padding: true
+    brutal-opts:
+      enabled: true
+      up: 11
+      down: 55
+- name: meta_hysteria2_117
+  type: hysteria2
+  server: 109.104.152.89
+  port: 22441
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: meta_vless_118
   type: vless
   server: 109.104.152.101
@@ -432,31 +449,7 @@ proxies:
       enabled: true
       up: 11
       down: 55
-- name: meta_vless_119
-  type: vless
-  server: 109.104.152.101
-  port: 13982
-  uuid: 85beb960-236b-4634-81ce-6ad66652f928
-  network: tcp
-  udp: true
-  tls: true
-  flow: null
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE
-    short-id: 22f6b74f02cc88a6
-  smux:
-    enabled: true
-    protocol: h2mux
-    max-connections: 1
-    min-streams: 4
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 11
-      down: 55
-- name: meta_ss_1110
+- name: meta_ss_119
   type: ss
   server: 109.104.152.186
   port: 11223
@@ -474,60 +467,7 @@ proxies:
       enabled: true
       up: 11
       down: 55
-- name: meta_hysteria2_1111
-  type: hysteria2
-  server: 109.104.152.89
-  port: 22441
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
-- name: meta_vless_1112
-  type: vless
-  server: 109.104.152.101
-  port: 13982
-  uuid: 85beb960-236b-4634-81ce-6ad66652f928
-  network: tcp
-  udp: true
-  tls: true
-  flow: null
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE
-    short-id: 22f6b74f02cc88a6
-  smux:
-    enabled: true
-    protocol: h2mux
-    max-connections: 1
-    min-streams: 4
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 11
-      down: 55
-- name: meta_ss_1113
-  type: ss
-  server: 109.104.152.186
-  port: 11223
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=
-  smux:
-    enabled: true
-    protocol: smux
-    max-connections: 1
-    min-streams: 4
-    statistic: false
-    only-tcp: false
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 11
-      down: 55
-- name: meta_hysteria_1114
+- name: meta_hysteria_1110
   type: hysteria
   server: 108.181.5.133
   port: 26022
@@ -541,7 +481,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: meta_hysteria_1115
+- name: meta_hysteria_1111
   type: hysteria
   server: 62.210.243.131
   port: 18702
@@ -555,7 +495,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: meta_hysteria_1116
+- name: meta_hysteria_1112
   type: hysteria
   server: 62.210.243.131
   port: 18702
@@ -569,7 +509,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: meta_hysteria_1117
+- name: meta_hysteria_1113
   type: hysteria
   server: 109.104.152.194
   port: 58510
@@ -583,7 +523,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: meta_hysteria2_1118
+- name: meta_hysteria2_1114
   type: hysteria2
   server: 104.192.224.141
   port: 40391
@@ -591,7 +531,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: meta_hysteria2_1119
+- name: meta_hysteria2_1115
   type: hysteria2
   server: 104.192.224.140
   port: 40391
@@ -599,7 +539,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: meta_hysteria2_1120
+- name: meta_hysteria2_1116
   type: hysteria2
   server: 104.192.224.141
   port: 40391
@@ -607,7 +547,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: meta_hysteria2_1121
+- name: meta_hysteria2_1117
   type: hysteria2
   server: 104.192.224.141
   port: 40391
@@ -720,26 +660,22 @@ proxy-groups:
   - meta_hysteria2_81
   - meta_vless_91
   - meta_hysteria2_111
-  - meta_vmess_112
-  - meta_vmess_113
-  - meta_vmess_114
-  - meta_vmess_115
-  - meta_vless_116
-  - meta_vless_117
+  - meta_vless_112
+  - meta_vless_113
+  - meta_vless_114
+  - meta_vless_115
+  - meta_ss_116
+  - meta_hysteria2_117
   - meta_vless_118
-  - meta_vless_119
-  - meta_ss_1110
-  - meta_hysteria2_1111
-  - meta_vless_1112
-  - meta_ss_1113
-  - meta_hysteria_1114
-  - meta_hysteria_1115
-  - meta_hysteria_1116
-  - meta_hysteria_1117
-  - meta_hysteria2_1118
-  - meta_hysteria2_1119
-  - meta_hysteria2_1120
-  - meta_hysteria2_1121
+  - meta_ss_119
+  - meta_hysteria_1110
+  - meta_hysteria_1111
+  - meta_hysteria_1112
+  - meta_hysteria_1113
+  - meta_hysteria2_1114
+  - meta_hysteria2_1115
+  - meta_hysteria2_1116
+  - meta_hysteria2_1117
   - shadowtls_1
   - hysteria_0
   - hysteria_1
@@ -763,26 +699,22 @@ proxy-groups:
   - meta_hysteria2_81
   - meta_vless_91
   - meta_hysteria2_111
-  - meta_vmess_112
-  - meta_vmess_113
-  - meta_vmess_114
-  - meta_vmess_115
-  - meta_vless_116
-  - meta_vless_117
+  - meta_vless_112
+  - meta_vless_113
+  - meta_vless_114
+  - meta_vless_115
+  - meta_ss_116
+  - meta_hysteria2_117
   - meta_vless_118
-  - meta_vless_119
-  - meta_ss_1110
-  - meta_hysteria2_1111
-  - meta_vless_1112
-  - meta_ss_1113
-  - meta_hysteria_1114
-  - meta_hysteria_1115
-  - meta_hysteria_1116
-  - meta_hysteria_1117
-  - meta_hysteria2_1118
-  - meta_hysteria2_1119
-  - meta_hysteria2_1120
-  - meta_hysteria2_1121
+  - meta_ss_119
+  - meta_hysteria_1110
+  - meta_hysteria_1111
+  - meta_hysteria_1112
+  - meta_hysteria_1113
+  - meta_hysteria2_1114
+  - meta_hysteria2_1115
+  - meta_hysteria2_1116
+  - meta_hysteria2_1117
   - shadowtls_1
   - hysteria_0
   - hysteria_1
@@ -806,26 +738,22 @@ proxy-groups:
   - meta_hysteria2_81
   - meta_vless_91
   - meta_hysteria2_111
-  - meta_vmess_112
-  - meta_vmess_113
-  - meta_vmess_114
-  - meta_vmess_115
-  - meta_vless_116
-  - meta_vless_117
+  - meta_vless_112
+  - meta_vless_113
+  - meta_vless_114
+  - meta_vless_115
+  - meta_ss_116
+  - meta_hysteria2_117
   - meta_vless_118
-  - meta_vless_119
-  - meta_ss_1110
-  - meta_hysteria2_1111
-  - meta_vless_1112
-  - meta_ss_1113
-  - meta_hysteria_1114
-  - meta_hysteria_1115
-  - meta_hysteria_1116
-  - meta_hysteria_1117
-  - meta_hysteria2_1118
-  - meta_hysteria2_1119
-  - meta_hysteria2_1120
-  - meta_hysteria2_1121
+  - meta_ss_119
+  - meta_hysteria_1110
+  - meta_hysteria_1111
+  - meta_hysteria_1112
+  - meta_hysteria_1113
+  - meta_hysteria2_1114
+  - meta_hysteria2_1115
+  - meta_hysteria2_1116
+  - meta_hysteria2_1117
   - shadowtls_1
   - hysteria_0
   - hysteria_1
