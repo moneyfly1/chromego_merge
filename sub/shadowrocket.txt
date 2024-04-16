@@ -35,6 +35,6 @@ hysteria2://dongtaiwang.com@104.192.224.141:40391?insecure=1&sni=www.bing.com#hy
 hysteria2://dongtaiwang.com@104.192.224.140:40391?insecure=1&sni=www.bing.com#hysteria2_1
 hysteria2://dongtaiwang.com@104.192.224.141:40391?insecure=1&sni=www.bing.com#hysteria2_2
 hysteria2://dongtaiwang.com@104.192.224.141:40391?insecure=1&sni=www.bing.com#hysteria2_3
-vless://ebfdccb6-7416-4b6e-860d-98587344d500@yh3.dtku41.xyz:443?security=tls&allowInsecure=0&flow=&type=ws&fp=chrome&pbk=&sid=&sni=lg1.freessr2.xyz&serviceName=&path=/xyakws&host=lg1.freessr2.xyz#vless_1
+vless://ebfdccb6-7416-4b6e-860d-98587344d500@yh6.dtku41.xyz:443?security=tls&allowInsecure=0&flow=&type=ws&fp=chrome&pbk=&sid=&sni=lg1.freessr2.xyz&serviceName=&path=/xyakws&host=lg1.freessr2.xyz#vless_1
 vless://ebfdccb6-7416-4b6e-860d-98587344d500@yh9.dtku41.xyz:443?security=tls&allowInsecure=0&flow=&type=ws&fp=chrome&pbk=&sid=&sni=lg1.freessr2.xyz&serviceName=&path=/xyakws&host=lg1.freessr2.xyz#vless_2
 vless://ebfdccb6-7416-4b6e-860d-98587344d500@yh7.dtku41.xyz:443?security=tls&allowInsecure=0&flow=&type=ws&fp=chrome&pbk=&sid=&sni=lg1.freessr2.xyz&serviceName=&path=/xyakws&host=lg1.freessr2.xyz#vless_3
