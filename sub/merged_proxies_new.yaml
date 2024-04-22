@@ -272,17 +272,18 @@ proxies:
       enabled: true
       up: 11
       down: 55
-- name: meta_hysteria2_111
-  type: hysteria2
+- name: meta_tuic_111
   server: 74.63.233.74
-  port: 33445
+  port: 33441
+  type: tuic
+  uuid: a258065f-9502-4fe6-b3ed-cf7440e25150
   password: dongtaiwang.com
   alpn:
   - h3
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 5 Mbps
-  down: 20 Mbps
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: meta_vless_112
   type: vless
   server: 109.104.152.101
@@ -626,7 +627,7 @@ proxy-groups:
   - meta_ss_71
   - meta_hysteria2_81
   - meta_vless_91
-  - meta_hysteria2_111
+  - meta_tuic_111
   - meta_vless_112
   - meta_vless_113
   - meta_vless_114
@@ -668,7 +669,7 @@ proxy-groups:
   - meta_ss_71
   - meta_hysteria2_81
   - meta_vless_91
-  - meta_hysteria2_111
+  - meta_tuic_111
   - meta_vless_112
   - meta_vless_113
   - meta_vless_114
