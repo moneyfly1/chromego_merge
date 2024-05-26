@@ -572,7 +572,7 @@ proxies:
 - name: meta_hysteria2_1121
   type: hysteria2
   server: 104.192.224.141
-  port: 40391
+  port: 62894
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -580,7 +580,7 @@ proxies:
 - name: meta_hysteria2_1122
   type: hysteria2
   server: 104.192.224.140
-  port: 40391
+  port: 62894
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -588,7 +588,7 @@ proxies:
 - name: meta_hysteria2_1123
   type: hysteria2
   server: 104.192.224.141
-  port: 40391
+  port: 62894
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -596,7 +596,7 @@ proxies:
 - name: meta_hysteria2_1124
   type: hysteria2
   server: 104.192.224.141
-  port: 40391
+  port: 62894
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
