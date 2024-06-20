@@ -1,8 +1,7 @@
 vless://85beb960-236b-4634-81ce-6ad66652f928@109.104.152.101:13982?security=reality&allowInsecure0&flow=None&type=tcp&fp=chrome&pbk=HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE&sid=22f6b74f02cc88a6&sni=itunes.apple.com&serviceName=&path=&host=#vless_meta_5
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6Mm1MdythVGd1RVVydksvSmFteHI0Q1kvUmJMQ0wvTW1mV0pRN2M2YlhlOD1AMTA5LjEwNC4xNTIuMTg2OjQ0Mw==
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6Ny9iYjl4M1RKUTRZNVNSQS9BbDNPZHd4SWs0dWYzSmc4Tjl3RFFnK1V0bz1AMTA5LjEwNC4xNTIuMTg2OjExMjIz
+tuic://760d4891-63ab-40db-98c7-1219ae1b92df:dongtaiwang.com@109.104.152.186:44550?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0
+tuic://760d4891-63ab-40db-98c7-1219ae1b92df:dongtaiwang.com@109.104.152.186:44550?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0
 vless://85beb960-236b-4634-81ce-6ad66652f928@109.104.152.101:13982?security=reality&allowInsecure0&flow=None&type=tcp&fp=chrome&pbk=HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE&sid=22f6b74f02cc88a6&sni=itunes.apple.com&serviceName=&path=&host=#vless_meta_9
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6Mm1MdythVGd1RVVydksvSmFteHI0Q1kvUmJMQ0wvTW1mV0pRN2M2YlhlOD1AMTA5LjEwNC4xNTIuMTg2OjQ0Mw==?shadow-tls=eyJ2ZXJzaW9uIjogIjMiLCAiaG9zdCI6ICJuaWppZ2VuLXdvcmtzLmpwIiwicGFzc3dvcmQiOlVjTU1iVlFCeklVQWNkQzEyanU2bFY5ajNyakszY0FRaVpvWUNEazFoL2c9fQ==#shadowtls1
 aHR0cHM6Ly9kb25ndGFpd2FuZy5jb206ZG9uZ3RhaXdhbmcuY29tQG5haXZlMTkuY2ZjZG4zLnh5ejo0NDM=
 aHR0cHM6Ly9kb25ndGFpd2FuZy5jb206ZG9uZ3RhaXdhbmcuY29tQHd3dy5kdGt1NTAueHl6OjQ0Mw==
 hysteria://62.210.243.131:18702?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#hysteria_0

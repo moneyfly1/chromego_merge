@@ -375,47 +375,30 @@ proxies:
       enabled: true
       up: 11
       down: 55
-- name: meta_ss_61
-  type: ss
+- name: meta_tuic_61
   server: 109.104.152.186
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 2mLw+aTguEUrvK/Jamxr4CY/RbLCL/MmfWJQ7c6bXe8=
-  plugin: shadow-tls
-  plugin-opts:
-    host: nijigen-works.jp
-    password: UcMMbVQBzIUAcdC12ju6lV9j3rjK3cAQiZoYCDk1h/g=
-    version: 3
-  smux:
-    enabled: true
-    protocol: smux
-    max-connections: 1
-    min-streams: 4
-    statistic: false
-    only-tcp: false
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 11
-      down: 55
-- name: meta_ss_71
-  type: ss
+  port: 44550
+  type: tuic
+  uuid: 760d4891-63ab-40db-98c7-1219ae1b92df
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: meta_tuic_71
   server: 109.104.152.186
-  port: 11223
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=
-  smux:
-    enabled: true
-    protocol: smux
-    max-connections: 1
-    min-streams: 4
-    statistic: false
-    only-tcp: false
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 11
-      down: 55
+  port: 44550
+  type: tuic
+  uuid: 760d4891-63ab-40db-98c7-1219ae1b92df
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: meta_vmess_81
   type: vmess
   server: 104.16.149.222
@@ -500,18 +483,6 @@ proxies:
       enabled: true
       up: 11
       down: 55
-- name: shadowtls_1
-  type: ss
-  server: 109.104.152.186
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 2mLw+aTguEUrvK/Jamxr4CY/RbLCL/MmfWJQ7c6bXe8=
-  plugin: shadow-tls
-  client-fingerprint: chrome
-  plugin-opts:
-    host: nijigen-works.jp
-    password: UcMMbVQBzIUAcdC12ju6lV9j3rjK3cAQiZoYCDk1h/g=
-    version: 3
 - name: hysteria_0
   type: hysteria
   server: 62.210.243.131
@@ -612,14 +583,13 @@ proxy-groups:
   - meta_vmess_43
   - meta_vmess_44
   - meta_vless_51
-  - meta_ss_61
-  - meta_ss_71
+  - meta_tuic_61
+  - meta_tuic_71
   - meta_vmess_81
   - meta_vmess_82
   - meta_vmess_83
   - meta_vmess_84
   - meta_vless_91
-  - shadowtls_1
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -649,14 +619,13 @@ proxy-groups:
   - meta_vmess_43
   - meta_vmess_44
   - meta_vless_51
-  - meta_ss_61
-  - meta_ss_71
+  - meta_tuic_61
+  - meta_tuic_71
   - meta_vmess_81
   - meta_vmess_82
   - meta_vmess_83
   - meta_vmess_84
   - meta_vless_91
-  - shadowtls_1
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -686,14 +655,13 @@ proxy-groups:
   - meta_vmess_43
   - meta_vmess_44
   - meta_vless_51
-  - meta_ss_61
-  - meta_ss_71
+  - meta_tuic_61
+  - meta_tuic_71
   - meta_vmess_81
   - meta_vmess_82
   - meta_vmess_83
   - meta_vmess_84
   - meta_vless_91
-  - shadowtls_1
   - hysteria_0
   - hysteria_1
   - hysteria_2
