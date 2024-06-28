@@ -1183,22 +1183,24 @@ proxies:
     host: nijigen-works.jp
     password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
     version: 3
-- name: meta_ss_71
-  type: ss
+- name: meta_hysteria_71
+  type: hysteria
   server: 23.170.40.77
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: CmUP/cj9LY2W4bsBUV7mG8ujmMcCOzt+b4un9xnLuro=
-  plugin: shadow-tls
-  plugin-opts:
-    host: nijigen-works.jp
-    password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
-    version: 3
+  port: 30009
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  auth_str: dongtaiwang.com
+  up: 11
+  down: 55
+  hop_interval: 10
 - name: meta_vmess_81
   type: vmess
   server: 104.19.32.88
   port: 2086
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   cipher: auto
   udp: true
@@ -1213,7 +1215,7 @@ proxies:
   type: vmess
   server: 23.227.38.8
   port: 2086
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   cipher: auto
   udp: true
@@ -1228,7 +1230,7 @@ proxies:
   type: vmess
   server: 104.26.0.50
   port: 2086
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   cipher: auto
   udp: true
@@ -1243,7 +1245,7 @@ proxies:
   type: vmess
   server: 104.19.38.88
   port: 2086
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   cipher: auto
   udp: true
@@ -2401,7 +2403,7 @@ proxies:
   type: vmess
   server: 104.19.32.88
   port: 2086
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   cipher: auto
   udp: true
@@ -2416,7 +2418,7 @@ proxies:
   type: vmess
   server: 23.227.38.8
   port: 2086
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   cipher: auto
   udp: true
@@ -2431,7 +2433,7 @@ proxies:
   type: vmess
   server: 104.26.0.50
   port: 2086
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   cipher: auto
   udp: true
@@ -2446,7 +2448,7 @@ proxies:
   type: vmess
   server: 104.19.38.88
   port: 2086
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   cipher: auto
   udp: true
@@ -2722,7 +2724,7 @@ proxy-groups:
   - meta_vmess_44
   - meta_ss_51
   - meta_ss_61
-  - meta_ss_71
+  - meta_hysteria_71
   - meta_vmess_81
   - meta_vmess_82
   - meta_vmess_83
@@ -2902,7 +2904,7 @@ proxy-groups:
   - meta_vmess_44
   - meta_ss_51
   - meta_ss_61
-  - meta_ss_71
+  - meta_hysteria_71
   - meta_vmess_81
   - meta_vmess_82
   - meta_vmess_83
@@ -3082,7 +3084,7 @@ proxy-groups:
   - meta_vmess_44
   - meta_ss_51
   - meta_ss_61
-  - meta_ss_71
+  - meta_hysteria_71
   - meta_vmess_81
   - meta_vmess_82
   - meta_vmess_83
