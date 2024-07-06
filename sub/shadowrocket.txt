@@ -1,3 +1,4 @@
+tuic://1607c99b-7df5-4b58-a315-a440f9afde40:dongtaiwang.com@51.159.34.216:33445?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6Q21VUC9jajlMWTJXNGJzQlVWN21HOHVqbU1jQ096dCtiNHVuOXhuTHVybz1AMjMuMTcwLjQwLjc3OjQ0Mw==
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6Q21VUC9jajlMWTJXNGJzQlVWN21HOHVqbU1jQ096dCtiNHVuOXhuTHVybz1AMjMuMTcwLjQwLjc3OjQ0Mw==
 hysteria://23.170.40.77:30009?peer=bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=30009&obfs=&protocol=udp&fastopen=1#hysteria_meta_7
@@ -9,6 +10,6 @@ hysteria://62.210.243.131:18702?peer=bing.com&auth=dongtaiwang.com&insecure=1&up
 hysteria://62.210.243.131:18702?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#hysteria_2
 hysteria://62.210.243.131:18702?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#hysteria_3
 hysteria2://dongtaiwang.com@166.88.159.24:40931?insecure=1&sni=www.bing.com#hysteria2_0
-hysteria2://dongtaiwang.com@166.88.159.24:40931?insecure=1&sni=www.bing.com#hysteria2_1
+hysteria2://dongtaiwang.com@51.159.2.179:23499?insecure=1&sni=bing.com#hysteria2_1
 hysteria2://dongtaiwang.com@166.88.159.24:40931?insecure=1&sni=www.bing.com#hysteria2_2
 hysteria2://dongtaiwang.com@166.88.159.24:40931?insecure=1&sni=www.bing.com#hysteria2_3
