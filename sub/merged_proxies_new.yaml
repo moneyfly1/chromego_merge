@@ -4323,11 +4323,11 @@ proxies:
   - h3
 - name: meta_hysteria2_11147
   type: hysteria2
-  server: 166.88.159.24
-  port: 40931
+  server: 51.159.2.179
+  port: 23499
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
 - name: meta_hysteria2_11148
   type: hysteria2
@@ -4339,19 +4339,19 @@ proxies:
   skip-cert-verify: true
 - name: meta_hysteria2_11149
   type: hysteria2
-  server: 166.88.159.24
-  port: 40931
+  server: 51.159.2.179
+  port: 23499
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
 - name: meta_hysteria2_11150
   type: hysteria2
-  server: 166.88.159.24
-  port: 40931
+  server: 51.159.2.179
+  port: 23499
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
 - name: hysteria_0
   type: hysteria
