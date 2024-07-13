@@ -4585,9 +4585,9 @@ proxies:
   hop_interval: 10
 - name: meta_hysteria_11153
   type: hysteria
-  server: 62.210.243.131
-  port: 18702
-  ports: 18702
+  server: 104.192.224.139
+  port: 42113
+  ports: 42113
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4599,9 +4599,9 @@ proxies:
   - h3
 - name: meta_hysteria_11154
   type: hysteria
-  server: 62.210.243.131
-  port: 18702
-  ports: 18702
+  server: 104.192.224.139
+  port: 42113
+  ports: 42113
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4613,9 +4613,9 @@ proxies:
   - h3
 - name: meta_hysteria_11155
   type: hysteria
-  server: 62.210.243.131
-  port: 18702
-  ports: 18702
+  server: 104.192.224.139
+  port: 42113
+  ports: 42113
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4627,9 +4627,9 @@ proxies:
   - h3
 - name: meta_hysteria_11156
   type: hysteria
-  server: 62.210.243.131
-  port: 18702
-  ports: 18702
+  server: 104.192.224.139
+  port: 42113
+  ports: 42113
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4673,9 +4673,9 @@ proxies:
   skip-cert-verify: true
 - name: hysteria_0
   type: hysteria
-  server: 62.210.243.131
-  port: 18702
-  ports: 18702
+  server: 104.192.224.139
+  port: 42113
+  ports: 42113
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4687,9 +4687,9 @@ proxies:
   - h3
 - name: hysteria_1
   type: hysteria
-  server: 62.210.243.131
-  port: 18702
-  ports: 18702
+  server: 104.192.224.139
+  port: 42113
+  ports: 42113
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4701,9 +4701,9 @@ proxies:
   - h3
 - name: hysteria_2
   type: hysteria
-  server: 62.210.243.131
-  port: 18702
-  ports: 18702
+  server: 104.192.224.139
+  port: 42113
+  ports: 42113
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4715,9 +4715,9 @@ proxies:
   - h3
 - name: hysteria_3
   type: hysteria
-  server: 62.210.243.131
-  port: 18702
-  ports: 18702
+  server: 104.192.224.139
+  port: 42113
+  ports: 42113
   auth_str: dongtaiwang.com
   up: 80
   down: 100
