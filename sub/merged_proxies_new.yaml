@@ -2206,28 +2206,26 @@ proxies:
     version: 3
 - name: meta_ss_61
   type: ss
-  server: 23.170.40.77
+  server: 51.159.2.179
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
-  password: CmUP/cj9LY2W4bsBUV7mG8ujmMcCOzt+b4un9xnLuro=
+  password: EJhF7SAs95JSRDFE54wyjr79GvKPEm7w0qLpMh6T0aM=
   plugin: shadow-tls
   plugin-opts:
     host: nijigen-works.jp
-    password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
+    password: QuLaE7p3W+ZSOvK/q5G5zRV0UEBEefflZENLW6MZPFI=
     version: 3
-- name: meta_hysteria_71
-  type: hysteria
-  server: 23.170.40.77
-  port: 30009
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  auth_str: dongtaiwang.com
-  up: 11
-  down: 55
-  hop_interval: 10
+- name: meta_ss_71
+  type: ss
+  server: 51.159.2.179
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: EJhF7SAs95JSRDFE54wyjr79GvKPEm7w0qLpMh6T0aM=
+  plugin: shadow-tls
+  plugin-opts:
+    host: nijigen-works.jp
+    password: QuLaE7p3W+ZSOvK/q5G5zRV0UEBEefflZENLW6MZPFI=
+    version: 3
 - name: meta_vmess_81
   type: vmess
   server: 104.19.32.88
@@ -4473,14 +4471,14 @@ proxies:
     version: 3
 - name: meta_ss_11146
   type: ss
-  server: 23.170.40.77
+  server: 51.159.2.179
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
-  password: CmUP/cj9LY2W4bsBUV7mG8ujmMcCOzt+b4un9xnLuro=
+  password: EJhF7SAs95JSRDFE54wyjr79GvKPEm7w0qLpMh6T0aM=
   plugin: shadow-tls
   plugin-opts:
     host: nijigen-works.jp
-    password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
+    password: QuLaE7p3W+ZSOvK/q5G5zRV0UEBEefflZENLW6MZPFI=
     version: 3
 - name: meta_vmess_11147
   type: vmess
@@ -4554,24 +4552,22 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: meta_hysteria_11152
-  type: hysteria
-  server: 23.170.40.77
-  port: 30009
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  auth_str: dongtaiwang.com
-  up: 11
-  down: 55
-  hop_interval: 10
+- name: meta_ss_11152
+  type: ss
+  server: 51.159.2.179
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: EJhF7SAs95JSRDFE54wyjr79GvKPEm7w0qLpMh6T0aM=
+  plugin: shadow-tls
+  plugin-opts:
+    host: nijigen-works.jp
+    password: QuLaE7p3W+ZSOvK/q5G5zRV0UEBEefflZENLW6MZPFI=
+    version: 3
 - name: meta_hysteria_11153
   type: hysteria
-  server: 104.192.224.139
-  port: 42113
-  ports: 42113
+  server: 166.1.18.52
+  port: 41363
+  ports: 41363
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4611,9 +4607,9 @@ proxies:
   - h3
 - name: meta_hysteria_11156
   type: hysteria
-  server: 104.192.224.139
-  port: 42113
-  ports: 42113
+  server: 166.1.18.52
+  port: 41363
+  ports: 41363
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4625,16 +4621,16 @@ proxies:
   - h3
 - name: meta_hysteria2_11157
   type: hysteria2
-  server: 51.159.2.179
-  port: 23499
+  server: 38.114.103.210
+  port: 30647
   password: dongtaiwang.com
   fast-open: true
   sni: bing.com
   skip-cert-verify: true
 - name: meta_hysteria2_11158
   type: hysteria2
-  server: 51.159.2.179
-  port: 23499
+  server: 38.114.103.210
+  port: 30647
   password: dongtaiwang.com
   fast-open: true
   sni: bing.com
@@ -4657,9 +4653,9 @@ proxies:
   skip-cert-verify: true
 - name: hysteria_0
   type: hysteria
-  server: 104.192.224.139
-  port: 42113
-  ports: 42113
+  server: 166.1.18.52
+  port: 41363
+  ports: 41363
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4699,9 +4695,9 @@ proxies:
   - h3
 - name: hysteria_3
   type: hysteria
-  server: 104.192.224.139
-  port: 42113
-  ports: 42113
+  server: 166.1.18.52
+  port: 41363
+  ports: 41363
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4864,7 +4860,7 @@ proxy-groups:
   - meta_vmess_44
   - meta_ss_51
   - meta_ss_61
-  - meta_hysteria_71
+  - meta_ss_71
   - meta_vmess_81
   - meta_vmess_82
   - meta_vmess_83
@@ -5021,7 +5017,7 @@ proxy-groups:
   - meta_vmess_11149
   - meta_vmess_11150
   - meta_tuic_11151
-  - meta_hysteria_11152
+  - meta_ss_11152
   - meta_hysteria_11153
   - meta_hysteria_11154
   - meta_hysteria_11155
@@ -5187,7 +5183,7 @@ proxy-groups:
   - meta_vmess_44
   - meta_ss_51
   - meta_ss_61
-  - meta_hysteria_71
+  - meta_ss_71
   - meta_vmess_81
   - meta_vmess_82
   - meta_vmess_83
@@ -5344,7 +5340,7 @@ proxy-groups:
   - meta_vmess_11149
   - meta_vmess_11150
   - meta_tuic_11151
-  - meta_hysteria_11152
+  - meta_ss_11152
   - meta_hysteria_11153
   - meta_hysteria_11154
   - meta_hysteria_11155
