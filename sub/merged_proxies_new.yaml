@@ -2204,23 +2204,126 @@ proxies:
     host: nijigen-works.jp
     password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
     version: 3
-- name: meta_ss_61
-  type: ss
-  server: 51.159.2.179
-  port: 22335
-  cipher: 2022-blake3-aes-256-gcm
-  password: zZpEonUDV3FRJbttewYtp9sH8hQdIFqqYIyTrVOegzs=
-- name: meta_ss_71
-  type: ss
-  server: 51.159.2.179
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: EJhF7SAs95JSRDFE54wyjr79GvKPEm7w0qLpMh6T0aM=
-  plugin: shadow-tls
-  plugin-opts:
-    host: nijigen-works.jp
-    password: QuLaE7p3W+ZSOvK/q5G5zRV0UEBEefflZENLW6MZPFI=
-    version: 3
+- name: meta_vmess_61
+  type: vmess
+  server: 104.19.32.88
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5-10.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip5-10.freegradely.xyz
+- name: meta_vmess_62
+  type: vmess
+  server: 23.227.38.8
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5-10.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip5-10.freegradely.xyz
+- name: meta_vmess_63
+  type: vmess
+  server: 104.26.0.50
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5-10.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip5-10.freegradely.xyz
+- name: meta_vmess_64
+  type: vmess
+  server: 104.19.38.88
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5-10.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip5-10.freegradely.xyz
+- name: meta_vmess_71
+  type: vmess
+  server: 104.19.32.88
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5-10.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip5-10.freegradely.xyz
+- name: meta_vmess_72
+  type: vmess
+  server: 23.227.38.8
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5-10.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip5-10.freegradely.xyz
+- name: meta_vmess_73
+  type: vmess
+  server: 104.26.0.50
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5-10.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip5-10.freegradely.xyz
+- name: meta_vmess_74
+  type: vmess
+  server: 104.19.38.88
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5-10.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip5-10.freegradely.xyz
 - name: meta_vmess_81
   type: vmess
   server: 104.19.32.88
@@ -4463,13 +4566,7 @@ proxies:
     host: nijigen-works.jp
     password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
     version: 3
-- name: meta_ss_11146
-  type: ss
-  server: 51.159.2.179
-  port: 22335
-  cipher: 2022-blake3-aes-256-gcm
-  password: zZpEonUDV3FRJbttewYtp9sH8hQdIFqqYIyTrVOegzs=
-- name: meta_vmess_11147
+- name: meta_vmess_11146
   type: vmess
   server: 104.19.32.88
   port: 2086
@@ -4484,7 +4581,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip5-10.freegradely.xyz
-- name: meta_vmess_11148
+- name: meta_vmess_11147
   type: vmess
   server: 23.227.38.8
   port: 2086
@@ -4499,7 +4596,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip5-10.freegradely.xyz
-- name: meta_vmess_11149
+- name: meta_vmess_11148
   type: vmess
   server: 104.26.0.50
   port: 2086
@@ -4514,7 +4611,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip5-10.freegradely.xyz
-- name: meta_vmess_11150
+- name: meta_vmess_11149
   type: vmess
   server: 104.19.38.88
   port: 2086
@@ -4529,7 +4626,67 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip5-10.freegradely.xyz
-- name: meta_ss_11151
+- name: meta_vmess_11150
+  type: vmess
+  server: 104.19.32.88
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5-10.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip5-10.freegradely.xyz
+- name: meta_vmess_11151
+  type: vmess
+  server: 23.227.38.8
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5-10.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip5-10.freegradely.xyz
+- name: meta_vmess_11152
+  type: vmess
+  server: 104.26.0.50
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5-10.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip5-10.freegradely.xyz
+- name: meta_vmess_11153
+  type: vmess
+  server: 104.19.38.88
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5-10.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip5-10.freegradely.xyz
+- name: meta_ss_11154
   server: www2.dtku44.xyz
   type: ss
   port: 443
@@ -4540,64 +4697,113 @@ proxies:
     host: nijigen-works.jp
     password: LdjpJtNZK+2WhXfRY+FxR9sokcOYoddKAx8dN7q8FOI=
     version: 3
-- name: meta_ss_11152
-  type: ss
-  server: 51.159.2.179
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: EJhF7SAs95JSRDFE54wyjr79GvKPEm7w0qLpMh6T0aM=
-  plugin: shadow-tls
-  plugin-opts:
-    host: nijigen-works.jp
-    password: QuLaE7p3W+ZSOvK/q5G5zRV0UEBEefflZENLW6MZPFI=
-    version: 3
-- name: meta_hysteria_11153
+- name: meta_vmess_11155
+  type: vmess
+  server: 104.19.32.88
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5-10.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip5-10.freegradely.xyz
+- name: meta_vmess_11156
+  type: vmess
+  server: 23.227.38.8
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5-10.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip5-10.freegradely.xyz
+- name: meta_vmess_11157
+  type: vmess
+  server: 104.26.0.50
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5-10.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip5-10.freegradely.xyz
+- name: meta_vmess_11158
+  type: vmess
+  server: 104.19.38.88
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5-10.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip5-10.freegradely.xyz
+- name: meta_hysteria_11159
   type: hysteria
   server: 208.87.243.123
-  port: 38268
-  ports: 38268
+  port: 31476
+  ports: 31476
   auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: www.microsoft.com
+  sni: wechat.com
   skip-cert-verify: true
   alpn:
   - h3
-- name: meta_hysteria_11154
+- name: meta_hysteria_11160
   type: hysteria
   server: 208.87.243.123
-  port: 38268
-  ports: 38268
+  port: 31476
+  ports: 31476
   auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: www.microsoft.com
+  sni: wechat.com
   skip-cert-verify: true
   alpn:
   - h3
-- name: meta_hysteria_11155
+- name: meta_hysteria_11161
   type: hysteria
   server: 208.87.243.123
-  port: 38268
-  ports: 38268
+  port: 31476
+  ports: 31476
   auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: www.microsoft.com
+  sni: wechat.com
   skip-cert-verify: true
   alpn:
   - h3
-- name: meta_hysteria_11156
+- name: meta_hysteria_11162
   type: hysteria
   server: 166.1.18.52
-  port: 41363
-  ports: 41363
+  port: 10295
+  ports: 20000-30000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4607,85 +4813,99 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: meta_hysteria2_11157
+- name: meta_hysteria2_11163
   type: hysteria2
   server: 38.114.103.210
-  port: 30647
+  port: 26288
   password: dongtaiwang.com
   fast-open: true
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
-- name: meta_hysteria2_11158
+- name: meta_hysteria2_11164
   type: hysteria2
-  server: 208.87.243.123
-  port: 33599
+  server: 108.181.24.39
+  port: 60714
   password: dongtaiwang.com
   fast-open: true
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
-- name: meta_hysteria2_11159
+- name: meta_hysteria2_11165
   type: hysteria2
-  server: 208.87.243.123
-  port: 33599
+  server: 108.181.24.39
+  port: 60714
   password: dongtaiwang.com
   fast-open: true
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
-- name: meta_hysteria2_11160
+- name: meta_hysteria2_11166
   type: hysteria2
-  server: 208.87.243.123
-  port: 33599
+  server: 108.181.24.39
+  port: 60714
   password: dongtaiwang.com
   fast-open: true
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
+- name: meta_vless_11167
+  type: vless
+  server: 62.210.101.0
+  port: 23357
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: U5hsLybYWhJrWAqqsTa052k-VeKt8bDFPxBh3CQk51M
+    short-id: 0b4badde
 - name: hysteria_0
   type: hysteria
   server: 208.87.243.123
-  port: 38268
-  ports: 38268
+  port: 31476
+  ports: 31476
   auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: www.microsoft.com
+  sni: wechat.com
   skip-cert-verify: true
   alpn:
   - h3
 - name: hysteria_1
   type: hysteria
   server: 208.87.243.123
-  port: 38268
-  ports: 38268
+  port: 31476
+  ports: 31476
   auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: www.microsoft.com
+  sni: wechat.com
   skip-cert-verify: true
   alpn:
   - h3
 - name: hysteria_2
   type: hysteria
   server: 208.87.243.123
-  port: 38268
-  ports: 38268
+  port: 31476
+  ports: 31476
   auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: www.microsoft.com
+  sni: wechat.com
   skip-cert-verify: true
   alpn:
   - h3
 - name: hysteria_3
   type: hysteria
   server: 166.1.18.52
-  port: 41363
-  ports: 41363
+  port: 10295
+  ports: 20000-30000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4695,6 +4915,20 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: reality_0
+  type: vless
+  server: 62.210.101.0
+  port: 23357
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: U5hsLybYWhJrWAqqsTa052k-VeKt8bDFPxBh3CQk51M
+    short-id: 0b4badde
 proxy-groups:
 - name: 节点选择
   type: select
@@ -4847,8 +5081,14 @@ proxy-groups:
   - meta_vmess_43
   - meta_vmess_44
   - meta_ss_51
-  - meta_ss_61
-  - meta_ss_71
+  - meta_vmess_61
+  - meta_vmess_62
+  - meta_vmess_63
+  - meta_vmess_64
+  - meta_vmess_71
+  - meta_vmess_72
+  - meta_vmess_73
+  - meta_vmess_74
   - meta_vmess_81
   - meta_vmess_82
   - meta_vmess_83
@@ -4999,25 +5239,33 @@ proxy-groups:
   - meta_vmess_11143
   - meta_vmess_11144
   - meta_ss_11145
-  - meta_ss_11146
+  - meta_vmess_11146
   - meta_vmess_11147
   - meta_vmess_11148
   - meta_vmess_11149
   - meta_vmess_11150
-  - meta_ss_11151
-  - meta_ss_11152
-  - meta_hysteria_11153
-  - meta_hysteria_11154
-  - meta_hysteria_11155
-  - meta_hysteria_11156
-  - meta_hysteria2_11157
-  - meta_hysteria2_11158
-  - meta_hysteria2_11159
-  - meta_hysteria2_11160
+  - meta_vmess_11151
+  - meta_vmess_11152
+  - meta_vmess_11153
+  - meta_ss_11154
+  - meta_vmess_11155
+  - meta_vmess_11156
+  - meta_vmess_11157
+  - meta_vmess_11158
+  - meta_hysteria_11159
+  - meta_hysteria_11160
+  - meta_hysteria_11161
+  - meta_hysteria_11162
+  - meta_hysteria2_11163
+  - meta_hysteria2_11164
+  - meta_hysteria2_11165
+  - meta_hysteria2_11166
+  - meta_vless_11167
   - hysteria_0
   - hysteria_1
   - hysteria_2
   - hysteria_3
+  - reality_0
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -5170,8 +5418,14 @@ proxy-groups:
   - meta_vmess_43
   - meta_vmess_44
   - meta_ss_51
-  - meta_ss_61
-  - meta_ss_71
+  - meta_vmess_61
+  - meta_vmess_62
+  - meta_vmess_63
+  - meta_vmess_64
+  - meta_vmess_71
+  - meta_vmess_72
+  - meta_vmess_73
+  - meta_vmess_74
   - meta_vmess_81
   - meta_vmess_82
   - meta_vmess_83
@@ -5322,25 +5576,33 @@ proxy-groups:
   - meta_vmess_11143
   - meta_vmess_11144
   - meta_ss_11145
-  - meta_ss_11146
+  - meta_vmess_11146
   - meta_vmess_11147
   - meta_vmess_11148
   - meta_vmess_11149
   - meta_vmess_11150
-  - meta_ss_11151
-  - meta_ss_11152
-  - meta_hysteria_11153
-  - meta_hysteria_11154
-  - meta_hysteria_11155
-  - meta_hysteria_11156
-  - meta_hysteria2_11157
-  - meta_hysteria2_11158
-  - meta_hysteria2_11159
-  - meta_hysteria2_11160
+  - meta_vmess_11151
+  - meta_vmess_11152
+  - meta_vmess_11153
+  - meta_ss_11154
+  - meta_vmess_11155
+  - meta_vmess_11156
+  - meta_vmess_11157
+  - meta_vmess_11158
+  - meta_hysteria_11159
+  - meta_hysteria_11160
+  - meta_hysteria_11161
+  - meta_hysteria_11162
+  - meta_hysteria2_11163
+  - meta_hysteria2_11164
+  - meta_hysteria2_11165
+  - meta_hysteria2_11166
+  - meta_vless_11167
   - hysteria_0
   - hysteria_1
   - hysteria_2
   - hysteria_3
+  - reality_0
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
