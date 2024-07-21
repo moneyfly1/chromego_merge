@@ -4815,35 +4815,35 @@ proxies:
   - h3
 - name: meta_hysteria2_11163
   type: hysteria2
-  server: 51.159.34.216
-  port: 7571
+  server: 173.234.31.98
+  port: 57429
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: ''
   skip-cert-verify: true
 - name: meta_hysteria2_11164
   type: hysteria2
-  server: 108.181.24.39
-  port: 60714
+  server: 173.234.31.98
+  port: 57429
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: ''
   skip-cert-verify: true
 - name: meta_hysteria2_11165
   type: hysteria2
-  server: 108.181.24.39
-  port: 60714
+  server: 173.234.31.98
+  port: 57429
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: ''
   skip-cert-verify: true
 - name: meta_hysteria2_11166
   type: hysteria2
-  server: 108.181.24.39
-  port: 60714
+  server: 173.234.31.98
+  port: 57429
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: ''
   skip-cert-verify: true
 - name: meta_vless_11167
   type: vless
