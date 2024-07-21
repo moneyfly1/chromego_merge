@@ -668,7 +668,7 @@ proxies:
       Host: ip1.1789034.xyz
 - name: meta_vmess_042
   type: vmess
-  server: 104.19.46.17
+  server: 104.26.5.56
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -683,7 +683,7 @@ proxies:
       Host: ip1.1789034.xyz
 - name: meta_vmess_043
   type: vmess
-  server: 104.19.46.22
+  server: 104.26.5.66
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -698,7 +698,7 @@ proxies:
       Host: ip1.1789034.xyz
 - name: meta_vmess_044
   type: vmess
-  server: 104.19.46.27
+  server: 104.26.5.67
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -713,7 +713,7 @@ proxies:
       Host: ip1.1789034.xyz
 - name: meta_vmess_045
   type: vmess
-  server: 104.19.46.33
+  server: 104.26.5.88
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -728,7 +728,7 @@ proxies:
       Host: ip1.1789034.xyz
 - name: meta_vmess_046
   type: vmess
-  server: 104.19.46.36
+  server: 104.26.5.90
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -743,7 +743,7 @@ proxies:
       Host: ip1.1789034.xyz
 - name: meta_vmess_047
   type: vmess
-  server: 104.19.46.39
+  server: 104.26.5.103
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -758,7 +758,7 @@ proxies:
       Host: ip1.1789034.xyz
 - name: meta_vmess_048
   type: vmess
-  server: 104.19.46.42
+  server: 104.26.5.112
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -773,7 +773,7 @@ proxies:
       Host: ip1.1789034.xyz
 - name: meta_vmess_049
   type: vmess
-  server: 104.19.46.56
+  server: 104.26.5.113
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -788,7 +788,7 @@ proxies:
       Host: ip1.1789034.xyz
 - name: meta_vmess_050
   type: vmess
-  server: 104.19.46.59
+  server: 104.26.5.123
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -803,7 +803,7 @@ proxies:
       Host: ip1.1789034.xyz
 - name: meta_vmess_051
   type: vmess
-  server: 104.19.46.63
+  server: 104.26.5.145
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -818,7 +818,7 @@ proxies:
       Host: ip1.1789034.xyz
 - name: meta_vmess_052
   type: vmess
-  server: 104.19.47.22
+  server: 162.159.140.19
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -833,7 +833,7 @@ proxies:
       Host: ip1.1789034.xyz
 - name: meta_vmess_053
   type: vmess
-  server: 104.19.47.27
+  server: 162.159.140.33
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -848,7 +848,7 @@ proxies:
       Host: ip1.1789034.xyz
 - name: meta_vmess_054
   type: vmess
-  server: 104.19.47.32
+  server: 162.159.140.39
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -863,7 +863,7 @@ proxies:
       Host: ip1.1789034.xyz
 - name: meta_vmess_055
   type: vmess
-  server: 104.19.47.36
+  server: 162.159.140.45
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -878,7 +878,7 @@ proxies:
       Host: ip1.1789034.xyz
 - name: meta_vmess_056
   type: vmess
-  server: 104.19.47.45
+  server: 162.159.140.56
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -893,7 +893,7 @@ proxies:
       Host: ip1.1789034.xyz
 - name: meta_vmess_057
   type: vmess
-  server: 104.19.47.77
+  server: 162.159.140.66
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -908,7 +908,7 @@ proxies:
       Host: ip1.1789034.xyz
 - name: meta_vmess_058
   type: vmess
-  server: 104.19.47.79
+  server: 162.159.140.77
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -923,7 +923,7 @@ proxies:
       Host: ip1.1789034.xyz
 - name: meta_vmess_059
   type: vmess
-  server: 104.19.47.88
+  server: 162.159.140.89
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -938,7 +938,7 @@ proxies:
       Host: ip1.1789034.xyz
 - name: meta_vmess_060
   type: vmess
-  server: 104.19.47.80
+  server: 162.159.140.91
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -953,7 +953,7 @@ proxies:
       Host: ip1.1789034.xyz
 - name: meta_vmess_061
   type: vmess
-  server: 104.19.47.122
+  server: 162.159.140.93
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
