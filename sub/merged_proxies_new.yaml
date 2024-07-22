@@ -4815,32 +4815,32 @@ proxies:
   - h3
 - name: meta_hysteria2_11163
   type: hysteria2
-  server: 173.234.31.98
-  port: 57429
+  server: 173.234.31.99
+  port: 56549
   password: dongtaiwang.com
   fast-open: true
   sni: ''
   skip-cert-verify: true
 - name: meta_hysteria2_11164
   type: hysteria2
-  server: 173.234.31.98
-  port: 57429
+  server: 173.234.31.99
+  port: 56549
   password: dongtaiwang.com
   fast-open: true
   sni: ''
   skip-cert-verify: true
 - name: meta_hysteria2_11165
   type: hysteria2
-  server: 173.234.31.98
-  port: 57429
+  server: 173.234.31.99
+  port: 56549
   password: dongtaiwang.com
   fast-open: true
   sni: ''
   skip-cert-verify: true
 - name: meta_hysteria2_11166
   type: hysteria2
-  server: 173.234.31.98
-  port: 57429
+  server: 173.234.31.99
+  port: 56549
   password: dongtaiwang.com
   fast-open: true
   sni: ''
