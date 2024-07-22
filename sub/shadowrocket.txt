@@ -6,8 +6,8 @@ hysteria://208.87.243.123:31476?peer=wechat.com&auth=dongtaiwang.com&insecure=1&
 hysteria://208.87.243.123:31476?peer=wechat.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#hysteria_1
 hysteria://208.87.243.123:31476?peer=wechat.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#hysteria_2
 hysteria://166.1.18.52:10295,20000-30000?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#hysteria_3
-hysteria2://dongtaiwang.com@173.234.31.99:56549?insecure=1&sni=#hysteria2_0
-hysteria2://dongtaiwang.com@173.234.31.99:56549?insecure=1&sni=#hysteria2_1
-hysteria2://dongtaiwang.com@173.234.31.99:56549?insecure=1&sni=#hysteria2_2
-hysteria2://dongtaiwang.com@173.234.31.99:56549?insecure=1&sni=#hysteria2_3
+hysteria2://dongtaiwang.com@hy3.3124845.xyz:443?insecure=0&sni=hy3.3124845.xyz#hysteria2_0
+hysteria2://dongtaiwang.com@hy3.3124845.xyz:443?insecure=0&sni=hy3.3124845.xyz#hysteria2_1
+hysteria2://dongtaiwang.com@hy3.3124845.xyz:443?insecure=0&sni=hy3.3124845.xyz#hysteria2_2
+hysteria2://dongtaiwang.com@hy3.3124845.xyz:443?insecure=0&sni=hy3.3124845.xyz#hysteria2_3
 vless://e9e3cc13-db48-4cc1-8c24-7626439a5339@62.210.101.0:23357?security=reality&allowInsecure=0&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=U5hsLybYWhJrWAqqsTa052k-VeKt8bDFPxBh3CQk51M&sid=0b4badde&sni=www.yahoo.com&serviceName=&path=&host=#vless_0
