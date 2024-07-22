@@ -4777,51 +4777,51 @@ proxies:
       Host: ip5-10.freegradely.xyz
 - name: meta_hysteria_11159
   type: hysteria
-  server: 208.87.243.123
-  port: 31476
-  ports: 31476
+  server: 38.135.52.192
+  port: 23456
+  ports: 23456
   auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: wechat.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
 - name: meta_hysteria_11160
   type: hysteria
-  server: 208.87.243.123
-  port: 31476
-  ports: 31476
+  server: 38.135.52.192
+  port: 23456
+  ports: 23456
   auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: wechat.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
 - name: meta_hysteria_11161
   type: hysteria
-  server: 208.87.243.123
-  port: 31476
-  ports: 31476
+  server: 38.135.52.192
+  port: 23456
+  ports: 23456
   auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: wechat.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
 - name: meta_hysteria_11162
   type: hysteria
-  server: 166.1.18.52
-  port: 10295
-  ports: 20000-30000
+  server: 38.135.52.192
+  port: 23456
+  ports: 23456
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4879,51 +4879,51 @@ proxies:
     short-id: 0b4badde
 - name: hysteria_0
   type: hysteria
-  server: 208.87.243.123
-  port: 31476
-  ports: 31476
+  server: 38.135.52.192
+  port: 23456
+  ports: 23456
   auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: wechat.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
 - name: hysteria_1
   type: hysteria
-  server: 208.87.243.123
-  port: 31476
-  ports: 31476
+  server: 38.135.52.192
+  port: 23456
+  ports: 23456
   auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: wechat.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
 - name: hysteria_2
   type: hysteria
-  server: 208.87.243.123
-  port: 31476
-  ports: 31476
+  server: 38.135.52.192
+  port: 23456
+  ports: 23456
   auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: wechat.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
 - name: hysteria_3
   type: hysteria
-  server: 166.1.18.52
-  port: 10295
-  ports: 20000-30000
+  server: 38.135.52.192
+  port: 23456
+  ports: 23456
   auth_str: dongtaiwang.com
   up: 80
   down: 100
