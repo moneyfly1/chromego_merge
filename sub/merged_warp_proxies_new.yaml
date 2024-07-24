@@ -4833,32 +4833,32 @@ proxies:
   - h3
 - name: meta_hysteria2_11163
   type: hysteria2
-  server: hy3.3124845.xyz
-  port: 443
+  server: 207.90.239.157
+  port: 22334
   password: dongtaiwang.com
   fast-open: true
-  sni: hy3.3124845.xyz
-  skip-cert-verify: false
+  sni: bing.com
+  skip-cert-verify: true
 - name: meta_hysteria2_11164
   type: hysteria2
-  server: 166.1.18.178
-  port: 23456
+  server: 207.90.239.157
+  port: 22334
   password: dongtaiwang.com
   fast-open: true
   sni: bing.com
   skip-cert-verify: true
 - name: meta_hysteria2_11165
   type: hysteria2
-  server: 166.1.18.178
-  port: 23456
+  server: 207.90.239.157
+  port: 22334
   password: dongtaiwang.com
   fast-open: true
   sni: bing.com
   skip-cert-verify: true
 - name: meta_hysteria2_11166
   type: hysteria2
-  server: 166.1.18.178
-  port: 23456
+  server: 207.90.239.157
+  port: 22334
   password: dongtaiwang.com
   fast-open: true
   sni: bing.com
