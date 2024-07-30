@@ -4760,8 +4760,8 @@ proxies:
 - name: meta_hysteria_11159
   type: hysteria
   server: 38.135.52.192
-  port: 23456
-  ports: 23456
+  port: 10451
+  ports: 30000-40000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4774,8 +4774,8 @@ proxies:
 - name: meta_hysteria_11160
   type: hysteria
   server: 38.135.52.192
-  port: 23456
-  ports: 23456
+  port: 10451
+  ports: 30000-40000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4788,8 +4788,8 @@ proxies:
 - name: meta_hysteria_11161
   type: hysteria
   server: 38.135.52.192
-  port: 23456
-  ports: 23456
+  port: 10451
+  ports: 30000-40000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4802,8 +4802,8 @@ proxies:
 - name: meta_hysteria_11162
   type: hysteria
   server: 38.135.52.192
-  port: 23456
-  ports: 23456
+  port: 10451
+  ports: 30000-40000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4816,40 +4816,40 @@ proxies:
 - name: meta_hysteria2_11163
   type: hysteria2
   server: 207.90.239.157
-  port: 22334
+  port: 15669
   password: dongtaiwang.com
   fast-open: true
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
 - name: meta_hysteria2_11164
   type: hysteria2
   server: 207.90.239.157
-  port: 22334
+  port: 15669
   password: dongtaiwang.com
   fast-open: true
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
 - name: meta_hysteria2_11165
   type: hysteria2
   server: 207.90.239.157
-  port: 22334
+  port: 15669
   password: dongtaiwang.com
   fast-open: true
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
 - name: meta_hysteria2_11166
   type: hysteria2
   server: 207.90.239.157
-  port: 22334
+  port: 15669
   password: dongtaiwang.com
   fast-open: true
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
 - name: hysteria_0
   type: hysteria
   server: 38.135.52.192
-  port: 23456
-  ports: 23456
+  port: 10451
+  ports: 30000-40000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4862,8 +4862,8 @@ proxies:
 - name: hysteria_1
   type: hysteria
   server: 38.135.52.192
-  port: 23456
-  ports: 23456
+  port: 10451
+  ports: 30000-40000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4876,8 +4876,8 @@ proxies:
 - name: hysteria_2
   type: hysteria
   server: 38.135.52.192
-  port: 23456
-  ports: 23456
+  port: 10451
+  ports: 30000-40000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4890,8 +4890,8 @@ proxies:
 - name: hysteria_3
   type: hysteria
   server: 38.135.52.192
-  port: 23456
-  ports: 23456
+  port: 10451
+  ports: 30000-40000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
