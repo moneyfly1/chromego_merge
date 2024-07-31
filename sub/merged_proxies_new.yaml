@@ -4759,9 +4759,9 @@ proxies:
       Host: ip5-10.freegradely.xyz
 - name: meta_hysteria_11159
   type: hysteria
-  server: 104.166.125.163
-  port: 11001
-  ports: 11001
+  server: 173.234.31.102
+  port: 10221
+  ports: 10221
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -4823,8 +4823,8 @@ proxies:
   skip-cert-verify: true
 - name: meta_hysteria2_11164
   type: hysteria2
-  server: 207.90.239.157
-  port: 15669
+  server: 62.210.101.0
+  port: 25302
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -4847,9 +4847,9 @@ proxies:
   skip-cert-verify: true
 - name: hysteria_0
   type: hysteria
-  server: 104.166.125.163
-  port: 11001
-  ports: 11001
+  server: 173.234.31.102
+  port: 10221
+  ports: 10221
   auth_str: dongtaiwang.com
   up: 80
   down: 100
