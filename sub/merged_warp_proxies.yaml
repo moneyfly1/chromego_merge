@@ -2415,9 +2415,9 @@ proxies:
     version: 3
 - name: hysteria_0
   type: hysteria
-  server: 173.234.31.102
-  port: 10221
-  ports: 10221
+  server: 104.166.125.163
+  port: 11001
+  ports: 11001
   auth_str: dongtaiwang.com
   up: 80
   down: 100
