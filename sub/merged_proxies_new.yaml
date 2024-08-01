@@ -4759,7 +4759,7 @@ proxies:
       Host: ip5-10.freegradely.xyz
 - name: meta_hysteria_11159
   type: hysteria
-  server: 166.1.221.169
+  server: 91.149.239.23
   port: 11223
   ports: 11223
   auth_str: dongtaiwang.com
@@ -4847,9 +4847,9 @@ proxies:
   skip-cert-verify: true
 - name: hysteria_0
   type: hysteria
-  server: 173.234.31.98
-  port: 10221
-  ports: 10221
+  server: 91.149.239.23
+  port: 11223
+  ports: 11223
   auth_str: dongtaiwang.com
   up: 80
   down: 100
