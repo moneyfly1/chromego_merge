@@ -30711,9 +30711,9 @@ proxies:
       Host: www.zitian.cn
 - name: meta_hysteria_111046
   type: hysteria
-  server: 91.149.239.23
-  port: 11223
-  ports: 11223
+  server: 104.192.224.138
+  port: 28850
+  ports: 20000-30000
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -30775,8 +30775,8 @@ proxies:
   skip-cert-verify: true
 - name: meta_hysteria2_111051
   type: hysteria2
-  server: 207.90.239.157
-  port: 3400
+  server: 64.110.25.12
+  port: 50942
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -30799,9 +30799,9 @@ proxies:
   skip-cert-verify: true
 - name: hysteria_0
   type: hysteria
-  server: 91.149.239.23
-  port: 11223
-  ports: 11223
+  server: 104.192.224.138
+  port: 28850
+  ports: 20000-30000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
