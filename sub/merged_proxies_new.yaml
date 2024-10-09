@@ -27325,7 +27325,1030 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip8.8084726.xyz
-- name: meta_hysteria_11911
+- cipher: aes-256-cfb
+  name: meta_ssr_11911
+  obfs: tls1.2_ticket_auth
+  password: fou8MBGij
+  port: 8081
+  protocol: origin
+  server: us-am3.eqnode.net
+  type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11912
+  network: ws
+  port: 443
+  server: sgcft01.xqc.best
+  servername: d21rddomp7gdx6.cloudfront.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0112665c-8eea-44f0-adba-53250d54aa2d
+  ws-opts:
+    headers:
+      Host: d21rddomp7gdx6.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11913
+  network: ws
+  port: 443
+  server: hkcft01.xqc.best
+  servername: daqchd3a0qfpy.cloudfront.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 1e6384bd-3abd-4647-a308-e1dbb0ed3a18
+  ws-opts:
+    headers:
+      Host: daqchd3a0qfpy.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11914
+  network: ws
+  port: 443
+  server: hkcft01.xqc.best
+  servername: daqchd3a0qfpy.cloudfront.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7fd99431-1b8a-4ca2-82de-3493e1566f01
+  ws-opts:
+    headers:
+      Host: daqchd3a0qfpy.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11915
+  network: ws
+  port: 443
+  server: hkcft01.xqc.best
+  servername: daqchd3a0qfpy.cloudfront.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 34fe15fb-6e1d-4e7c-b7ad-9455be10e9a8
+  ws-opts:
+    headers:
+      Host: daqchd3a0qfpy.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11916
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3d5c0cc3-c6f5-4931-a190-52893efa9744
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11917
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2b513321-c6cd-42f4-9d36-83cdb195972d
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11918
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3e882c35-684a-4963-ab63-6353fb3de6e4
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11919
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: df5393c2-9895-43c4-81a7-0b55a59a7f5e
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11920
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3ca92307-4f10-44fc-9d36-6981a96ba2b8
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11921
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3eedf3ac-e7b4-4f35-8e30-2b636ea8ca57
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11922
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6a427709-57ff-4b7e-891c-db58138c4945
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11923
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 520be08d-4193-4a4e-b8f3-273de0a65641
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11924
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 14d4c832-603e-4edd-b570-ea4086415e67
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11925
+  network: ws
+  port: 30005
+  server: shs2.12123.org
+  servername: shs2.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 520be08d-4193-4a4e-b8f3-273de0a65641
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11926
+  network: ws
+  port: 30005
+  server: shs2.12123.org
+  servername: shs2.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5568f900-29ff-4d17-a6ca-dc21dca4cf05
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11927
+  network: ws
+  port: 30005
+  server: shs2.12123.org
+  servername: shs2.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4f0b1926-a06a-4cb4-9b6e-451215212775
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11928
+  network: ws
+  port: 30005
+  server: shs2.12123.org
+  servername: shs2.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 050b0ed7-563f-4ff7-9b41-23713fbf824c
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11929
+  network: ws
+  port: 30005
+  server: shs2.12123.org
+  servername: shs2.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 29fe2125-1c88-486a-93b4-c47f0df400eb
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11930
+  network: ws
+  port: 30005
+  server: shs2.12123.org
+  servername: shs2.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4a428ebd-3bd8-4d66-ac2f-f4e7f8981806
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11931
+  network: ws
+  port: 30005
+  server: shs2.12123.org
+  servername: shs2.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 86256542-64cd-42dd-8501-250a084f2142
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11932
+  network: ws
+  port: 30005
+  server: shs2.12123.org
+  servername: shs2.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3eedf3ac-e7b4-4f35-8e30-2b636ea8ca57
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11933
+  network: ws
+  port: 30005
+  server: shs2.12123.org
+  servername: shs2.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f1817051-323c-4cfd-8c91-18f1464d085d
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11934
+  network: ws
+  port: 30005
+  server: shs2.12123.org
+  servername: shs2.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e36e98bb-393a-4dc0-b2e8-80118e3b79dd
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11935
+  network: ws
+  port: 30005
+  server: shs2.12123.org
+  servername: shs2.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 85b733a3-7b70-481e-a7d2-23508408ea61
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11936
+  network: ws
+  port: 30005
+  server: shs2.12123.org
+  servername: shs2.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: df5393c2-9895-43c4-81a7-0b55a59a7f5e
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11937
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: eb30c0ac-835d-4d2f-814e-162b7ba19dc8
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11938
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 44ac1888-eb15-4575-8460-0aec7f2e488b
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11939
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a7507b35-bf8b-4f71-8b3e-b24811f0b1d6
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11940
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 050b0ed7-563f-4ff7-9b41-23713fbf824c
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11941
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3e84f2bf-5ab9-475e-9cb2-faf99ad878b1
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11942
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5568f900-29ff-4d17-a6ca-dc21dca4cf05
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11943
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 29fe2125-1c88-486a-93b4-c47f0df400eb
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11944
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: aec6a14f-b7d5-4cfc-abbb-af9735c9973c
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11945
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ae201dce-a32e-4bbc-967e-317ef402fdca
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11946
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 1bec428b-4aad-42dc-a5e1-7ce0dd640b16
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11947
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f1817051-323c-4cfd-8c91-18f1464d085d
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11948
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f0306a2f-dfdb-4758-b3bc-ec99b1e6004c
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11949
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 45388e4b-aaaf-4fd8-86ea-752e798d1fb6
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11950
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e36e98bb-393a-4dc0-b2e8-80118e3b79dd
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11951
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 86256542-64cd-42dd-8501-250a084f2142
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11952
+  network: ws
+  port: 30000
+  server: shsz.12123.org
+  servername: shsz.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4f0b1926-a06a-4cb4-9b6e-451215212775
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  name: meta_vmess_11953
+  network: ws
+  port: '46001'
+  server: 223.244.26.216
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c9bda0e7-4ffa-464f-84a0-41253180d04c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: meta_vmess_11954
+  port: 44806
+  server: ambxxic01hk.dorabbb.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 21c7fe70-62f4-492a-8ff5-882edee63b15
+- cipher: chacha20-ietf-poly1305
+  name: meta_ss_11955
+  password: 005c0d27-a407-4be9-9740-818da49a50be
+  port: 29527
+  server: hzhz1.sssyun.xyz
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: meta_vmess_11956
+  port: 35601
+  server: 120.232.153.40
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: meta_trojan_11957
+  network: tcp
+  password: 49582ed9be8a6e7d7ef0c80f7848a0b0
+  port: 54066
+  server: 120.226.32.72
+  skip-cert-verify: false
+  sni: akile8901.wujie66.com
+  type: trojan
+- name: meta_trojan_11958
+  network: tcp
+  password: d6d86a97-2bef-4f89-9527-ce2003377677
+  port: 13007
+  server: naiu-hk.05vr9nyqg5.download
+  skip-cert-verify: true
+  sni: naiu-hk.05vr9nyqg5.download
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: meta_ss_11959
+  password: 005c0d27-a407-4be9-9740-818da49a50be
+  port: 40010
+  server: hzhz2.sssyun.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: meta_vmess_11960
+  port: 46026
+  server: 149.104.15.120
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: fb1b6ae3-140a-41d8-9644-0550e08cdfd0
+- alterId: 0
+  cipher: auto
+  name: meta_vmess_11961
+  network: ws
+  port: '443'
+  server: 173.230.149.106
+  servername: 173.230.149.106
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  ws-opts:
+    headers:
+      Host: 173.230.149.106
+    path: /xJxdoaCD
+- cipher: chacha20-ietf-poly1305
+  name: meta_ss_11962
+  password: 005c0d27-a407-4be9-9740-818da49a50be
+  port: 32207
+  server: hzhz1.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: meta_ss_11963
+  password: 005c0d27-a407-4be9-9740-818da49a50be
+  port: 39202
+  server: hzhz1.sssyun.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: meta_vmess_11964
+  network: ws
+  port: '30003'
+  server: shouer2112.12123.org
+  servername: www.baidu.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 4ae987a9-f9e6-49f0-95ad-e8f375678d62
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  name: meta_vmess_11965
+  network: ws
+  port: '30003'
+  server: xjpx6.12123.org
+  servername: www.baidu.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 0e8a4ec6-66c1-45c0-a51a-cd51a35f2a11
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  name: meta_vmess_11966
+  network: ws
+  port: '443'
+  server: 172.105.115.147
+  servername: 172.105.115.147
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  ws-opts:
+    headers:
+      Host: 172.105.115.147
+    path: /msCBKVaF
+- cipher: chacha20-ietf-poly1305
+  name: meta_ss_11967
+  password: 005c0d27-a407-4be9-9740-818da49a50be
+  port: 40013
+  server: hzhz2.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: meta_ss_11968
+  password: 0f189a26-78f6-4bd2-9ea7-7a6bbdc443fe
+  port: 58118
+  server: zf.egfu.cn
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: meta_vmess_11969
+  network: ws
+  port: '443'
+  server: 45.79.103.11
+  servername: 45.79.103.11
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  ws-opts:
+    headers:
+      Host: 45.79.103.11
+    path: /GDeFfWLn
+- cipher: aes-256-cfb
+  name: meta_ss_11970
+  password: amazonskr05
+  port: 443
+  server: 43.202.68.249
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: meta_ss_11971
+  password: amazonskr05
+  port: 443
+  server: 43.201.48.132
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: meta_ss_11972
+  password: amazonskr05
+  port: 443
+  server: 13.231.27.52
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: meta_vmess_11973
+  port: 43526
+  server: 120.232.153.71
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 0
+  cipher: auto
+  name: meta_vmess_11974
+  network: tcp
+  port: '44806'
+  server: ambxxic01hk.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 21c7fe70-62f4-492a-8ff5-882edee63b15
+- alterId: 64
+  cipher: auto
+  name: meta_vmess_11975
+  network: tcp
+  port: '35601'
+  server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: meta_vmess_11976
+  network: tcp
+  port: '46026'
+  server: 149.104.15.120
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fb1b6ae3-140a-41d8-9644-0550e08cdfd0
+- alterId: 64
+  cipher: auto
+  name: meta_vmess_11977
+  network: tcp
+  port: '43526'
+  server: 120.232.153.71
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 0
+  cipher: auto
+  name: meta_vmess_11978
+  network: tcp
+  port: '443'
+  server: 42.236.73.72
+  servername: www.zitian.cn
+  tls: true
+  type: vmess
+  uuid: 044f0177-0675-4dcf-89d4-804b6788e518
+- alpn:
+  - http/1.1
+  name: meta_trojan_11979
+  network: tcp
+  password: fuck
+  port: 443
+  server: 42.236.73.72
+  sni: www.zitian.cn
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.zitian.cn
+- name: meta_hysteria_11980
   type: hysteria
   server: 46.17.43.223
   port: 12311
@@ -27339,7 +28362,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: meta_hysteria_11912
+- name: meta_hysteria_11981
   type: hysteria
   server: 46.17.43.223
   port: 12311
@@ -27353,7 +28376,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: meta_hysteria_11913
+- name: meta_hysteria_11982
   type: hysteria
   server: 46.17.43.223
   port: 12311
@@ -27367,7 +28390,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: meta_hysteria_11914
+- name: meta_hysteria_11983
   type: hysteria
   server: 46.17.43.223
   port: 12311
@@ -27381,7 +28404,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: meta_hysteria2_11915
+- name: meta_hysteria2_11984
   type: hysteria2
   server: 207.90.239.157
   port: 12344
@@ -27389,7 +28412,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: meta_hysteria2_11916
+- name: meta_hysteria2_11985
   type: hysteria2
   server: 207.90.239.157
   port: 12344
@@ -27397,7 +28420,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: meta_hysteria2_11917
+- name: meta_hysteria2_11986
   type: hysteria2
   server: 207.90.239.157
   port: 12344
@@ -27405,7 +28428,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: meta_hysteria2_11918
+- name: meta_hysteria2_11987
   type: hysteria2
   server: 207.90.239.157
   port: 12344
@@ -29296,14 +30319,83 @@ proxy-groups:
   - meta_vmess_11908
   - meta_vmess_11909
   - meta_vmess_11910
-  - meta_hysteria_11911
-  - meta_hysteria_11912
-  - meta_hysteria_11913
-  - meta_hysteria_11914
-  - meta_hysteria2_11915
-  - meta_hysteria2_11916
-  - meta_hysteria2_11917
-  - meta_hysteria2_11918
+  - meta_ssr_11911
+  - meta_vmess_11912
+  - meta_vmess_11913
+  - meta_vmess_11914
+  - meta_vmess_11915
+  - meta_vmess_11916
+  - meta_vmess_11917
+  - meta_vmess_11918
+  - meta_vmess_11919
+  - meta_vmess_11920
+  - meta_vmess_11921
+  - meta_vmess_11922
+  - meta_vmess_11923
+  - meta_vmess_11924
+  - meta_vmess_11925
+  - meta_vmess_11926
+  - meta_vmess_11927
+  - meta_vmess_11928
+  - meta_vmess_11929
+  - meta_vmess_11930
+  - meta_vmess_11931
+  - meta_vmess_11932
+  - meta_vmess_11933
+  - meta_vmess_11934
+  - meta_vmess_11935
+  - meta_vmess_11936
+  - meta_vmess_11937
+  - meta_vmess_11938
+  - meta_vmess_11939
+  - meta_vmess_11940
+  - meta_vmess_11941
+  - meta_vmess_11942
+  - meta_vmess_11943
+  - meta_vmess_11944
+  - meta_vmess_11945
+  - meta_vmess_11946
+  - meta_vmess_11947
+  - meta_vmess_11948
+  - meta_vmess_11949
+  - meta_vmess_11950
+  - meta_vmess_11951
+  - meta_vmess_11952
+  - meta_vmess_11953
+  - meta_vmess_11954
+  - meta_ss_11955
+  - meta_vmess_11956
+  - meta_trojan_11957
+  - meta_trojan_11958
+  - meta_ss_11959
+  - meta_vmess_11960
+  - meta_vmess_11961
+  - meta_ss_11962
+  - meta_ss_11963
+  - meta_vmess_11964
+  - meta_vmess_11965
+  - meta_vmess_11966
+  - meta_ss_11967
+  - meta_ss_11968
+  - meta_vmess_11969
+  - meta_ss_11970
+  - meta_ss_11971
+  - meta_ss_11972
+  - meta_vmess_11973
+  - meta_vmess_11974
+  - meta_vmess_11975
+  - meta_vmess_11976
+  - meta_vmess_11977
+  - meta_vmess_11978
+  - meta_trojan_11979
+  - meta_hysteria_11980
+  - meta_hysteria_11981
+  - meta_hysteria_11982
+  - meta_hysteria_11983
+  - meta_hysteria2_11984
+  - meta_hysteria2_11985
+  - meta_hysteria2_11986
+  - meta_hysteria2_11987
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -31135,14 +32227,83 @@ proxy-groups:
   - meta_vmess_11908
   - meta_vmess_11909
   - meta_vmess_11910
-  - meta_hysteria_11911
-  - meta_hysteria_11912
-  - meta_hysteria_11913
-  - meta_hysteria_11914
-  - meta_hysteria2_11915
-  - meta_hysteria2_11916
-  - meta_hysteria2_11917
-  - meta_hysteria2_11918
+  - meta_ssr_11911
+  - meta_vmess_11912
+  - meta_vmess_11913
+  - meta_vmess_11914
+  - meta_vmess_11915
+  - meta_vmess_11916
+  - meta_vmess_11917
+  - meta_vmess_11918
+  - meta_vmess_11919
+  - meta_vmess_11920
+  - meta_vmess_11921
+  - meta_vmess_11922
+  - meta_vmess_11923
+  - meta_vmess_11924
+  - meta_vmess_11925
+  - meta_vmess_11926
+  - meta_vmess_11927
+  - meta_vmess_11928
+  - meta_vmess_11929
+  - meta_vmess_11930
+  - meta_vmess_11931
+  - meta_vmess_11932
+  - meta_vmess_11933
+  - meta_vmess_11934
+  - meta_vmess_11935
+  - meta_vmess_11936
+  - meta_vmess_11937
+  - meta_vmess_11938
+  - meta_vmess_11939
+  - meta_vmess_11940
+  - meta_vmess_11941
+  - meta_vmess_11942
+  - meta_vmess_11943
+  - meta_vmess_11944
+  - meta_vmess_11945
+  - meta_vmess_11946
+  - meta_vmess_11947
+  - meta_vmess_11948
+  - meta_vmess_11949
+  - meta_vmess_11950
+  - meta_vmess_11951
+  - meta_vmess_11952
+  - meta_vmess_11953
+  - meta_vmess_11954
+  - meta_ss_11955
+  - meta_vmess_11956
+  - meta_trojan_11957
+  - meta_trojan_11958
+  - meta_ss_11959
+  - meta_vmess_11960
+  - meta_vmess_11961
+  - meta_ss_11962
+  - meta_ss_11963
+  - meta_vmess_11964
+  - meta_vmess_11965
+  - meta_vmess_11966
+  - meta_ss_11967
+  - meta_ss_11968
+  - meta_vmess_11969
+  - meta_ss_11970
+  - meta_ss_11971
+  - meta_ss_11972
+  - meta_vmess_11973
+  - meta_vmess_11974
+  - meta_vmess_11975
+  - meta_vmess_11976
+  - meta_vmess_11977
+  - meta_vmess_11978
+  - meta_trojan_11979
+  - meta_hysteria_11980
+  - meta_hysteria_11981
+  - meta_hysteria_11982
+  - meta_hysteria_11983
+  - meta_hysteria2_11984
+  - meta_hysteria2_11985
+  - meta_hysteria2_11986
+  - meta_hysteria2_11987
   - hysteria_0
   - hysteria_1
   - hysteria_2
