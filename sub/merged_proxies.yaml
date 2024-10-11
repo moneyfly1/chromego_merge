@@ -13681,9 +13681,9 @@ proxies:
       Host: ip9.8084726.xyz
 - name: hysteria_0
   type: hysteria
-  server: 108.181.3.67
-  port: 100
-  ports: 100
+  server: 46.17.43.223
+  port: 12311
+  ports: 12311
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -13695,9 +13695,9 @@ proxies:
   - h3
 - name: hysteria_1
   type: hysteria
-  server: 108.181.3.67
-  port: 100
-  ports: 100
+  server: 46.17.43.223
+  port: 12311
+  ports: 12311
   auth_str: dongtaiwang.com
   up: 80
   down: 100
