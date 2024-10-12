@@ -8,7 +8,7 @@ hysteria://46.17.43.223:12311?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmb
 hysteria://46.17.43.223:12311?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=dongtaiwang.com&protocol=udp&fastopen=1#hysteria_1
 hysteria://46.17.43.223:12311?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=dongtaiwang.com&protocol=udp&fastopen=1#hysteria_2
 hysteria://46.17.43.223:12311?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=dongtaiwang.com&protocol=udp&fastopen=1#hysteria_3
-hysteria2://dongtaiwang.com@207.90.239.157:11276,30000-40000?insecure=1&sni=www.bing.com#hysteria2_0
-hysteria2://dongtaiwang.com@207.90.239.157:11276,30000-40000?insecure=1&sni=www.bing.com#hysteria2_1
-hysteria2://dongtaiwang.com@207.90.239.157:11276,30000-40000?insecure=1&sni=www.bing.com#hysteria2_2
-hysteria2://dongtaiwang.com@207.90.239.157:11276,30000-40000?insecure=1&sni=www.bing.com#hysteria2_3
+hysteria2://dongtaiwang.com@185.22.152.93:33713,40000-50000?insecure=1&sni=www.bing.com#hysteria2_0
+hysteria2://dongtaiwang.com@185.22.152.93:33713,40000-50000?insecure=1&sni=www.bing.com#hysteria2_1
+hysteria2://dongtaiwang.com@185.22.152.93:33713,40000-50000?insecure=1&sni=www.bing.com#hysteria2_2
+hysteria2://dongtaiwang.com@185.22.152.93:33713,40000-50000?insecure=1&sni=www.bing.com#hysteria2_3
