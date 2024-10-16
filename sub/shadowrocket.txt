@@ -1,7 +1,7 @@
-hysteria://46.29.166.206:100?peer=www.bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=100&obfs=&protocol=udp&fastopen=1#hysteria_meta_6
-hysteria://46.29.166.206:100?peer=www.bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=100&obfs=&protocol=udp&fastopen=1#hysteria_meta_7
-hysteria://46.29.166.206:100?peer=www.bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=100&obfs=&protocol=udp&fastopen=1#hysteria_meta_8
-hysteria://46.29.166.206:100?peer=www.bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=100&obfs=&protocol=udp&fastopen=1#hysteria_meta_9
+vless://ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2@46.29.166.206:400?security=reality&allowInsecure0&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI&sid=&sni=www.paypal.com&serviceName=&path=&host=#vless_meta_6
+vless://ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2@46.29.166.206:400?security=reality&allowInsecure0&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI&sid=&sni=www.paypal.com&serviceName=&path=&host=#vless_meta_7
+vless://ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2@46.29.166.206:400?security=reality&allowInsecure0&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI&sid=&sni=www.paypal.com&serviceName=&path=&host=#vless_meta_8
+vless://ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2@46.29.166.206:400?security=reality&allowInsecure0&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI&sid=&sni=www.paypal.com&serviceName=&path=&host=#vless_meta_9
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6QVNYbWhxT0RaYXNuVjc3N1AybTMzZVE5bUNVNUtYWTg2ZFhKUVR1V0ZXOD1AOTEuMTQ5LjIzOS4yMzozNDU2Nw==?shadow-tls=eyJ2ZXJzaW9uIjogIjMiLCAiaG9zdCI6ICJuaWppZ2VuLXdvcmtzLmpwIiwicGFzc3dvcmQiOllFdWRFUlA5WnN0d05acE9XeXRIM0RzNHNTRWdqOEdWWms3T1FFR0RFcG89fQ==#shadowtls1
 aHR0cHM6Ly9kb25ndGFpd2FuZy5jb206ZG9uZ3RhaXdhbmcuY29tQG5haXZlMjMuY2ZjZG4zLnh5ejo0NDM=
 aHR0cHM6Ly9kb25ndGFpd2FuZy5jb206ZG9uZ3RhaXdhbmcuY29tQG5haXZlMjQuY2ZjZG4zLnh5ejo0NDM=
@@ -9,7 +9,7 @@ hysteria://62.210.8.63:2345?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps
 hysteria://46.17.43.223:12311?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=dongtaiwang.com&protocol=udp&fastopen=1#hysteria_1
 hysteria://46.17.43.223:12311?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=dongtaiwang.com&protocol=udp&fastopen=1#hysteria_2
 hysteria://46.17.43.223:12311?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=dongtaiwang.com&protocol=udp&fastopen=1#hysteria_3
-hysteria2://dongtaiwang.com@185.22.152.93:33713,40000-50000?insecure=1&sni=www.bing.com#hysteria2_0
-hysteria2://dongtaiwang.com@185.22.152.93:33713,40000-50000?insecure=1&sni=www.bing.com#hysteria2_1
-hysteria2://dongtaiwang.com@185.22.152.93:33713,40000-50000?insecure=1&sni=www.bing.com#hysteria2_2
-hysteria2://dongtaiwang.com@185.22.152.93:33713,40000-50000?insecure=1&sni=www.bing.com#hysteria2_3
+hysteria2://dongtaiwang.com@185.22.152.93:47382,20000-30000?insecure=1&sni=www.bing.com#hysteria2_0
+hysteria2://dongtaiwang.com@185.22.152.93:47382,20000-30000?insecure=1&sni=www.bing.com#hysteria2_1
+hysteria2://dongtaiwang.com@185.22.152.93:47382,20000-30000?insecure=1&sni=www.bing.com#hysteria2_2
+hysteria2://dongtaiwang.com@185.22.152.93:47382,20000-30000?insecure=1&sni=www.bing.com#hysteria2_3
