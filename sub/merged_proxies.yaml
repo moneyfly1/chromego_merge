@@ -3421,9 +3421,9 @@ proxies:
     version: 3
 - name: hysteria_0
   type: hysteria
-  server: 62.210.8.63
-  port: 2345
-  ports: 2345
+  server: 46.17.43.223
+  port: 12311
+  ports: 12311
   auth_str: dongtaiwang.com
   up: 80
   down: 100
