@@ -6781,7 +6781,366 @@ proxies:
     public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
     short-id: ''
   client-fingerprint: chrome
-- name: meta_hysteria_11223
+- cipher: rc4-md5
+  name: meta_ss_11223
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.155.57.51
+  type: ss
+- cipher: aes-128-gcm
+  name: meta_ss_11224
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.195
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: meta_ss_11225
+  password: lTJ1q8DFg
+  port: 20088
+  server: 67.220.72.41
+  type: ss
+- cipher: aes-256-cfb
+  name: meta_ss_11226
+  password: amazonskr05
+  port: 443
+  server: 52.43.127.109
+  type: ss
+- cipher: aes-256-cfb
+  name: meta_ssr_11227
+  obfs: tls1.2_ticket_auth
+  password: fou8MBGij
+  port: 8081
+  protocol: origin
+  server: us-am3.eqnode.net
+  type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11228
+  network: ws
+  port: 2082
+  server: 172.64.166.22
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip16.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 1
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: meta_vmess_11229
+  network: ws
+  port: 443
+  server: 23.157.88.6
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 23.157.88.6
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: meta_vmess_11230
+  network: ws
+  port: 8443
+  server: 104.21.238.200
+  servername: http1.9290254.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: http1.9290254.xyz
+    path: github.com/Alvin9999
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- alterId: 0
+  cipher: auto
+  name: meta_vmess_11231
+  network: ws
+  port: 8443
+  server: 104.21.238.201
+  servername: http1.9290254.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: http1.9290254.xyz
+    path: github.com/Alvin9999
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- alterId: 0
+  cipher: auto
+  name: meta_vmess_11232
+  network: ws
+  port: 8443
+  server: 104.21.238.202
+  servername: http1.9290254.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: http1.9290254.xyz
+    path: github.com/Alvin9999
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- alterId: 0
+  cipher: auto
+  name: meta_vmess_11233
+  network: ws
+  port: 8443
+  server: 104.21.238.203
+  servername: http1.9290254.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: http1.9290254.xyz
+    path: github.com/Alvin9999
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- cipher: chacha20-ietf
+  name: meta_ss_11234
+  password: asd123456
+  port: 8388
+  server: 154.197.98.64
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: meta_ss_11235
+  password: 0b94687a-2628-4ef1-a677-aab2431e2182
+  port: 11001
+  server: 183.240.255.75
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: meta_ss_11236
+  password: 0b94687a-2628-4ef1-a677-aab2431e2182
+  port: 12003
+  server: 183.240.188.43
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: meta_vmess_11237
+  port: 2902
+  server: 143.92.42.65
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+- cipher: chacha20-ietf-poly1305
+  name: meta_ss_11238
+  password: f2a7baac-c6d4-4d29-aab2-02426814f0ce
+  port: 39201
+  server: hzhz1.sssyun.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: meta_vmess_11239
+  port: 25004
+  server: d.baodesign.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
+- cipher: chacha20-ietf-poly1305
+  name: meta_ss_11240
+  password: f2a7baac-c6d4-4d29-aab2-02426814f0ce
+  port: 39206
+  server: hzhz1.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  name: meta_ss_11241
+  password: 1c47b2d3-6ff0-491d-89fa-7f8a38e49c99
+  port: 29971
+  server: osg020.nod3.org
+  tfo: false
+  type: ss
+- name: meta_trojan_11242
+  network: tcp
+  password: 5b4becce-5739-483f-97ec-68b81a855d68
+  port: 13030
+  server: naiu-sg.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- name: meta_trojan_11243
+  password: '3690911436885991424'
+  port: 443
+  server: careful-platypus.opossum872.cfd
+  skip-cert-verify: false
+  sni: careful-platypus.opossum872.cfd
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: meta_vmess_11244
+  port: 39041
+  server: 183.238.202.173
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  name: meta_ss_11245
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 23.157.40.113
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: meta_ss_11246
+  password: amazonskr05
+  port: 443
+  server: 13.229.98.87
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: meta_ss_11247
+  password: amazonskr05
+  port: 443
+  server: 54.255.245.62
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: meta_ss_11248
+  password: amazonskr05
+  port: 443
+  server: 13.113.17.246
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: meta_vmess_11249
+  port: 43526
+  server: 120.232.153.71
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 64
+  cipher: auto
+  name: meta_vmess_11250
+  port: 33288
+  server: 183.236.48.166
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  name: meta_ss_11251
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: meta_vmess_11252
+  network: tcp
+  port: '2902'
+  server: 143.92.42.65
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+- alterId: 0
+  cipher: auto
+  name: meta_vmess_11253
+  network: tcp
+  port: '25004'
+  server: d.baodesign.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
+- name: meta_trojan_11254
+  network: tcp
+  password: '3690911436885991424'
+  port: 443
+  server: careful-platypus.opossum872.cfd
+  skip-cert-verify: true
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: meta_vmess_11255
+  network: tcp
+  port: '39041'
+  server: 183.238.202.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: meta_vmess_11256
+  network: tcp
+  port: '43526'
+  server: 120.232.153.71
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 64
+  cipher: auto
+  name: meta_vmess_11257
+  network: tcp
+  port: '33288'
+  server: 183.236.48.166
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: meta_vmess_11258
+  network: tcp
+  port: '443'
+  server: 42.236.73.72
+  servername: www.zitian.cn
+  tls: true
+  type: vmess
+  uuid: 044f0177-0675-4dcf-89d4-804b6788e518
+- alpn:
+  - http/1.1
+  name: meta_trojan_11259
+  network: tcp
+  password: fuck
+  port: 443
+  server: 42.236.73.72
+  sni: www.zitian.cn
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.zitian.cn
+- name: meta_hysteria_11260
   type: hysteria
   server: 46.17.43.223
   port: 64907
@@ -6795,7 +7154,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: meta_hysteria_11224
+- name: meta_hysteria_11261
   type: hysteria
   server: 46.17.43.223
   port: 12345
@@ -6809,7 +7168,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: meta_hysteria_11225
+- name: meta_hysteria_11262
   type: hysteria
   server: 46.17.43.223
   port: 12345
@@ -6823,7 +7182,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: meta_hysteria_11226
+- name: meta_hysteria_11263
   type: hysteria
   server: 46.17.43.223
   port: 12345
@@ -6837,7 +7196,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: meta_hysteria2_11227
+- name: meta_hysteria2_11264
   type: hysteria2
   server: 185.22.152.93
   port: 47382
@@ -6845,7 +7204,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: meta_hysteria2_11228
+- name: meta_hysteria2_11265
   type: hysteria2
   server: 185.22.152.93
   port: 47382
@@ -6853,7 +7212,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: meta_hysteria2_11229
+- name: meta_hysteria2_11266
   type: hysteria2
   server: 185.22.152.93
   port: 47382
@@ -6861,7 +7220,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: meta_hysteria2_11230
+- name: meta_hysteria2_11267
   type: hysteria2
   server: 185.22.152.93
   port: 47382
@@ -7388,14 +7747,51 @@ proxy-groups:
   - meta_vless_11220
   - meta_vless_11221
   - meta_vless_11222
-  - meta_hysteria_11223
-  - meta_hysteria_11224
-  - meta_hysteria_11225
-  - meta_hysteria_11226
-  - meta_hysteria2_11227
-  - meta_hysteria2_11228
-  - meta_hysteria2_11229
-  - meta_hysteria2_11230
+  - meta_ss_11223
+  - meta_ss_11224
+  - meta_ss_11225
+  - meta_ss_11226
+  - meta_ssr_11227
+  - meta_vmess_11228
+  - meta_vmess_11229
+  - meta_vmess_11230
+  - meta_vmess_11231
+  - meta_vmess_11232
+  - meta_vmess_11233
+  - meta_ss_11234
+  - meta_ss_11235
+  - meta_ss_11236
+  - meta_vmess_11237
+  - meta_ss_11238
+  - meta_vmess_11239
+  - meta_ss_11240
+  - meta_ss_11241
+  - meta_trojan_11242
+  - meta_trojan_11243
+  - meta_vmess_11244
+  - meta_ss_11245
+  - meta_ss_11246
+  - meta_ss_11247
+  - meta_ss_11248
+  - meta_vmess_11249
+  - meta_vmess_11250
+  - meta_ss_11251
+  - meta_vmess_11252
+  - meta_vmess_11253
+  - meta_trojan_11254
+  - meta_vmess_11255
+  - meta_vmess_11256
+  - meta_vmess_11257
+  - meta_vmess_11258
+  - meta_trojan_11259
+  - meta_hysteria_11260
+  - meta_hysteria_11261
+  - meta_hysteria_11262
+  - meta_hysteria_11263
+  - meta_hysteria2_11264
+  - meta_hysteria2_11265
+  - meta_hysteria2_11266
+  - meta_hysteria2_11267
   - shadowtls_1
   - hysteria_0
   - hysteria_1
@@ -7852,14 +8248,51 @@ proxy-groups:
   - meta_vless_11220
   - meta_vless_11221
   - meta_vless_11222
-  - meta_hysteria_11223
-  - meta_hysteria_11224
-  - meta_hysteria_11225
-  - meta_hysteria_11226
-  - meta_hysteria2_11227
-  - meta_hysteria2_11228
-  - meta_hysteria2_11229
-  - meta_hysteria2_11230
+  - meta_ss_11223
+  - meta_ss_11224
+  - meta_ss_11225
+  - meta_ss_11226
+  - meta_ssr_11227
+  - meta_vmess_11228
+  - meta_vmess_11229
+  - meta_vmess_11230
+  - meta_vmess_11231
+  - meta_vmess_11232
+  - meta_vmess_11233
+  - meta_ss_11234
+  - meta_ss_11235
+  - meta_ss_11236
+  - meta_vmess_11237
+  - meta_ss_11238
+  - meta_vmess_11239
+  - meta_ss_11240
+  - meta_ss_11241
+  - meta_trojan_11242
+  - meta_trojan_11243
+  - meta_vmess_11244
+  - meta_ss_11245
+  - meta_ss_11246
+  - meta_ss_11247
+  - meta_ss_11248
+  - meta_vmess_11249
+  - meta_vmess_11250
+  - meta_ss_11251
+  - meta_vmess_11252
+  - meta_vmess_11253
+  - meta_trojan_11254
+  - meta_vmess_11255
+  - meta_vmess_11256
+  - meta_vmess_11257
+  - meta_vmess_11258
+  - meta_trojan_11259
+  - meta_hysteria_11260
+  - meta_hysteria_11261
+  - meta_hysteria_11262
+  - meta_hysteria_11263
+  - meta_hysteria2_11264
+  - meta_hysteria2_11265
+  - meta_hysteria2_11266
+  - meta_hysteria2_11267
   - shadowtls_1
   - hysteria_0
   - hysteria_1
