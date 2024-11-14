@@ -3354,57 +3354,57 @@ proxies:
 - name: meta_vless_61
   type: vless
   server: 46.29.166.206
-  port: 400
-  uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+  port: 49887
+  uuid: ef6706c2-ac66-4c39-bf16-208effa86922
   network: tcp
   udp: true
   tls: true
   flow: xtls-rprx-vision
   servername: www.paypal.com
   reality-opts:
-    public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+    public-key: bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg
     short-id: ''
   client-fingerprint: chrome
 - name: meta_vless_71
   type: vless
   server: 46.29.166.206
-  port: 400
-  uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+  port: 49887
+  uuid: ef6706c2-ac66-4c39-bf16-208effa86922
   network: tcp
   udp: true
   tls: true
   flow: xtls-rprx-vision
   servername: www.paypal.com
   reality-opts:
-    public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+    public-key: bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg
     short-id: ''
   client-fingerprint: chrome
 - name: meta_vless_81
   type: vless
   server: 46.29.166.206
-  port: 400
-  uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+  port: 49887
+  uuid: ef6706c2-ac66-4c39-bf16-208effa86922
   network: tcp
   udp: true
   tls: true
   flow: xtls-rprx-vision
   servername: www.paypal.com
   reality-opts:
-    public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+    public-key: bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg
     short-id: ''
   client-fingerprint: chrome
 - name: meta_vless_91
   type: vless
   server: 46.29.166.206
-  port: 400
-  uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+  port: 49887
+  uuid: ef6706c2-ac66-4c39-bf16-208effa86922
   network: tcp
   udp: true
   tls: true
   flow: xtls-rprx-vision
   servername: www.paypal.com
   reality-opts:
-    public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+    public-key: bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg
     short-id: ''
   client-fingerprint: chrome
 - name: shadowtls_1
