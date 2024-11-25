@@ -1,5 +1,5 @@
-hysteria://166.1.18.42:37950?peer=bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=37950&obfs=&protocol=udp&fastopen=1#hysteria_meta_6
-hysteria://166.1.18.42:37950?peer=bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=37950&obfs=&protocol=udp&fastopen=1#hysteria_meta_7
+hysteria://146.0.36.114:64914?peer=www.bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=64914&obfs=&protocol=udp&fastopen=1#hysteria_meta_6
+hysteria://146.0.36.114:64914?peer=www.bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=64914&obfs=&protocol=udp&fastopen=1#hysteria_meta_7
 hysteria://166.1.18.42:37950?peer=bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=37950&obfs=&protocol=udp&fastopen=1#hysteria_meta_8
 hysteria://166.1.18.42:37950?peer=bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=37950&obfs=&protocol=udp&fastopen=1#hysteria_meta_9
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6QVNYbWhxT0RaYXNuVjc3N1AybTMzZVE5bUNVNUtYWTg2ZFhKUVR1V0ZXOD1AOTEuMTQ5LjIzOS4yMzozNDU2Nw==?shadow-tls=eyJ2ZXJzaW9uIjogIjMiLCAiaG9zdCI6ICJuaWppZ2VuLXdvcmtzLmpwIiwicGFzc3dvcmQiOllFdWRFUlA5WnN0d05acE9XeXRIM0RzNHNTRWdqOEdWWms3T1FFR0RFcG89fQ==#shadowtls1
