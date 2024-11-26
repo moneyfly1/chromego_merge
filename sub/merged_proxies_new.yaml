@@ -6853,18 +6853,6 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: shadowtls_1
-  type: ss
-  server: 91.149.239.23
-  port: 34567
-  cipher: 2022-blake3-chacha20-poly1305
-  password: ASXmhqODZasnV777P2m33eQ9mCU5KXY86dXJQTuWFW8=
-  plugin: shadow-tls
-  client-fingerprint: chrome
-  plugin-opts:
-    host: nijigen-works.jp
-    password: YEudERP9ZstwNZpOWytH3Ds4sSEgj8GVZk7OQEGDEpo=
-    version: 3
 - name: hysteria_0
   type: hysteria
   server: 46.17.43.223
@@ -7380,7 +7368,6 @@ proxy-groups:
   - meta_hysteria2_11228
   - meta_hysteria2_11229
   - meta_hysteria2_11230
-  - shadowtls_1
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -7844,7 +7831,6 @@ proxy-groups:
   - meta_hysteria2_11228
   - meta_hysteria2_11229
   - meta_hysteria2_11230
-  - shadowtls_1
   - hysteria_0
   - hysteria_1
   - hysteria_2
