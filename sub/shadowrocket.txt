@@ -1,3 +1,7 @@
+hysteria2://github.com/Alvin9999@166.1.190.83:61677?insecure=1&sni=www.bing.com&obfs=&obfs-password=#hysteria2_meta_0
+hysteria2://dongtaiwang.com@108.181.5.131:7329?insecure=1&sni=www.bing.com&obfs=&obfs-password=#hysteria2_meta_1
+hysteria2://github.com/Alvin9999@166.1.190.83:61677?insecure=1&sni=www.bing.com&obfs=&obfs-password=#hysteria2_meta_2
+hysteria2://github.com/Alvin9999@166.1.190.83:61677?insecure=1&sni=www.bing.com&obfs=&obfs-password=#hysteria2_meta_4
 hysteria://146.0.36.114:64914?peer=www.bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=64914&obfs=&protocol=udp&fastopen=1#hysteria_meta_6
 hysteria://146.0.36.114:64914?peer=www.bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=64914&obfs=&protocol=udp&fastopen=1#hysteria_meta_7
 hysteria://195.154.184.5:22787?peer=bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=22787&obfs=&protocol=udp&fastopen=1#hysteria_meta_8
