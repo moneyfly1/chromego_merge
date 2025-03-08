@@ -1,6 +1,6 @@
 hysteria://208.87.243.151:17549?peer=www.bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=17549&obfs=&protocol=udp&fastopen=1#hysteria_meta_6
 hysteria://208.87.243.151:17549?peer=www.bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=17549&obfs=&protocol=udp&fastopen=1#hysteria_meta_7
-hysteria://185.22.155.71:24342?peer=www.bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=24342&obfs=&protocol=udp&fastopen=1#hysteria_meta_8
+hysteria://108.181.24.77:11512?peer=apple.com&auth=dongtaiwang.com&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=11512&obfs=&protocol=udp&fastopen=1#hysteria_meta_8
 hysteria://185.22.155.71:24342?peer=www.bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=24342&obfs=&protocol=udp&fastopen=1#hysteria_meta_9
 aHR0cHM6Ly9kb25ndGFpd2FuZy5jb206ZG9uZ3RhaXdhbmcuY29tQG5haXZlMjMuY2ZjZG4zLnh5ejo0NDM=
 aHR0cHM6Ly9kb25ndGFpd2FuZy5jb206ZG9uZ3RhaXdhbmcuY29tQG5haXZlMjQuY2ZjZG4zLnh5ejo0NDM=
