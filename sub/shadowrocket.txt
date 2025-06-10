@@ -8,7 +8,7 @@ hysteria://185.22.155.71:10803?peer=apple.com&auth=dongtaiwang.com&insecure=1&up
 hysteria://185.22.155.71:10803?peer=apple.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#hysteria_1
 hysteria://185.22.155.71:10803?peer=apple.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#hysteria_2
 hysteria://185.22.155.71:10803?peer=apple.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#hysteria_3
-hysteria2://dongtaiwang.com@45.129.2.108:30033?insecure=1&sni=www.bing.com#hysteria2_0
+hysteria2://dongtaiwang.com@45.129.2.108:50850?insecure=1&sni=www.bing.com#hysteria2_0
 hysteria2://dongtaiwang.com@46.17.41.217:30033?insecure=1&sni=www.bing.com#hysteria2_1
 hysteria2://dongtaiwang.com@46.29.163.171:30033?insecure=1&sni=www.bing.com#hysteria2_2
 hysteria2://dongtaiwang.com@46.29.163.171:30033?insecure=1&sni=www.bing.com#hysteria2_3
