@@ -1,5 +1,7 @@
 hysteria2://dongtaiwang.com@2001:bc8:32d7:302::11:33563?insecure=1&sni=apple.com&obfs=&obfs-password=#hysteria2_meta_0
 hysteria2://dongtaiwang.com@2001:bc8:32d7:302::11:33563?insecure=1&sni=apple.com&obfs=&obfs-password=#hysteria2_meta_1
+tuic://8687b6e0-ef24-4cd2-bcd2-02d3732bf554:dongtaiwang.com@2001:bc8:32d7:302::16:34997?sni=bing.com&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=1
+tuic://8687b6e0-ef24-4cd2-bcd2-02d3732bf554:dongtaiwang.com@2001:bc8:32d7:302::16:34997?sni=bing.com&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=1
 hysteria://2604:6600:2004::18b:38845?peer=www.bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=38845&obfs=&protocol=udp&fastopen=1#hysteria_meta_6
 hysteria://208.87.243.151:38845?peer=www.bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=38845&obfs=&protocol=udp&fastopen=1#hysteria_meta_7
 hysteria://2604:6600:2004::18b:38845?peer=www.bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=38845&obfs=&protocol=udp&fastopen=1#hysteria_meta_7
